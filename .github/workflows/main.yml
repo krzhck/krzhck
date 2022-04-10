@@ -14,14 +14,14 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
-          base: header, community, activity
+          base: header, community, activity, repositories
+          plugin_lines: yes
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
-          basic: repositories
-          plugin_lines: yes
+          basic: ""
           plugin_languages: yes
           plugin_languages_threshold: 1%
           plugin_gists: yes
@@ -37,5 +37,4 @@ jobs:
           plugin_music_playlist: https://embed.music.apple.com/cn/playlist/b-b/pl.u-GgA5kamCZmdX5a2
           plugin_poopmap: yes
           plugin_poopmap_token: ${{ secrets.POOPMAP_TOKEN }}
-          config_order: basic.repositories, lines, languages, gists, isocalendar, habits, poopmap, music
-    
+          config_order: languages, gists, isocalendar, habits, poopmap, music
