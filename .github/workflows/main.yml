@@ -33,4 +33,4 @@ jobs:
           plugin_poopmap: yes
           plugin_poopmap_token: ${{ secrets.POOPMAP_TOKEN }}
           config_order: base.header, base.repositories, lines, languages, gists, isocalendar, habits, poopmap, stars, music
-          config_padding: 0, -2%
+          config_padding: 0, -1%
