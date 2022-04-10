@@ -7,7 +7,7 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-basic:
+  github-metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -15,11 +15,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
           base: header, community, activity
-  github-metrics-plugin:
-    runs-on: ubuntu-latest
-    steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
           basic: repositories
