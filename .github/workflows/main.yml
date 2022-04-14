@@ -21,7 +21,7 @@ jobs:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
-          base: header, community, activity, repositories
+          base: community, activity, repositories
           plugin_lines: yes
       - uses: lowlighter/metrics@latest
         with:
