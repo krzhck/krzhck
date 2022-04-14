@@ -1,6 +1,6 @@
 <img align="center" src="/metrics.header.svg" alt="header">
 
-      [![image](https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kurzheck)
+ <a href="https://github.com/Kurzheck"><img align="center" src="https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=white" alt="github"></a>
 [![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/krzhck/)
 [![image](https://img.shields.io/badge/Unsplash-000000?style=for-the-badge&logo=unsplash&logoColor=white)](https://unsplash.com/@kurzheck)
 
