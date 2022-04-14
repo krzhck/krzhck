@@ -12,16 +12,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.header.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          config_timezone: Asia/Shanghai
-          base: header
-      - uses: lowlighter/metrics@latest
-        with:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
-          base: community, activity, repositories
+          base: header, community, activity, repositories
           plugin_lines: yes
       - uses: lowlighter/metrics@latest
         with:
