@@ -1172,7 +1172,7 @@
                         <div class="chart-bars">
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 00
                             </div>
                             <div class="entry">
@@ -1212,7 +1212,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 08
                             </div>
                             <div class="entry">
@@ -1247,11 +1247,11 @@
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 15
                             </div>
                             <div class="entry">
-                                <span class="value">4</span>
+                                <span class="value">3</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 16
                             </div>
@@ -1262,7 +1262,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 18
                             </div>
                             <div class="entry">
@@ -1282,7 +1282,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 22
                             </div>
                             <div class="entry">
@@ -1311,38 +1311,40 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYDBQcECP/EACwQAAIBAwIEBQMFAAAAAAAAAAECAwAEEQUhBhIxYRMiQVFxFDKRByNCQ/D/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EAB4RAAMAAwACAwAAAAAAAAAAAAABAgMRMQQhEhRR/9oADAMBAAIRAxEAPwDZbXTraJfJEi561LJYW2R+0gYj2riOvabHcpE1yoOcdvzV5blXdSGUKf5EZA71wp2ditr2ysNuiYCqAPiolhVc+VfbpTDI0Zj5BNACfXkUkfk1S3mBPIEIKBtiB1p7lzx7Jzavq0UV/bxxnyKFO+4oqS+YFj0oqk1WuiV8d8FS006O4MXjpHPy4aORwCQ2OowMZ7inLh2YC3Nq8iu8X2qT5uX0OPnasY/TniuO34aS21AGOeOZgvKhyVO+fnJNNthxPbw8Q/WwafM0L2gt/EJUOWDlt/XG9HJi09Ng+wmkzS/EON8Zz0FQNICp5iGxvmk2646cEkWAC+mWpNveP9UFmY723SEtK5yCSeXOQO3tQjC79IWvJlDVZ8WRahrur6dJbvbNYSBOeT+wEZB7fG+RvRXnxeNNRttau9QjZT9T5JI8YDDGF7gj3orc/E/DKs6fTm07VcqjST7g7AHcVex8RQxxY8aTmX7STmiiqXjl9IJ6Io+JCFaUSYBH2hjuaqtW1w3duoknY8vQf7eiijjxSntIDbFSeVHdsHc9qKKK0in/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwEG/8QALxAAAgEDAgMFBwUAAAAAAAAAAQIDAAQRBRIhIjETI1FhcSUyQUKRwdEGFDNTcv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwD1O3s9aVeIw9ISJ7Vuov7DketVdawl/b3Ke44VgaUv7eSPV3mXbsEg2ljjJPED6UVgnp5wl5C3zRn6gjFdtI+20mVVBznLDzrWexnW6mntlDw8oODxO44AHic8KyiWbTZxNgGIuUbDZG4dR68ainWw78biBjoftRVjWNOVUS9tBmF/eA+U0VI3Cf3umyWjnvouePzHxFM6bcW9/am2v0PMwVnHvRuOAYeIweIpfVrSbTr3tFVo2U5FLvM7AXVgwSRTuePAOD4jNIivZQtYrp1vzSpPeLI5+MYV9qj0zuP0qHfRmPRH4gqb98Ef4rcajcXAEtu4WdFVTHgcVU5GD60lc3kjguoDW5YtJDjAVj1OPvQVH9P3atC1vJhkxzIfiPEUVM2RwotzauUYHIXrmipLlnqjReztcUywHlSYjmU+B8KS1XT5tLmWWJ98Lfxyr0PkfOiikEWAuD2lv3dwvEqPm8x+KxluO32uvJcjg2Ojj80UUFja8d2c5WiiipP/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Florence</div>
-                                    <div class="artist">Crooked Still</div>
+                                    <div class="name">Nothing Hurts Like This</div>
+                                    <div class="artist">SLO</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAQBAgMH/8QAIhAAAgIBAwUBAQAAAAAAAAAAAAECEQMhMVESIkFhcTPR/8QAGQEAAgMBAAAAAAAAAAAAAAAABAUBAgYD/8QAIxEAAgIBBAICAwAAAAAAAAAAAQIAEQMEBRIhMUETUWGRsf/aAAwDAQACEQMRAD8A+a2VQ/OL1JUVx7YR21QZuRpVH2YFtwssTNgk5dz0NypUnFOjVfTsqMcu1LgSc2+W1/U0ARBhKt79wmkvYM8+wXOmVzyPkyMetbGvG6qRlabljiq0okoshpCPwc7hhGbiLqon2dA7MGNCdS0S1OOTqvK3M8ibHhKd+fzHOdb7IoQwHs/ACQQAIDkQg2fc8MUcUpRWSco3d1Hbj6UZIxi6xyco8tUAH65yCAIv0IoEw/Gp6wWF4u7JJZL26bVf0A4hz8YH2BNHnyspKjx1/JmRYei8eSfVxKPvn4ACqqB0Imdyxsz/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHBAUIA//EADAQAAEDAwMCBAUDBQAAAAAAAAECAwQABREGEiEHMRMiQXEUUWGBwRVCkRYkMuHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEBAQADAQEAAAAAAAAAAAAAAQACETEhQf/aAAwDAQACEQMRAD8AkegobWodUl9/a4zBA8NvPlJ9PsMVvuqi4Meay5ESyZqWVKUEJzu2kYCsfQkc1M9JxrjJvCIVukOxn3O+1zw+3zP3qiXSwqkSbi84ptE5uKpxQjuhZWcABKgOw4JJ7k1KkgXO2yrfHiXWOEiBcEkoKf8AFB9UEUvuuKcWVqJyfrVSvs6Arp3b4MYI3RSFqbVwc55OD71O7OwzLmtIkIV4WTu2jk/If8RViTX0XsH6/rqGHEbo0T+4cz247D+aKYLG5/RGjb1PYca+MmpLLJScFO7gY79hk96KkPKZouchmezMbVskNHORx9vbHFWbTF3lXwBdrlNsRlgGS2zFSXM9iVrUfwakuq7GuwXNMJ4hS/DSvck5Cs55GQD6fKtlo9511hy221D3x7xKgWl4Khgcf6pC2/UNSrXKVbI6kLQ6NySP2+YHB/isNrpzq/8AU2WVWK4NB1fm8g7Zwrsa9EdPdUPz0LnRXWHFrG1TqtxPP0zx711CLtCaiPuo1VFXN3bmyHGyEeYkAHYPTafemypivLnbqdZ7nGnWawuRFxW1pKmg4tKUqIAA5JwMA+p9aKsPWK12rVVliiG6iZd2MqYkMKSXEKJHkV2GCB6/KimyI0E6ulT2sw2lJJDLaUgdzyfyadOjFrt8Fy4TyEquTKUsBO7cW88qPue32oop8odnvUE1ZbbfkzkwYqFbnXBy4rH7Uj80o6YuFsu+vWLPAivfCqw84t9wKKgkZ5GOPb60UVNDbM8seNl9a5MHT+mHIlsU6iXNfSNxXzhPKjx29BRRRQLDkrtv/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">So Soldier (feat. Ainslie Wills)</div>
-                                    <div class="artist">#1 Dads</div>
+                                    <div class="name">Creep (Live In Boston)
+Explicit content</div>
+                                    <div class="artist">Brandi Carlile</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBgcECP/EAC4QAAIBAwQBAgQFBQAAAAAAAAECAwAEEQUGEiExImETQXGBBzJRkaEUFSPR8f/EABoBAAIDAQEAAAAAAAAAAAAAAAIDAAQFBgH/xAAhEQACAgIBBAMAAAAAAAAAAAABAgARAyEEEhMxQRQiMv/aAAwDAQACEQMRAD8AxPbV9tCHRIY9Yti+oK7GRypIK5OB0vnHvVb3VNps2sSPoqBLHgoReJXBwOX85pc9tN6isT4B768UzRrzUbCGyitF5RHPxOJy3tnx/wAFPUXALARN5OB2a7ZdKvYY3eSEqERZGBIyFboHGc4PVXnYOwjqGrQnXWNlbBu/TzDft/utx/FbasV5+G9n/QWkCXNyq/GkVAPTGoCgH5DIzinDC+rHnxEnk470bqeSkRnYhFJIGftRWgabs0QaPLdXjItzh2jQPxJ6wPV+lFGOM9bgfLQk9M124/tSwLDb2FmSPSzwqCqjonsefAqeBrVoFgjsLRnLg8I0HZx0cge/ikOg698GKRFs/RyGG+SgjPEk+30rtuNYtJFSXASXyhHTAfKtYBSNTnHDg0bll0+9tVn+DNaRwNnifRgg1NNvl22+1pqkVsjw/mwpIBDyI32IVT96pdhqlncSssoVmb04lOOifl7+9aRZ7NtJNJgOm3SESwMGaQB+LAhu/byPvVfOACrGWeN1EMnszPZ9QsLmMh7G0MfD/G/Hl2TnonIHWaK7tz6LZ6fNHG8Fo7FcqsACMfmPHj9eh4oqwPturiPzqyJ55sNxXdhIxgSA5PYdOY/Y1PNu7UXYMnw42yWyq57PnzRRWIuVwKBnTtiRjZEYaZv2/sZxObLT55gPzTRsR9eIbH8VZNL3od0vLYatcaRoVqzBi8UEw5k9EDixx0Ppiiioczn3IONiu6jW53DZbas7qHTdf0TUmjDFFmtLhpXwOlDk4A6x56ooor3v5BoGAeLhY2Vn/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAQGAgMFAQf/xAArEAACAQMCBQMDBQAAAAAAAAABAgMABBEFEhMhMVFxBkFhFDKBB6HB4fD/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBQYE/8QAIxEAAgECBQUBAAAAAAAAAAAAAAECAxEFBhIhoRMWMUNT4f/aAAwDAQACEQMRAD8ArVK8JAxnHP5qdo8djLeqmqTywWxBzJGuSD16ft5rCR4iPbW811OkFtE80z8lRBknwK3zaXfwxSyS2VykcWOIzRkBM9Mn2613bW29OQmOVdUu1nTcQyry3A4U/b25/wCxU9rzRbm1a2l1rUjasypw5Av2L057enL+qtpRJR6VlMEEziMkxhjtPcZ5UqhBM0S9TT9SinngS5t87ZoXXIdD1Hn+av8Adfp1Y6paRXvpfUQ0EpB2zHcAPIGQR2IzUMRqxwFXPgVsjR4nZY3aPd1CvgNy9+eKzYYqvEobHTvLrXs4/Sl67pFxo2qSWNwUeVcbWjOQ3j3/ABWS6Bq7Xv0i6bdm52h+Hwjnaeh7Y+auIiO4thdynOcjOfNdhvU+qG2EAeIDGDKBh8du35plPEaUr61YTVy/UTXTlc+YazplxpF6bS84f1CqGdUbdsJ9j80q6sA7FnAZjzJPMmlIliivtEd24/pwKUpWQdSKUpQApSlAH//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Unintended</div>
-                                    <div class="artist">Muse</div>
+                                    <div class="name">Painting By Chagall</div>
+                                    <div class="artist">The Weepies</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQFBgcDAf/EADEQAAIBBAECBAQDCQAAAAAAAAECAwAEBRESEyEGIjFxB0GBoSNRYRQVFjIzQlKxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EAB4RAAICAwEAAwAAAAAAAAAAAAECAAMRITESBBMi/9oADAMBAAIRAxEAPwDtbTpjoFLk9GWVUZv8d+n3p+5zklllMTJ1uhYz27yFHH9QD+X22de1cLO3a5BhurVeHfTAk62NH7VFS5C8jylx1Jm/ZY53gUsquiEqSFAI2DusVcM250TjHOSWbxfm2x/KLJtJNJCzyxpCAbbjr8hup3CXr3l7fPExvbRJ0Cyg8Aq8dnWx371U7LM3MaWZXJsjXBKzspjBAGuxJH2NS9v4gvY7jpS5BZ4TcTRvbiJfJGo7SAgUxh6WD58nUfzfG7yhmRFDa8w+tFKMxmEc6pKvLvxcaNFKLGNXAEXtvEVnHtGnj2e+kDMffvTi+KsVbxcp4h0d/wBsYDSH56Hfv+prObr953nNMbhmsreQaL6LSfr5u2h9KXixcTXQN5lbVZnPHzuWYt6fIdqtD49QmWbrT0zQ/wCJ4LiXhbYuBVkb8IFA+/c61upO5zcUYSee2t0ST8PqW8YXbfPf596zmynS1uiI52juIxxkh2CFYDWwT6e9eZbMzXK2djC6GNTyLb+g3s+tD9YJ1CYsuDmaLHcY+9kVIshCknoBL5f+0Vm8uHyLtE8dvMYQugWHf3P+6KNa6yNmQXtB1NhaQWsUsjWySKq8tDZOvaqR4SxHhbJZOaNbCaSRW5RmSMjgAd9zvRoopaL+SRGts7lguvh3g7i4kl43KM535Ze1Fr8PcFbyq/RldlOxzkJooqq1jczCCjuJYZrNFUCEBePbWvUUUUUgxgn/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwABAAMBAAMAAAAAAAAAAAAAAAQFBgMBAgj/xAArEAABAwMCBgEDBQAAAAAAAAABAgMEAAUREiEGEyIxQVEHFGGhI5GxwfD/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAX/xAAcEQADAAEFAAAAAAAAAAAAAAAAAREhAjFBYXH/2gAMAwEAAhEDEQA/APoGlV99dlRre5JhutJLKStSXG9QWPWQRj81y4alSp1qalTHWHFO5KeS2UpCckDuTvisI0I5S1pWWu068McRw4EWZASzIOo81glaU77DCtyMdzjNaKQHxDVyXEB8JzqUjIJA9Z/vaommpTvSsf8AHd5vXEER+ddxGjIQ4WUxW2uoEAHUV6vv2xSlg00y74sUUcMXVYWEFMZZCj4ONqh/H8oTeD7bJGBzEKJAGN9Rz2q5mwos5oNzI7T7YOdLicj80hQYsBrlQY7UdvOdDaAkfsKcTsq9uDO3mMh3jiyvKL+ppslKUqwjPVuoVp388h3HfSf4qAmPbDMWv6VoSVq3UWupRBIznHsVNkxWZLIakNJcaBB0KGRkHI/NGCrZifhq3zrdwo61dXWlzVyluuIbVq5WpKcJJ8nApWsiWe2w5zsyJBjMy3hhx5tAClj7kd+1KdWXUg9ZPrg7EacKyrX199KyPGPB9UpQJ6iG1tu704x+qrwQff2ryxEaZVqb5mcY6lk+APJ9Af4mlKKBIpSlQn//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">I Love You</div>
-                                    <div class="artist">Lou Reed</div>
+                                    <div class="name">Leader of the Landslide
+Explicit content</div>
+                                    <div class="artist">The Lumineers</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMAAwAAAAAAAAAAAAAAAAQFBgIDB//EADEQAAEDAgMFBgUFAAAAAAAAAAECAxEABAUSIQYHEzFRFEFCYYGRFTIzccGSobLR8P/EABoBAAIDAQEAAAAAAAAAAAAAAAMFAAIEAQb/xAAiEQABBAICAgMBAAAAAAAAAAABAAIDBBEhBRIxYRSBkdH/2gAMAwEAAhEDEQA/ANFHSKVEw67eu7WzKrF5pxxoLd4yShaVHwkcpH7zp0pj2KOYG1bLFqh4OlQOZRERHl50L5DepcRjCNFRlmkEUeyfCmhCjyB9q5Blw+E+1ZwbaPcLiDCk5OWbiGJ9qutmsdbxx27Q2GD2dam1lpSjCkkAg5gOtUbbY44ajWeJsVRmUAfYUtNu4e4D1pXVf3F1YIvLt23durdtsrS3bGVGByCT3/Y0qGy4HHUoArAgHsFcMMKcV9I93dWV3rNltnCUQUhSnD/GrQb0sE1CGLonzSkfmsttntVhe0wtlF/sYt8wGY55Ko5xyGlZpi97cEJrw8kNa22R7tD+K4t2U4lsPc2mHcNSkPBb0y2hQEFRQT/h5aVx3WJXcfFlqUt05kakk6nMSfWszbXWHtsrZbxiUcMoCUgABKvmnWCTp9oFSMB2qt9l2nexXDD4eUOJxD0nlB050vp1ZI3knwm3IW6jq8jGu7EnWt+16c6w8CcrK/00rDr3tspVlctmtejp/qlOAX+v1eT6s9rxVLairWYGnOplou3Die0JcU348mp9JpSsB2tQGFYOJwJxAKn7pLpH041npMR+Kq30sJccFul0NzCc8T6xpSlTwrLoWmBlSDNKUroKqV//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYEBQECAwj/xAAsEAABAwMCBQMDBQAAAAAAAAABAgMRAAQFEiETIjFBUQYVYXGBsSQ0kaLB/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQb/xAAgEQACAgEEAwEAAAAAAAAAAAABAgADEQQTIUEFEjHB/9oADAMBAAIRAxEAPwDzszjXH0qKShITtzmOxP4FZ9odOmHGeaAOY9T07Ux2rlzZAC3UEw4HRyg8wBHftBIjvWqby8ZDYQpICOHpGgbFsyg/UfifNda1DQDXFtWJeDZWFtKTpKtlEyAJ8eKgFBHUU3+45Bu34CHoa4amtGkRpM7f2MHtNUy7X4peye4JSUxTRTXmPSGTxWCxGYvGUIscqlxVsoLBKggwZA3FFAKS3KzMGMwsiswlMnxUdVmCQNpJgfWqu19SF55CeOy2SoAEtk/fY08eqc8n0xlmDYMWzlrdM8Ru5iCo6YWokdTJOwgx3pup8zUlqVoufb8xLSyFCw6is7YEdR9qiuWR8GuScy884v8AXJjYzwRG9cHLkuOFPuypns2Rv4qo62nHyTm1OpaZJD7uLxjTjji2mkuBCVKJCJXJgdqKhXjjisdZIF+9qSXEnk3J1fWikDV1DjEDcUxJYuC2udKTV3aZCz0tG6SlZQCnRokQTPmiiucrsIxMYSybymHA/aNmNoIVEfz81l7L4cJJRjrUqPlJ/wBNFFU77YihWJRX2SbeOlDaUNJnShEgb/FFFFTtYcxoUT//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Which Side I'm On</div>
-                                    <div class="artist">Blind Pilot</div>
+                                    <div class="name">City of Stars</div>
+                                    <div class="artist">Ryan Gosling &amp; 艾玛·斯通</div>
                                 </div>
                             </div>
                         </div>
