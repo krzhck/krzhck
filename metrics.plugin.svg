@@ -1244,8 +1244,8 @@
                                 17
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 18
                             </div>
                             <div class="entry">
@@ -1294,17 +1294,10 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUBAgQDBgf/xAAtEAACAgEDAgMGBwAAAAAAAAABAgADEQQhMQUSFCJBQmFxgbHBIzJDUYKRof/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAHBEBAAICAwEAAAAAAAAAAAAAAQACAxEEEiEx/9oADAMBAAIRAxEAPwD5Nr7Ay3EDC9g2/iIi39OPhG3ULB26gNyEH0EVWOlaPZa5WtBknGfUDj5yPi+DNDMyCPhiDcYEodVpDs1zjn9Iy1d2jYqPEsC57VzU25/bMp7kTsj3pHUvwjRaQr+y5HMIkXnOISe/ErZ38jDIk1dSJVbBnPlXfHuExXViyl62z2vjce4g/aNNbpgdO7En8q/QRaeIeN6Q5ZnOmDZyyjO+1SD7S3hazYrsT5GDjCqu/wAhO49N5DcbEyjqRPUkpxuRCdNLQ+ouFdKlnPAEIG9TxZ0Cxn1MCui2lie9FUf4InJ3hCT8T5G5vsCf7l6KnutWutSWPAEISm7oUig2z13QNPXpK34FvtMwxCEJg5bNrKy+oBon/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcBCP/EAC8QAAIBAwMDAgQFBQAAAAAAAAECAwQFEQAGIRIxURMiBxQVcQgjMkFhM0KBkaH/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBBQb/xAAkEQACAgECBQUAAAAAAAAAAAABAgADEQQSEyEiMVEFI2Fxcv/aAAwDAQACEQMRAD8AeJ3vcFQ8kVXQiIynifgLHj2gADOfPP28airWX6rkmENdbWjyV9RIiOngcDJ4PBxnPOrK+0KfO3C5hxQ2t4lDQmPDnAwDjPtz4GDk84JOqWy3K3yyinSBuiRh+p/aWPbKjgEn9+eT315Th0UrzO76laIzZKiWNFNcxVPMtfTNSyMzoshz7RwR1Bccffv3Ore511wFvL0UVJE5jLpJK5MYGP1EgDCjvnsfOljcRpoKipEimOlpYfzFyTzgE/YBQo40h7uraer2rfqdnMKJSOAyOVOFGVBx3UkAYJIORo6lqcjaIfAYruJkL4SfFK8Xbecth3PWpWwVRdYJY1ACyKCcKVAyjYOP8aNI34fNv1V2+INHXRxt8pbczzSY4zghVz5JPbwDo1vqdVS3YXxEITier9x2uK92msoJ5GjSZQPUQ8qQQQR55Hb99Y1BZqqG8RUFkuLTypL+YWTpWUdXub98AY4yeQCR/Osbiqmodu3GsEgjaKBmDeDg4P3zpS2FQUaX+51BmC1ZpvTX036vTTOM8jg4C8HgajrsO0+JZSNqs3iRt539IZy0lDJPBUSdJRZsRsrRqrZwOSCB4wT/ABrNLzbbluDfVfb3hcbct1Mtc9NHK6RzoBlScngsf7RgDDAds60S7UHye4ZrvWXWoq6BIGhjp3kDSqzAFXQEDByO5JHPjTTtySG5UstRTREiSljjb1VBZijSL7iOGBOdUV3jT81Gcjv8xRBZeZmabFuVZtyWlprWizRVMio1HGVVOSeVJHBGe579j/Bru1KG5/WLXVdEfy31OWBlwR0yCMs6dOcjA7E8Z0abrjWLASuciLUDE1TePTNtavjIDL6ascjg4ZTo2LBS/RRJBDEs3Uys4QAjwPtjHGjRrmIejEd2rMNy7epJKV6lVhiEMLn0vSX03GMnq4zk9s548aj7IhWnlrPSBEPSqLHjtyT/AMJb/ejRpm47ZgHtmLtPXSr8Up7XG6imFXJUtGAP6jUwBPbOefOjRo0WvPUn5EQDP//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Turpentine</div>
-                                    <div class="artist">Brandi Carlile</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAQFBgMHCAL/xAAsEAABAwMDAwMEAgMAAAAAAAABAgMEAAUREiFBBjFRBxMUFSJCYSSRM3HB/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAIBAwUE/8QAHhEAAgIBBQEAAAAAAAAAAAAAAAEDEQIEBRIhMRP/2gAMAwEAAhEDEQA/AOiWU6Wsk5FJO3B92S7Ft0ULU0QHH3lFDaDjOBtlRxwNhyQa13O9bekExFCHLmSHdJ0luIrTq7DOrHNSVi9WehpEdmMm8mO4hISUymnEHPO5GDv+6TkjoelmSviyzyG7upalImREHj+KSP715pVy7TLe8n6tEQuMVaflxydKCdhrSd0jjUCQD3wK9x+rum56sQr5bHz4RKRn+s5pmS9HmNqRqbksrSUlKSFJIPfNFlbjyx9VDSlJCgogpOfPNFQfTshMmxsoe1ufFdWyCo7qCFKSkk87Ab0VAppGwemPVkKyssPxrS2XiEpZdShxepXfcJONhnvtisr/AKVdTs6lOWaxyVatWtl7QcZzjcgY4rfN9i/OszraUoU+EH2irYJXj7T3BG/7phNxiM2uPLmLYjFxtKikrCU6iOMn/pzS/NGqt4mVdLo5ee6TfhTmW71YV2iNvlxlani8fxSkZUck7eaqd8cnJuUODaVSIEuW62wj2lqbwtRA4x+u1dTXu7Whi6tTbo4hEFLagXH0EoyVJCTjG/5b0/ElWLqiMF2eRGmfEkMn/GR7RSoKGMjbYHt4walRorz3OTNu16qMvSVlds3T0O3yJLs12On75LxJW6rJJUTnyTt4oqzMtBCdjxRT0ZrINh5l9Kkl1P3cBVYBa7WkhyPDjuOhW6igL0+QM9v9DFFFKmSRN56JtlxgzWH1KZZkrQtYj4TunOMDBAzk5wNzvSnTnSs3pdiQizSoml8Jz75JOc9yQBn9cDxzRRTBRbrW7c0OH6g7BVHAO7KVBRO2O5wBjPNFFFAH/9k=" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Battles and Wastelands</div>
-                                    <div class="artist">Neo Retros</div>
+                                    <div class="name">Ecstasy</div>
+                                    <div class="artist">Crooked Still</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1315,17 +1308,24 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMCAwcDBQEAAAAAAAABAgMEAAURBiESMUEHExQiUWFxFUKBI1JTobHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAFREgL/2gAMAwEAAhEDEQA/AI7PpyFAgxIrbj0aSgFp9LjPGpBOSVJWOYyANq0LjerPbSsJ1GYzkcJT5oDmEn9vvnblVnjJce7T0wpbfGmRDV4Z3OU5AzhPodlUne2WzTYWpZWYykxkq42lcYVkfcBg+u+DvQTXHVVqmKDjWoFRXHlguhuIsKRkEncc98Csk3G1FzH1uU860gKQsRSDk9MY+TudxS5NmuEuOmVGhPKTxBOyNzn254966N9g3CwJt0iUjgfVspOc5xyzj2q+piObp7pTGuENiVGQ+hRT9rZTxK67EbUVXNAa4iSorcJah3/JKCgg5+eVFZfUxvN0xLUhldwYU5JUShzyKIwUcQIOD8Gte4aQaZeuT4mOyGiypfcPqCvMOSsEYFMrSWjGG4QuF7bHjn2ypuOo+VoY2yOqv8pNz9TXCRc5lthQ1eNSyRIUs4AwegPMEb1K6rlrhByS673jinUnBwogp/GcVxu1UR0WuEmQfOXNz1CQDmoZ98vFjmOPzGkOwy5uogJUhOduRqrCRK1de3VPKKojXErPQJxt+TQbHZemP9SlOlbSnEoy00d1ZzsR8UUxuxmwwbNMbukllLocykJWkFOOIevxRQeiNXXhyPPb4FHgBwf+0oNV2iabsLhZWg7NSyphTP8AMgEkYz1oooUmpFovd8muwHIb1vjBX6nepwEqzuD6n2q0xLLGsFnLEfKzglSsbrUaKKMX21QFW6zRIxThxKApQ9Cdz/ZooooP/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAH/xAAwEAABAwMCAwUHBQAAAAAAAAABAgMEAAUREiEGEzEHFEFRcSIjYYGhseEVJEKiwf/EABkBAAMBAQEAAAAAAAAAAAAAAAEEBQIDBv/EACERAAICAQQCAwAAAAAAAAAAAAECAAMEBRESISJxFDFB/9oADAMBAAIRAxEAPwC4bXweqUwFvy3AfFKk71KY9ghMRUo5YUsDBWepqJswbshCHGXFYAGyna3Jud6inDieYkeShURbah9iehuS+4+Ng9SQPOC3MlURha1jAAKcgjO/Q5rX+oXJbSHTHjobIGrUSnB8etRaXxFcU4/brT54J3rEcT29bYRcGZ+obnDpx96YryQBxE4tptp8j36jxu6POvqalFhHXBbJPliikzfEnDgGtt6WwRtjr9fzRWTYSYfjkdcTKvT21XNDBbKLel3G3MaII/tilz3are0Ol7vMJZPtFtSRoA+4qNBxl9OqQAs46csEH1FaJES3S1I5zLZ0J0hOgJGPSgcIExRdRRBvxjy6dp19msOtLeaYAGTyk7Y9QM4qJS7zd9Da1S1HvGNCs56/HFE20R20umO+5FL6Q2ohJUFDwHWuCNIRYS0JMlcmNkN6VMkac+IOdvWsvjFBuO47j6kr9A7TGfdbux7tx5oqHkB9dqK84lukLQ1Ljht1OcY14BUOu2N8fGihWjMu/GMWZgVtg8uq1v2jlM490spCtK2k9PmKYqmwVFS1uoSAPYPLAOnxO34oopbKoCN0TJePkMy9gTn7sZUNwRp5UlR1DIBOd8j03pDc+D5ExICxFkBX8SkJP+UUUouXZUxCmNnGruUFpXV97MpDjri4jT7akkggDmIz8t6KKKqV5lhX8k63GVW2BM//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Casey's Last Ride</div>
-                                    <div class="artist">Kris Kristofferson</div>
+                                    <div class="name">And Before the First Kiss</div>
+                                    <div class="artist">The Field Mice</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAQFBgcIAQP/xAApEAABAwMDBAICAwEAAAAAAAABAgMEAAURBhIhBxMxQSJRFHEkYaGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANU1Brtri22a6vQZ18gCUFnLRbWe0PIB2+wP795qc1SvVrTcOfdJqUiBElSVMuqkmMQ9gAAbV4wclJz7xigthiQ6tpE38qIuEpAWFpOE7fO4Kz9f84ppsWqYF2uLkSDeLbLd3qV2mnNywgfRHBxx4zVcTbbfrP0Xa0/GhsLDje0SZMscbl9zaEBJ3AD44JGaq/Qlj1radXRr9BgRXg3L7fDwaZWVghQGBwkA84HHqg1/RTVZHby6lSr1FgxjgbURn1OnPvJKU0UCHqHdX7Joq73CGSJLLB7RAyQokJBA/ZrLjF5nypka7SJ8h+XtxmSoubT74V7Fas1c4W7KsgkZWgZB5HP6rLr7aGnJXcUovB1eVK8ZCiCf8oET/UbUMVcqK7JE5jeVqRIHLZXyrt48cA8eBngVPtP6mYj6rtSFOxZFpcSJDCkqCe0FKSlW/wA/0Rx9iqHv7Ep+dMdabOS8Cn6I2+R9+DxTnZCbgiBZIcQzL13stlv5KILiMJPr4krXkeBnNBvAeKK4BgAUUHhOitTY6mX92wkH4nByDkc1BpfS3Trjy1fiy3A84pxz+SRgqJJwP2aKKBqm9FtKzUNdyDPT2j8dk9SSrJJO7HnG44pRpHpPpzTGoY92tNtmNSmtwQ47L3pAIwcpPPjx/uKKKCymu5tHcCd2OSD7ooooP//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAEDBAUCB//EACIQAAICAQMEAwAAAAAAAAAAAAABAgMREiFBBAVRYQZx8P/EABcBAQEBAQAAAAAAAAAAAAAAAAMCAQD/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECMf/aAAwDAQACEQMRAD8A+4L7JTK3LcKQMHhbn9kjJXqDkYsw6FmQV6tgbDoUuW5DsxyeJywZ7bMIxspKnJt6ju1nyil12wh2mFb1V4y7JPl+MHfU88nOr2k3yXRsJzRNtORcNuv2DIrPYEocJslsZbZNvAAeikISXk9xksABpsqESkuMoAFUk//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Whiskey and Morphine</div>
-                                    <div class="artist">Alexander Jean</div>
+                                    <div class="name">Vanilla</div>
+                                    <div class="artist">落日飞车</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAUGBwEECP/EAC0QAAEDAwMBBwQDAQAAAAAAAAECAwQABREGITESBxMiQVFhcRQVIzJCgeHx/8QAGgEAAQUBAAAAAAAAAAAAAAAAAwABAgQGBf/EACERAAICAQQCAwAAAAAAAAAAAAECAAMRBBIhMQVRE0Fh/9oADAMBAAIRAxEAPwD6ppSlKKcqh2bW8xfaLctIXu2oiym2zLgyW1ktSY5OAePCsHYjjIOPe+VlGurlGF+mXdhKXJdqjmO2By51qyUDH8lLSkA74xxvXP8AI6waOsOeTnAEJUhc4mrjON8A+1KhNGXJ276Yt82S242+6340OJ6VAgkbjyO1KuVv8iBx9wZ4OJN12lZR2h9rLdpvKtM6QiC86oI8aAfwxPdwjkjP6jf1xSssWsbmPEcAnqWLtQ1xH0ZZUqbbVLvMxXcwILZ/I84SBn2SMjJ+ByRWcWJUqVcU9Db7NnZSUOAq7xyROWvBAUOUoG3V6/BqJ0pAhTb1Pveorz9zvjrv0Sn1ObsrUM9yz07J2PCcnn9dxW16Zsn06Wn32UsobADEfGO7HqR5H0Hl88ZTV2P5XUCmpDtHZPQz6/fUtoBSu4nmTNmhfb7VGi9SllpsJKicknz3+aV7qVq0QVqEXoSmeTkyJ1RFuk3T86NYJzdvujjZTHkuN94ltXqU/wDcc4PFZCnsl1M9bWrc3ebbY4rzebi/bW1uSZbpJKll1QSQCd/7I4pShXadLiC46kgxXqWnSXZfC0RGZTphph6U31qVLuKy46pShjw7YQM7npAz51bXWdQFxTjUmGAttI7lYJDa+nxEKAyRnjP+UpR1QL1GJzJaCmSmMPrVoU+SSru/1GTsB64GBnzpSlSjT//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Femme Fatale</div>
+                                    <div class="artist">The Velvet Underground &amp; Nico</div>
                                 </div>
                             </div>
                         </div>
