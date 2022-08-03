@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1116" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1136" class="">
     <defs>
         <style/>
     </defs>
@@ -131,6 +131,12 @@
                         </h3>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.788 2.788 0 01-1.436-.874A3.21 3.21 0 003 10c0 2.53 2.164 4.5 4.998 4.5zM9.533.753C9.496.34 9.16.009 8.77.146 7.035.75 4.34 3.187 5.997 6.5c.344.689.285 1.218.003 1.5-.419.419-1.54.487-2.04-.832-.173-.454-.659-.762-1.035-.454C2.036 7.44 1.5 8.702 1.5 10c0 3.512 2.998 6 6.498 6s6.5-2.5 6.5-6c0-2.137-1.128-3.26-2.312-4.438-1.19-1.184-2.436-2.425-2.653-4.81z"/>
+                            </svg>
+                            Current streak 1 day
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M8.5.75a.75.75 0 00-1.5 0v5.19L4.391 3.33a.75.75 0 10-1.06 1.061L5.939 7H.75a.75.75 0 000 1.5h5.19l-2.61 2.609a.75.75 0 101.061 1.06L7 9.561v5.189a.75.75 0 001.5 0V9.56l2.609 2.61a.75.75 0 101.06-1.061L9.561 8.5h5.189a.75.75 0 000-1.5H9.56l2.61-2.609a.75.75 0 00-1.061-1.06L8.5 5.939V.75z"/>
                             </svg>
                             Best streak 18 days
@@ -151,7 +157,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.21
+                            Average per day at ~2.20
                         </div>
                     </section>
                 </div>
@@ -1144,6 +1150,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 7.8125)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1875 0,1.1875 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1875 1.7,2.1875 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1486,38 +1497,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcBCP/EAC8QAAIBAwMDAgQFBQAAAAAAAAECAwQFEQAGIRIxURMiBxQVcQgjMkFhM0KBkaH/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBBQb/xAAkEQACAgECBQUAAAAAAAAAAAABAgADEQQSEyEiMVEFI2Fxcv/aAAwDAQACEQMRAD8AeJ3vcFQ8kVXQiIynifgLHj2gADOfPP28airWX6rkmENdbWjyV9RIiOngcDJ4PBxnPOrK+0KfO3C5hxQ2t4lDQmPDnAwDjPtz4GDk84JOqWy3K3yyinSBuiRh+p/aWPbKjgEn9+eT315Th0UrzO76laIzZKiWNFNcxVPMtfTNSyMzoshz7RwR1Bccffv3Ore511wFvL0UVJE5jLpJK5MYGP1EgDCjvnsfOljcRpoKipEimOlpYfzFyTzgE/YBQo40h7uraer2rfqdnMKJSOAyOVOFGVBx3UkAYJIORo6lqcjaIfAYruJkL4SfFK8Xbecth3PWpWwVRdYJY1ACyKCcKVAyjYOP8aNI34fNv1V2+INHXRxt8pbczzSY4zghVz5JPbwDo1vqdVS3YXxEITier9x2uK92msoJ5GjSZQPUQ8qQQQR55Hb99Y1BZqqG8RUFkuLTypL+YWTpWUdXub98AY4yeQCR/Osbiqmodu3GsEgjaKBmDeDg4P3zpS2FQUaX+51BmC1ZpvTX036vTTOM8jg4C8HgajrsO0+JZSNqs3iRt539IZy0lDJPBUSdJRZsRsrRqrZwOSCB4wT/ABrNLzbbluDfVfb3hcbct1Mtc9NHK6RzoBlScngsf7RgDDAds60S7UHye4ZrvWXWoq6BIGhjp3kDSqzAFXQEDByO5JHPjTTtySG5UstRTREiSljjb1VBZijSL7iOGBOdUV3jT81Gcjv8xRBZeZmabFuVZtyWlprWizRVMio1HGVVOSeVJHBGe579j/Bru1KG5/WLXVdEfy31OWBlwR0yCMs6dOcjA7E8Z0abrjWLASuciLUDE1TePTNtavjIDL6ascjg4ZTo2LBS/RRJBDEs3Uys4QAjwPtjHGjRrmIejEd2rMNy7epJKV6lVhiEMLn0vSX03GMnq4zk9s548aj7IhWnlrPSBEPSqLHjtyT/AMJb/ejRpm47ZgHtmLtPXSr8Up7XG6imFXJUtGAP6jUwBPbOefOjRo0WvPUn5EQDP//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EAC0QAAEDAwMCBAYDAQAAAAAAAAECAwQABRESIUEHMRNRYXEGCCIygZGhseHw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABoRAQEAAwEBAAAAAAAAAAAAAAABAhESISL/2gAMAwEAAhEDEQA/AFH0n6U3LqJBmyIEiEw1GeSytT61BQJTnYJByPcimDM+WO7RkFwXeA9klKUNocz32O/px/NWP5OnkMfCl98U4K5ySn1w2M1oR6S243hWSnyzWd+lji/9DZVjSFTJ8Za1pKm2WFZKjwnJOQfwc1XLV07bmXmHb5ElcQTVrYZfcRkeIlOrYAjPcCtafENht8p5l92Iw+ttYcHipC9h2G/HOKoF3sMBn4stdzhx0sIhyEyA0n7NeNOdPbtijpExZ+jsi6WyPKbuyULcZU8UFj7QFaUjOrkgntsN+RRTisTDVobjPaXFhoqWEdgMuKWR+1fqinoKJ8vFyVEs85pDpSUuhenjcY434p7N3tQ06lhKSPq9fKsydJXDHccGSQVYOP8AvOnbGccXGSgA+/Irhcr1Y1pbH7slTZAUVgA9k7f6aql2malJUDgHbevS3rSnSsq18/56VE3QOYGhIJzvvWth4pslZKQkkfTx2zRXNxoqUdafY+dFK0WHRSMH4M5wLV4qHk4TjI06c/3T7iNoVpUkg87bcUUUZT6Tu9lLecZ/FRTyiso1NkA5zkc0UUyJBXK7Q4iw1LKmXFdsjYbcn38qKKKmpI//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Can't You Hear Me Callin'</div>
-                                    <div class="artist">Crooked Still</div>
+                                    <div class="name">Skinny Love</div>
+                                    <div class="artist">Bon Iver</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBQT/xAArEAABAwMDAwMDBQAAAAAAAAABAgMEAAURBhIhBxMxQVFhMpGhFCJxgcH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwEC/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQMhEjEiMjP/2gAMAwEAAhEDEQA/AONXBCSMkDwPFImnL4vSPUe5OxYpmJeSQW0k5AOFHwCeP4p51Bb1GyykNLTvUnGdudo+Pmpt03tOoE6mi3KxwFyjFw6/gjbsUCCkk+pGcDzmjJJxZVXyVFL6i6huchC4qrAl+3KaSoqLanV7lJB2lI+kjPrUPv8AaX7TJbblIDTjie52s8pB8A1dzrJDOpb0Uvx+04AhDTW5whwcZKsYBx6ZqF6rmu3C+ypD7hWpSjyfaswXdFc6VWZFFFFKCFk6gXyDFtT9vdde/VvJylLJ+j2J9hWv0GvTrui77Z47Ta5jW9xpKjjulaCEhXqRuGPxURuc524zX5UgjuOKz8D2A+K69KXp/T99jT47ikBKgHADjcjPI/2pSx+FLspCdSNGLOm2yPcXpkVBfU+Uq7gxsc5zhI4H2paeUtxanV+VHz81YusdsSzGMxlvYZ+11xOOFqHO4fOKn1stkeZEKFFYOdw5+9c45prkUyQbaQtUVqXq2C3PKaKsqACs59DRV1tWg706ZnLG1RTkHBxkeDXZYoCrpe4EBA/dJfQ1/ROD+KKKyTqNmxW0WfrpOVGTAZyO2lBjoGPAwOfxSJp5LqnUMpOV+TkCiihx+Yx+wr6imKl3iUvfuQFbUkew4ooopkekDk9s/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQFBgcDAf/EADEQAAIBBAECBAQDCQAAAAAAAAECAwAEBRESEyEGIjFxB0GBoSNRYRQVFjIzQlKxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EAB4RAAICAwEAAwAAAAAAAAAAAAECAAMRITESBBMi/9oADAMBAAIRAxEAPwDtbTpjoFLk9GWVUZv8d+n3p+5zklllMTJ1uhYz27yFHH9QD+X22de1cLO3a5BhurVeHfTAk62NH7VFS5C8jylx1Jm/ZY53gUsquiEqSFAI2DusVcM250TjHOSWbxfm2x/KLJtJNJCzyxpCAbbjr8hup3CXr3l7fPExvbRJ0Cyg8Aq8dnWx371U7LM3MaWZXJsjXBKzspjBAGuxJH2NS9v4gvY7jpS5BZ4TcTRvbiJfJGo7SAgUxh6WD58nUfzfG7yhmRFDa8w+tFKMxmEc6pKvLvxcaNFKLGNXAEXtvEVnHtGnj2e+kDMffvTi+KsVbxcp4h0d/wBsYDSH56Hfv+prObr953nNMbhmsreQaL6LSfr5u2h9KXixcTXQN5lbVZnPHzuWYt6fIdqtD49QmWbrT0zQ/wCJ4LiXhbYuBVkb8IFA+/c61upO5zcUYSee2t0ST8PqW8YXbfPf596zmynS1uiI52juIxxkh2CFYDWwT6e9eZbMzXK2djC6GNTyLb+g3s+tD9YJ1CYsuDmaLHcY+9kVIshCknoBL5f+0Vm8uHyLtE8dvMYQugWHf3P+6KNa6yNmQXtB1NhaQWsUsjWySKq8tDZOvaqR4SxHhbJZOaNbCaSRW5RmSMjgAd9zvRoopaL+SRGts7lguvh3g7i4kl43KM535Ze1Fr8PcFbyq/RldlOxzkJooqq1jczCCjuJYZrNFUCEBePbWvUUUUUgxgn/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Danser sur le disco</div>
-                                    <div class="artist">La Grande Sophie</div>
+                                    <div class="name">I Love You</div>
+                                    <div class="artist">Lou Reed</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACcDASIAAhEBAxEB/8QAHAAAAgICAwAAAAAAAAAAAAAAAAUGBwQIAgMJ/8QALxAAAQMDAQYGAgEFAAAAAAAAAQIDBAAFESEGBxIxQVETFCIyYXFCgaEIM1Jicv/EABkBAAIDAQAAAAAAAAAAAAAAAAMEAgUGAP/EAB0RAAICAwEBAQAAAAAAAAAAAAECABEDBSEEEoH/2gAMAwEAAhEDEQA/AI5FZhORgp6Wtt7OqQnIxnv9V3+XteDia/8Atuq/2nMuc9Gu7ZzEkK8FlacBSuDA9SRolRH49BirO2P3UQnICHr9cpqJi/V4EYjDQPRRIOT9cqscm3VOkSlTUs/AYkWwgE4lNED/AK1/ihhppU1pp18BlSgFOJBwBnU69hUc3sbCubKuMTbbcXJtpkuFtLispcbWNeFY5fsc+1V2XXVuAeKvhH+xqa7UOtgTjqCp60v3bS32m13ny9guJuEPw0qLpUDhRzkZAAPf94orK3HW60bHWFe2W1g8STISEwYq/UUMk4LuD/kdB8fdFTTZUKK3IPrAzEhq/JUlguL8iPDitoK1wnEuRY6Ef3XCr1E9STp+hWwCWZbcePKjT2G/FcDjqnUqWFN5/Ej2n5pNuu3C3uE6btfJbUCUyFeXjNkOqKsEDjUDwgH4yfquN1v7sGQq1qiJjORUhlxqWrhKFJGAeIHODzzjXpWc9ClyKmq8OO/qQnfDtHJl2uNbJsdMeQh5Sy0FhfCke05HfNVZbGoypI846W2QCVKAyTpoB9nHfA1xTXa5m5tbRTm760tm4Bwl1Cvx7Y+MciNCKSyWlMqCXE4URnn0+uhpjEgRaieZvtiZIdptsrlfvIF9YbcixvKq8L0oUkKyNBoOmnxRUYQgLJz6QKKLcGAJ6DpkK9QamuRz7PESkEd9QQRSTeDspbNtISE3OABLbHCzNZKVlIyCQQSkkfHQ/wAlFV6sRGRyIv6lbBBuW7R+e3FQJtsLbjTuAHA3kJUnPMpwc4PUZrTZw+5RypZ7nrRRTaGxBMKmVcW7c3CjiC4848Bl1xY4UrJ6JT8cs8jRRRRIOf/Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAAAAMGBwgBBAX/xAAsEAABAgUDAwMDBQAAAAAAAAABAgMABAUGEQcSIRMiMUFRcWGBkQgUIzJC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANSKbcLhIdISR/UAcfeOXVoabW44pKEIBUpSjgADyTDIp/8AUVdL1PtR2lUhx/8AfvqQZgsoP8bBz5VjjJAGBzj6QHVvXXinU116Ut6WE9MpO1Lzi8NfU4HJH4iTaQXXU7tpJnanNU9ahuSW5bAUDn/Sckjj8xnul2hL3Bp8zWKRKVOoVVqYWmdU2c7cYwUjHcMHPvEhoVv1egyNLuPTuXqczOvrEtOy7zJQULSQT2nnpk9pPp7wGp4IVLqcUw2p9IQ6UgrSk5AVjkA/MEA2MU3hc9enb1qTzzzr0vKTR3M7CprscPCx4xn3jZlUdcYps29Lp3PNsrUgYzlQBI4+Yy9ow4mrUi5qeroruCcWlxhDrhaWsdxcwoEc5PjP2gLfsC95G5KQJaiyS6e65Kl0OdJKE9bO1XCRjzzkeR7YiQ2FMVJ5idbrAC5hh0Nh7HLgx7+ozmH2lbsjbNElJfYyl5lkIcePHqSRk+mSYguoOrDUotdIsZldWrG4Bx2Wb6jbHPjgdyjzwM4gLeghMp1TKsl/HW2J34GO7HPHzBAOIyMGKcufQO26gmbmKS9PSM8vc42A9ua3+RkEZxn2MEEB4Vm6O3AuQeTcNYdkXEq2tIZV1Ttx53BQ9fpFh6b6Z0uyC8+y87PT7qiTMvJAKQeMJA8fPnmCCAnsEEEB/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Spooky (Mono Version)</div>
-                                    <div class="artist">Dusty Springfield</div>
+                                    <div class="name">Illusory Light</div>
+                                    <div class="artist">Sarah Blasko</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBAYCB//EAC4QAAIBAwQABQIFBQAAAAAAAAECAwQFEQASITEGE0FRYSJxFDKBkuEHQlKRsf/EABgBAQEBAQEAAAAAAAAAAAAAAAQGBQMC/8QAJREAAQMDBAICAwAAAAAAAAAAAQACAwQREgUTITFB0WFxUbHx/9oADAMBAAIRAxEAPwC4tvmpbdUi6Ry18yVooygcrJuZQw2yAjhs4GRgnHRJ1uLIoFsh31U83H0vPEUkx7OP8h0T66ZziiqVdaiAOrkM2V7Ixg/cYH+tXaSCmqWJZkhjALNJJwqge5OqDLbBc7pRjIdxwbHySlbBQRtJP6Y04pqWlko4N0M3mvjLBSQxyTgfpriqgpVpFaJH34LMXGMD+3j0J755A70W6UTU6rU1YiSFgUXj2PPyfTXPfEzMmdApJpHUsmEoFyFDc4YYmh2RSRA7s7gcnnjGfjRrm8T+bUBFn8+KMYR8AffrRpMWWAuiS2zOI4VLzKUsV/EjcO1xyPXrOpJ6+mt1BNK4jmZTuj3Jlt6gkBewD89jsaztNA/jK0mrS3VcAU4jmdPpb7Edj/h1lWFd4Zuqx1ULDY6uY34VgOuvjPI65xkZUYGo1UsYwcbg/j+Kp0SigncJmcOHgj9crfWV7hUUX4q9SCGoqCXEEYLLGuSBnPZ9ye/jrV4pEDgyt+z+dR0l9s7+H6m4vXx00MNNhzMQCr7t2zHqSOsZz2NLKS7Cut63enkaopnA2LCuezt+rIznPHpjRKbVHwRND79+Lekut0YVdQ9zLD7v7+k3CRHAErfs/nRqWljqJjG6RyPGx/MF40a1ZaqQWLH8EfHpT8dJHyHs5B+fa6/pxS+JFMlPfKmCWzUybKSNYFXfzxu442jjA40x8b2203KnW3zpDHWH61lC48lfc45IOOF9TzxjINGsGR5k5cqSFm0bNK8pvPghYqeRRcKKpidtogkDIzc9g4x85yMdjByDuPCHhW1W7w49ppqeSqaZT5lQz7m5ORsxwBnnsZPfto0a4t6slSTPcQ49rXW2ySw09TFLIu2ZvMVyql0Y/mxjgDPOAT66NGjXsNCM55JuV//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EACwQAAIBAwIFAwQCAwAAAAAAAAECAwQFEQAGEiExQVEHE2EiMnGhFFIkkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASqbxnoXIp5WlIP8AXAxq87M3teLujJTV1HSzKwRY5WwzfI86UdztdXQzS+/TuihiAWGM88Z/GvAHZGDISrKchgeYOitRqGnuu8I5o0ku8fAx4cxwhvz1OmLbIb9NTpI9wEmexply3+jpGejF8ud2Zo7o3vU0SqqzMvMc8cz4zjmfOtPbO/yLbFKc5I1pkr94T3azrHNcZY5FeVlEaJg4xyPU6NTXrHbpZa21pGrFcuxIGfA6de/b96NSVX1Yslpl2Huy72rgYfx4ELRIHBKsM8+w+3pyGM6zdtTblRe66OIRPwOyqigc3LMABnt1661BsV7fcfS2bb8khFZV0kiPGo4mHECBkfjGqt6d2ev2/TWmS5We4NPMhZeCnOYgrcKs4HMZ6jl0GdENWym2vSbd2vLb7UmTI8FEr4+9w5L8+45gZ7nTqs1ElFSrDEBwIOEfPzpbC/0NVRRxUTLPUwyL7CqMfWxI+odQVIY48jV/s1dHFRok8wLjkSe50hy3TbUrBTSFQWjJ7dM6NSVbNG8CyIwZQTxY8aNCV/b8KLHwtTRrnnxRgA/91Fbg3FQWreNpoKpy1ZXqfbIHZT1Pjx+dGjSkTebWsO4q+4W+MCZZI6hkUYDhwQ2fJyhOfnU3DSPLTpU0lSzo/wBvGo+g/wBSO360aNSSVslkhjmE+MlhnB/eNGjRoT//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Banana Pancakes</div>
-                                    <div class="artist">Jack Johnson</div>
+                                    <div class="name">Don't Be Howling</div>
+                                    <div class="artist">Holly Throsby</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAEEBQYIBwP/xAAyEAABAwMBBQcDAwUAAAAAAAABAgMEAAURIQYHEhMxFCI1QVFhshV0gSMkQnFykaHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9bNLs0OS45tEtCIhbUlBUSO/pjGCMnGepxUy5tBu84i22tg9xR5yn1YCsjA4c56Z19veuU7y/A2PuB8VVzpEjhSkctk4GNUVpGl4993f/UZinn2eyKW0WEc1WUjHf/l6+vl0pY163fpdUqRMjrQSnuJWrQYTxAajzCsf3D8ZpTLKSf0WDn1bpHJPGhQLLKeLzSjB/FBoG9S7NMktubPuNLipaSlwtkkczHe6n/hRVB3Z+ByPuD8U0UC7yvA2PuE/FVU622KRO50ePFkvTEth1CG0FRIyPIexzmrlvJ8Fj66doT8VU02QEiK8/NiXFlgtx1cxx1wBWNMJTrqScVQytuwtwlNyWnI5YlojqkNhw44yNS36JXgE4PXFQdysU22p/fQJsYqSFILrJSCP6nStAQ7E45ZZsq3XBq4zUOL5PEoFTjYCQo5H88/6AFTO16UStj0GYyns9tY4kocJ1WlGASnOozqAag4xu08EkfcH4popd2hJskgk69oPxTRQSG2FpkXi2tsRC2HEuhZ5hwMYI9PeqzG2VvsdBQh2Jw9cFZOv+KKKCz7NStr9nXXl276QOdjmcaSc4zjXGR1PSn1/ve2V7gyIkpNoQw8nhUG+IfnWiigYbHWmRZ7a6xLLZWp0rHLVkYwB6e1FFFB//9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAH/xAAwEAABAwMCBAMHBQEAAAAAAAABAgMEAAUREiEGEzFBBxRxIlFhgaGx4RUjJEKiwf/EABoBAAICAwAAAAAAAAAAAAAAAAQFAgMAAQb/xAAhEQACAgEEAgMAAAAAAAAAAAABAgADBAUREiEicRQxQf/aAAwDAQACEQMRAD8AuG18HqlMBb8twHulSd6lMewQmIqUcsKWBgrPU1E2YN2QhDjLisADZTtbk3O9RThxPMSPcoUkW2ofYnQ3JfcfGwepIHnBbmSqIwtaxgAFOQRnfoc1r/ULktlDpjx0NkDVqJTg9+tRaXxFcU4/jrT78E71iOJ7etsIuDM/UNzh04+9X15IA4iUtptp8j36jxu6POvqalFhHXBbJPuxRSZviThwJ1tvS2CNsZz9fzRUTYd5v45HXEyr0+NVzQwWyi3pdxtzGiCP9Ypc/wCKt7Q6XvMwllXtFtSRoA+4qNBxl9OqQkLVjpywQfUVokRLdLUjnMtnQnSE6AkY9Kw4QJgiaiiDfjHl08Tr7NYdaW80wAMnlJwMeoGcVEpV5u+htapaj5jGhWc9fjiibaI7aXTHfcil9IbUQkqCh2HWuCNIRYS0JMlcmNkN6VMkac9wc7etRfGKDcdw3H1FX6B2mM+6XdjLbjzZUOwA+u1FecS3SFoalxw26nOMFeAVDrtjfHxoqNaMy78YRZmBW2Dy6rW/aOUzj9pZSFaVtJO3zFMVTYKipa3UJAHsHlgHT3O34ooofKoCN0TFePkMy9gTn8sZUNwRp5UlR1DIBOd8j03pDc+D5ExICxFkBX9SkJP/ACiihVy7KWIUws41dygtK6vvhlIcdcXEafbUkkEAcxGflvRRRTOvMsK/kXW4yq2wJn//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Some Kinda Love (Mono Version)</div>
-                                    <div class="artist">The Velvet Underground</div>
+                                    <div class="name">And Before the First Kiss</div>
+                                    <div class="artist">The Field Mice</div>
                                 </div>
                             </div>
                         </div>
