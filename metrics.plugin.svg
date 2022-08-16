@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.22
+                            Average per day at ~2.21
                         </div>
                     </section>
                 </div>
@@ -1139,6 +1139,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1386,18 +1391,18 @@
                                 08
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
+                                <span class="value">3</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 09
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 10
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 11
                             </div>
                             <div class="entry">
@@ -1412,7 +1417,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 14
                             </div>
                             <div class="entry">
@@ -1481,38 +1486,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQFBgcDAf/EADEQAAIBBAECBAQDCQAAAAAAAAECAwAEBRESEyEGIjFxB0GBoSNRYRQVFjIzQlKxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EAB4RAAICAwEAAwAAAAAAAAAAAAECAAMRITESBBMi/9oADAMBAAIRAxEAPwDtbTpjoFLk9GWVUZv8d+n3p+5zklllMTJ1uhYz27yFHH9QD+X22de1cLO3a5BhurVeHfTAk62NH7VFS5C8jylx1Jm/ZY53gUsquiEqSFAI2DusVcM250TjHOSWbxfm2x/KLJtJNJCzyxpCAbbjr8hup3CXr3l7fPExvbRJ0Cyg8Aq8dnWx371U7LM3MaWZXJsjXBKzspjBAGuxJH2NS9v4gvY7jpS5BZ4TcTRvbiJfJGo7SAgUxh6WD58nUfzfG7yhmRFDa8w+tFKMxmEc6pKvLvxcaNFKLGNXAEXtvEVnHtGnj2e+kDMffvTi+KsVbxcp4h0d/wBsYDSH56Hfv+prObr953nNMbhmsreQaL6LSfr5u2h9KXixcTXQN5lbVZnPHzuWYt6fIdqtD49QmWbrT0zQ/wCJ4LiXhbYuBVkb8IFA+/c61upO5zcUYSee2t0ST8PqW8YXbfPf596zmynS1uiI52juIxxkh2CFYDWwT6e9eZbMzXK2djC6GNTyLb+g3s+tD9YJ1CYsuDmaLHcY+9kVIshCknoBL5f+0Vm8uHyLtE8dvMYQugWHf3P+6KNa6yNmQXtB1NhaQWsUsjWySKq8tDZOvaqR4SxHhbJZOaNbCaSRW5RmSMjgAd9zvRoopaL+SRGts7lguvh3g7i4kl43KM535Ze1Fr8PcFbyq/RldlOxzkJooqq1jczCCjuJYZrNFUCEBePbWvUUUUUgxgn/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUCAwQBBv/EACkQAAEEAQMDAwUBAQAAAAAAAAEAAgMRBBIhMRNBYQUiURQyQnGBkcH/xAAZAQEAAwEBAAAAAAAAAAAAAAABAAIDBQb/xAAZEQEAAwEBAAAAAAAAAAAAAAAAAQIRIRL/2gAMAwEAAhEDEQA/AHAx280unFbd0pZgnOPIcV7Gz/iX/b/Upfk+o8PMRAvTRrUex8jx3XLegrXTIYbSBsbXRjNvgWOUpJyYwyRroOs9x6hZY1eAOLoKzEyvUzI6J0+Nq/G2nfnuf4k+JNG47eQBXyhXwh/RjE1dWhq08aq3pCjOWH1x2RHgh2IwueHe6hZ0+AlsMRdFk/WOOuUUPcQKqv8ALXo61tINi7tJ83EyYpXHEia9vHueSSK/fyhrS3MYHRwu9Nix2PYJfaC+t3b787q/PxnSPjlxQSI/uc4lxaewF9uVl+myTPbI3Vt7A89q7X/1OPTMfJc531kTWt2cNLrs/B8Ky0zndbsd0xhachrWyfDShXGiPKFVhLscb3AnS6lJkEm+xQhCan0H6eN/0huPJezShCRqPQlAA0lCEITX/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">I Love You</div>
-                                    <div class="artist">Lou Reed</div>
+                                    <div class="name">Long Time Traveller</div>
+                                    <div class="artist">The Wailin' Jennys</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwACAwAAAAAAAAAAAAAAAAUGBAcCAwj/xAAyEAACAQMDAgIIBQUAAAAAAAABAgMABBEFITEGEkGBBxMiMlFhcaEUFSNC0VJykbHh/8QAGQEAAgMBAAAAAAAAAAAAAAAAAgMBBAUA/8QAIBEAAgICAgIDAAAAAAAAAAAAAQIAEQMhEhMEUTGBsf/aAAwDAQACEQMRAD8A2lq2g/k91Dr2nRgorAzR42BPJ+h+xrh6QNPt57fT9csQDFKoUkDgjcefI8qcLqT9JxLY6x3X+lyxsY5AB3qowCrAnfngZNIbbqDSltNT0xTPJaySqbOKSPDd5bAAyeCR44/yaNmHHe6lI4ybrV/sthGhtIrkhRH2CQf24zUV0Tp0Nu9/rV4gMaKwXbxO5P8AoedZOpdb2M2kLZ29rPHcyRiEArhEySuM85wPEAYzvtT3Q5NJl6ditpH/AE09p1OPabO+d/jWZjZsPIe5adexlPoRF0n0/wDnmpy61qUSiDvzDGRs5HHkPuaKaT3tx1HdtpOiyxWdpFGGlkGQ7JnGFA2xkYO9FNOUttiR9QQOGgtyl08q8EfcSSB44I+9Y1zolqXYFEELZPYF3Q/1IeVO3htUpf8AXkdlHbxwLD3OCWZhkbeHNd8HpChlhlYGBCidxYnAX+fpzSk8TIBs3HHIjGo50Tp6C00tobmKE3IcHvUE9wHu5898VlLo8PsRzMzxR+0Ise+ee5z4n5cCte3GvapL1Al5Dfstt6xW9/EYiBwysOM5yPrTfUvSG8EcTxPAwdTjODnHxHIPyNMy+P3anaxiyJeW4jglLLCiOwwzIoBOOM/GioDp/wBIn4m8eC9EBLIXVoxjG/HPzopa4MyCrk9qGeUp+qbyZkNzI47f2sdv+VdWzPaxJcTT9roqv3KcBMDOR4+dFFbSfExMjE1Ey6yw6gXEoayFkZBJklTEc5JHicmmtzObqP8AEw3BdnUuHY5D5H7s8iiioQAXQh5WZqs3UhYeqLiNvXwSMncPcQ8fyKKKKUwsxoYif//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EAC0QAAEDAwMCBAYDAQAAAAAAAAECAwQABRESIUEHMRNRYXEGCCIygZGhseHw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABoRAQEAAwEBAAAAAAAAAAAAAAABAhESISL/2gAMAwEAAhEDEQA/AFH0n6U3LqJBmyIEiEw1GeSytT61BQJTnYJByPcimDM+WO7RkFwXeA9klKUNocz32O/px/NWP5OnkMfCl98U4K5ySn1w2M1oR6S243hWSnyzWd+lji/9DZVjSFTJ8Za1pKm2WFZKjwnJOQfwc1XLV07bmXmHb5ElcQTVrYZfcRkeIlOrYAjPcCtafENht8p5l92Iw+ttYcHipC9h2G/HOKoF3sMBn4stdzhx0sIhyEyA0n7NeNOdPbtijpExZ+jsi6WyPKbuyULcZU8UFj7QFaUjOrkgntsN+RRTisTDVobjPaXFhoqWEdgMuKWR+1fqinoKJ8vFyVEs85pDpSUuhenjcY434p7N3tQ06lhKSPq9fKsydJXDHccGSQVYOP8AvOnbGccXGSgA+/Irhcr1Y1pbH7slTZAUVgA9k7f6aql2malJUDgHbevS3rSnSsq18/56VE3QOYGhIJzvvWth4pslZKQkkfTx2zRXNxoqUdafY+dFK0WHRSMH4M5wLV4qHk4TjI06c/3T7iNoVpUkg87bcUUUZT6Tu9lLecZ/FRTyiso1NkA5zkc0UUyJBXK7Q4iw1LKmXFdsjYbcn38qKKKmpI//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">By Our Love</div>
-                                    <div class="artist">Christy Nockels</div>
+                                    <div class="name">Skinny Love</div>
+                                    <div class="artist">Bon Iver</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUEBgECBwP/xAAvEAABAgQEBQIFBQAAAAAAAAABAgMABAURBhITIRQiMUFhUXEHFTKBkaGxweHx/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EACARAAICAwABBQAAAAAAAAAAAAECAAMEETFBEhMUIWH/2gAMAwEAAhEDEQA/AO4Ri/5jIiGqflxOcMFDWHa0JJA7M8KW5JRVaECqPMLqBeUsFKllZWFdj49REN7EmrUlSrLQ2zZkqScyctutt+/aLTKrS5LtLTcBSQesGrvqyGKqeRLV2Y42fM3PWCNiPaCFQupX14sprbhbcUtCxuc1h+t7doVu1+lKm333NJaBayxbMknYAm/9xZFUenk80q0fePKYpNPQm/BJIJ3yi/3iLK56Y1HoHgykAiZeedZEs8lROVVyqx7C17XG2/fxaLTIVfh222nGV6SUAXA5s37WiRJU2T0zqSzSVA8wBJ/yEPxKdNEwyuZpkqnWW4lsu9dEG/Nvt439YhXStINijUt6vlWLUPPI++ethxN2XQ1lOY5d77W79OsEcv8AhPWajWMQKk6kjjJUsqWpahbTI6G487QRWuw2DYnGbiDFs9t/s/k7Tm9/vFbxTien0UIZnFgvOfQ2BcnzYbwQRS5iq7ElgUrfaFfkV4fxF8yQAkttzRvrNpRYpUDaxB/mG9Vn3UaUmtLJbeQrMt1GZKgLctjt+YIIOljMmzF2UpXeVUck+hSMnJyiVyMgxJl4ZnAy2EXI9YIIIWgGpm3MS52dz//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUCBAYBAwf/xAAmEAACAQMDBAIDAQAAAAAAAAABAgMABBEFEiEGEzFBIlEUcaGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABwRAQEBAAIDAQAAAAAAAAAAAAEAAhEhAxIxQf/aAAwDAQACEQMRAD8A+HxOCy9wEj3g1CXDBiowCfqp2loZZdm9Vz7bOKvRaRM0/YR4ixdU3buMtjHrxzUujP20FlgZhwc5HA4rkqgENzmtX1p0ZqfR9zZQ6k9rLLdRtJH2XJwqkDnIHus1NDJjuSo4jY4Vipwx94Pg1md52e2YiPDUXUMOKK9AOD4xzRV2TK0YfkqARjn/ACn0UGdHuXwNuSM4/VZDT3ZnOT4Faq16m1KLp6bRkliGnyklkMK7iWPPyxn+8Vz8hp4clWeP24kSPduiSSF1j+MhYlVP3nOduPf8ohvbl4rC0vI4ns1cGMBskfEjkZ90v0y6ntnkaKWRC6NGSDztPBH6xS7Vbt7Z4nhZdyHK8ZrHCwaXUc8R1WTsRmJQFAQ+uKKSXFxJczNNMQXbzgYoqzo7pa7HujZmXxirSTjKAnkn6ooqpMbFgUHIpLq8wM2ztqfeaKKSrW0YwCwooopL/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Under the Westway</div>
-                                    <div class="artist">The Coral Sea</div>
+                                    <div class="name">North</div>
+                                    <div class="artist">Sleeping At Last</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgICAwAAAAAAAAAAAAAAAAcGCAEDAgQF/8QALxAAAgEDAgUCBQMFAAAAAAAAAQIDBAURACEGBxITMUFhCBQVIlEjcbEyUoGRof/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE/8QAHBEAAgMBAQEBAAAAAAAAAAAAAAECAxFBBDJR/9oADAMBAAIRAxEAPwC0k8fdhkj6mTrUr1KcEZ9R76gPH13s3A9r+o3q8XMZysUEcuXlI9AP5PjTD1Vn4nKR7jdVmlqYn6JFghQSgdvcA9QPjfJ09fmjc25cWiSvdWJdZrqeecvyBrIbNdPpbVHaMv1LplyBn0THhh7aavLe+WTmBbhWWi/XtaiDaopJqgB0z/cANxtsw/nVZxw1aorFNDJWzTRpJ3DNTqhDgDfpJPjbbfB9tSfkRbJ7Jxnbb1batpbdVP8ALYI6GdWIBDKfUe2RkbHVKoS+IrCnprdaVlj3S4cSCONEBY9IC5Y5J/c6Nc9GoADVYvir4araYQ3ykp3moHlDTsoJEbYx934B/P50zbHzJevmroJVjNRS0KTMkcTY7rnA3J8Z9Bk4/wBa13fmfTIZxCkM1JRRFbl3EyFkKRuoUAkkdJlHg7rj93hY4bnRJRUmm+FWrHxLaaehiFQSjqCGhEZZf8emD76afw9Wau4o4qe+mlem4foXXsZ2RnUbKmwBAO5wMDx66mMtLy8paehvt54VtaxyUaVM8iUWOqV+yVCpnGP1TkHfbUi4c4/MV3p7JWU1NTSQU0kklPSw7KFdEULg9IGSdhnI/wC2frnmL8wEq1L6ejT0aVcnNEMlOlOkLVFNFHJdAykLF3I2K9O+f6lwfOMjRrmH0U45fxUqQwQ1kMMcDz97t1RUN2EzIwYgnBYjYjGdtvOpFHw6aieWmmem+WkmiVB1fes0yKyqVxjAA6m3JH4OjRoC6dOOx1EtgrZai6zSXR42npakVXU0SNLHEoVyuQeqNujAOx1mtsM9LTTM09PJUyNVisqGqN8RFS7K3T92/wBuTjJ220aNYJ5M3Aklbdp0adRDUyR07RfMYw7xFyFHThQF8+SDvo0aNEx//9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAYFBwMECAEC/8QALRAAAgEDAwIEBQUBAAAAAAAAAQIDAAQRBRIhBkETMVFhIiNxocEHFDKB8JL/xAAYAQADAQEAAAAAAAAAAAAAAAACAwQAAf/EAB4RAAICAwEAAwAAAAAAAAAAAAABAhEDEiEEEzFB/9oADAMBAAIRAxEAPwDpW/1iOymMT21xI4UN8sKc5zwMkelZ7K8e5dlezurfaAczBQD7DBPNa2t38lmbVY4ywllVGYHGP9g1KqcjIrrVKwVJN0e9qWJesLCHqu70GRJv3FtZG+d1XcNgIBAA5J5HkKZm/iar5NMvZOuptc+RGHtDZiN3OdgbdvPvk+1ZKw1X6PlrOlzawzx52SoHXIwcEZGaKjF1O0sI7S0eRFchI1APHoKK7owW0hZ6wlvBPpos761SdbpZmSRyRgKeNoHIxn+6zwddQtM8DRN4ijcGEblGHscYrd1fT7+R4ZHtLW5iiJI8Nij8jHAPB4J70hydK6fdalbbnmtZ4WYRKx83OW2HBwDzkcAHtVC1kiNuUXwe5+qoNskbptfhQp4yTzj71VOj9ZFOvtRa8V/B8MRRjcPgXIP3/FPKdN6VA9vLeSiScEOu4/FwuO/+NfVvpthZSvqGIrpGUqrRgKvLA4A8vTn8mmR0imqFz+RyUrKh/U3SLzWerodfvJ5rDSYoYwzbTJEcEgcK2cknjj6n0K6RttNt5LRBd20LtjlSgwO4FFaHtliWsRk/FizVLIukiSNgLccd6qXrDVIdY1u4hsyHt0CxbxxudTkkH24Gfaiip8S6NzviJvTCYbaS5unLFVMniyYJwByfr29hWHp/UhrHUFjZSY3xq9xMhXIATbgL9Gdf+aKKbP6FY+tIsgeVFFFSFp//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Forget It</div>
-                                    <div class="artist">西斯托·罗德里格兹</div>
+                                    <div class="name">No Surprises</div>
+                                    <div class="artist">Radiohead</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAYHCAECBf/EADEQAAEDAwIEAggHAAAAAAAAAAECAwQABRESIQYHMUETYRQVIjIzcYGhCFFiscHR4f/EABcBAQEBAQAAAAAAAAAAAAAAAAUDBAb/xAAjEQACAgEDBAMBAAAAAAAAAAABAgADBAUREiEiMXFBUWGB/9oADAMBAAIRAxEAPwDONnsypkSVJUFKbYQk4T1JOf4FOMfgmPHiMuSmVkurCApR9xWMgKHmO4rzy+XBXAXCnPejGS42pt7sSgAlJ+YJq8GyoVa48J530hxt9Kg4UAKKUnIzjbvjNBZ+ZZU/HwI1h41b1cvJmdOLOEjb47MmM0RqOFoByOmQRXwGbWVpVkD2Gionz2/utEcSWNt3hllhZJlqwpGge5gnGfp9qk6behLVyYW4PECVJVoGwGRVtPzjcvFvIkM3FVO5ZOpASl1aUdASPvRXH0hDq0pOpIJGaKXhkdbawEW+yHHxFOKP0T/lWvhLiGXLWU25mdOnstpLsdzSlrUUjdKz28jUfiSkxbXY3FrQGmGVrUnG5JGEj6k1Tfw/3dUvjm4xdGhqayVNeJsrKMdvlmitRqFlRJHURHT7mrfb4M5xJfLm+5OgxYcmDKCcthaBrScHOlQBSds9N8Amp6265GskszSnWYytDmceIc75/V+9ahuzNrhJnRrw+21HmlDXtpJCidQAwN+qh0waXL1N9Tzmo13vVuER9shpr0I60uFWUgjcK27nAxsdqw4FoQdo9zbmhbBsR6MxodzvRVH5sw237m3Mj3NNxUlkpeWGfD0qDisDz2O35DA7UV0KsGG8CIKnYxOmPtBiG2TrToSXNDmdh28jinzl9xTYOHuZkS5tofVbUAISt5WlaVKGCpXkMmiipvWGQgyvI8x/JZeYPMXhKfEZci3SA+tlaXAhKlE5ByO3Wki48dWG7TlXF0QC74mlXi5LmAAApPbPn12ooo1MNFQgE9TFKcki1WKg7fcn/MviGHd7q76qjw40NTY+Cr3ldSTt1zRRRSdShUAELyG3sY/s/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggEAf/EADQQAAEDAwMCAwYDCQAAAAAAAAECAwQABRESITEGQRQiUQgTMmFxoSNykQcVM1JTYoLBwv/EABcBAQEBAQAAAAAAAAAAAAAAAAQBAwL/xAAgEQACAgICAgMAAAAAAAAAAAAAAQMRAjEEEhMiITJR/9oADAMBAAIRAxEAPwBbyrPAbtUd9x7wzrqcpU4SQojGcYHG/HNexel1tWRN5vDqo0FatLLSBl6Qe+kHYD+4/oagYbivFM5HvCFDShRyNXA2+ta7kdIWuRb7ezIYS6qKylnKt9yMqP1JJNXejhGfejbXK6intw7NGEK3x3Q87rJW4vgEqVtqx6AADPzp13jpqLKsr0OQIzocZ0DVtx8On0x8uPSpP90Qem2S9HbQyh1aQogYyePvVP6wujrjDyo7TgDai2okEb87eu1HlmUb60bxwvNWZ+vNvctdwkRHs6m1YzjkUVeb9axdIJkyEkTXlKbSR/WSMjP50+XP8wSe5orfH2VoO/h0UC2uoZuUR13+Gh5KlflCgT9q110l1FHvsifEjocKmFa1OkeQhXw6TnfYdqx93FP72ZZL/hr024la2ELa0KKtkfESAPvVTKMDqyUHLe9Cu5jW9tbgSw66+n8VYOQACBufqR6kVXepYspca4KitiV4ZJWRvt3JyecH0rl9paKXLPZJYI8jzjZ/ySD/AM0mulJdx8ecS5YhpOt8BxWg4Bxq3xz60bkQ+Rp3oTDN0tVsnrrcGpcGXFSA0uVplRlE40OpPmSD25P6CiqfcpnvtaUkhKXFLTg8b0Vvh6qg+Tt2Q1PT9gUxLHT81tKk+8M0ah3wUpx/uiiqyLZ0e0JdIz7NkjMSm3AhTrjgbIJSfKBkDjvUpZ37PaegWzb2WmWiltxbyhu8vA1Ekn1zjPbgYoooPMyfVL9G8TFPJtiR6lj28uLk2x38NbhBazkJzvt8qKKKTF9VZlMl3dH/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Creep</div>
-                                    <div class="artist">Karen Souza</div>
+                                    <div class="name">I'll Keep It With Mine</div>
+                                    <div class="artist">Nico</div>
                                 </div>
                             </div>
                         </div>
