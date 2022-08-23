@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.21
+                            Average per day at ~2.20
                         </div>
                     </section>
                 </div>
@@ -1139,6 +1139,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1211,8 +1216,8 @@
                                 08
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 09
                             </div>
                             <div class="entry">
@@ -1306,38 +1311,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUCAwQBBv/EACkQAAEEAQMDAwUBAQAAAAAAAAEAAgMRBBIhMRNBYQUiURQyQnGBkcH/xAAZAQEAAwEBAAAAAAAAAAAAAAABAAIDBQb/xAAZEQEAAwEBAAAAAAAAAAAAAAAAAQIRIRL/2gAMAwEAAhEDEQA/AHAx280unFbd0pZgnOPIcV7Gz/iX/b/Upfk+o8PMRAvTRrUex8jx3XLegrXTIYbSBsbXRjNvgWOUpJyYwyRroOs9x6hZY1eAOLoKzEyvUzI6J0+Nq/G2nfnuf4k+JNG47eQBXyhXwh/RjE1dWhq08aq3pCjOWH1x2RHgh2IwueHe6hZ0+AlsMRdFk/WOOuUUPcQKqv8ALXo61tINi7tJ83EyYpXHEia9vHueSSK/fyhrS3MYHRwu9Nix2PYJfaC+t3b787q/PxnSPjlxQSI/uc4lxaewF9uVl+myTPbI3Vt7A89q7X/1OPTMfJc531kTWt2cNLrs/B8Ky0zndbsd0xhachrWyfDShXGiPKFVhLscb3AnS6lJkEm+xQhCan0H6eN/0huPJezShCRqPQlAA0lCEITX/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAAAAgGBwMEBf/EACwQAAEEAQIDBQkAAAAAAAAAAAEAAgQFAwYRFCFBBxITMWEWI2OBkqGiscH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AldBzQq1tMwqz2aqHPr4RcYeEkmOwknw2+iSa1biMOH+Lh+tcB81Zl7Kqoe+LFWwC7lz4dnL7LW/aDKiyNP2ZZEisPDv27mFrSOXoFbE9J7REWWgqq6+8czTtZjY/baLiH4BSoVQNZqGhdUQcUmwgteyPjaffAEENAPVWXGenbs57nu3JKxPVcomksGnrhd+l7UyZQ5N3Yb6E13QOzNP9WIaolRjWymYp8LOTjIHh52kn5eampI1oiIjYiIgIiICIiD//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Long Time Traveller</div>
-                                    <div class="artist">The Wailin' Jennys</div>
+                                    <div class="name">Explosions</div>
+                                    <div class="artist">The Mary Onettes</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYEBQcI/8QALRAAAgEDAwMCBQQDAAAAAAAAAQIDAAQRBRIhBjFBE1EHMmFxgRQiocEVNLH/xAAXAQEBAQEAAAAAAAAAAAAAAAADBAUC/8QAHREAAwACAgMAAAAAAAAAAAAAAAECAxESIhMjMf/aAAwDAQACEQMRAD8A570m0i1L9Np9vARfzXH+wX/aI8fLt+/OfxTnrugW+jRWNtGhDmNmkc92bPc1V/DOxebqVXhGWjjLfyB/dad13p2X04yRgN6LZ4+tRvJ7FIlR12Z5DbG4jK7B98ZNR7rTyIwylWzkbBywx7jwOab7LT0SzkbnPbil+eVbdpGUsDk4I8g8GmmkS0mKE4YSmIZjbOAcZz7d+1FXMnozDDgAkZznxRSJnLZZfChZZNauoLeNmuJLdjEVYja6kEdhz7YNdQaz0jBepYtcKvqrDlh9fP8ANc3fCbVTouuNNCiPI6qg3MAMbhnmt2606vGn3ul3Uxtlke3eNnjUvuQn5QcgA58HIrOrXkZo1vgUfXeijQtDmltIELAgfv4wPf3NYrqkwJeVkjaFl4AyOfPj8844p66v6+N5ZNAGmWBU27WYYcH6c5/BFZN/krgHfEEYA/K0YdSfsRT4tsCkRbqUxOrbQVZcYHIU+4oqFdSScB2JPgCiqUgtF10zqaafq1rPOD6IcCTA52nuf7rWOvNRtNZbRo7G7/ULHESXwCVGc8+4xRRUlyuaZWn0Yq9TWZaBNhU7wDx2Gf8AlLdpZLFHKJmx4A2bgKKKfH8JabKfUoYxyhGMdsYxRRRTIPZ//9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAEDBAYHBQj/xAAtEAABAwIFAQcEAwAAAAAAAAABAgMEABEFBhIhMRMHFDJBUWFxIkKRoSNzwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APPd6ebSwQNbq0q8/ovb90zSkEbkGtIkIREJOp9wD+u/+0i0RglRQ+tSrbDp2ufzTKW1qF0pUR8Ulj6GgS9FFFBMw2KqXILaCkHSVfUqw2F+atuXsqYnmfCHE4a0wTGf0lTrgRYFNyPX3qrYSyl18pUso+PTzrRcq4TiTUB9aX+74aZDbK3Eka1KWbEj1sLee1/eqHMv5MbYxhqFjD+uA8novBCihTL6k3Fh9wTYk+1r81Ae7MMy91clYbGanR2XVthbLgCyEkgkpNiPI7XrWcHyjJawmcY0hL0pp95mEl4ABxtKxcqIHiUUeK3AA4rrZNkyBlcQeie8vF1ToV9oUSCPc0HlPE4zrDyg8z0latJT6Hm37oq79tDDMDGoGHRWm2WY0fT00A88XO532oqDP2nC2vUk7iuy1jSOiyh1pVmvCEnbV5n8AUUUF6yR2lQcvSXlSo8+Syq3ST17paJJKyAo77WHwPerlK7aMvKQlbMOb1SdwUC3zzz8UUUGNZ9xxrMWYnp7IXoWAP5OaKKKD//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">A Sad Me in Your Eyes</div>
-                                    <div class="artist">昨夜派对</div>
+                                    <div class="name">Some Kinda Love</div>
+                                    <div class="artist">The Velvet Underground</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAABAAICAwEAAAAAAAAAAAAAAAYIAQUCAwcE/8QALhAAAQMDAgQEBQUAAAAAAAAAAQIDBAAFEQYhBxIxQRQyUWEIEyIjkTRCUnOx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCvRPvWM19MO2z54cXBgypSW8c5YZU4E56ZwNq4PwZjH6iHJa/saUn/AEUHTmmfeuCQCsJJCSf5HGK2qW2YjJLDjbrhwCoEE5PYCg1tKk83SF6j6RVqOZHTHt/iEx0hxWHFLOf29ht3xSgn/wAL92lxNX3G3RZvhUzIvOfthfMpByMZ2Bwo16HcuLdgiXpen3rhNloSpwOXBx3Zp4pKfpJBBHpsEpPSq66BcnJ1ZBZtMlmNNlExG3XllKElwFH1Ebgb9a3HEvh85oJyAideIFyky0rX8qIVHkwQMqJ7HPsdqkFiNHwrBP0nb4KFNXaMylfKZCUuq2XuCoDBwTUL1lwPhTrUlWlUojXBkLVhxSj4gk5CSScJPYH81BOFXEJq06ggMXdpmFbCgsLdhRwjdWOVbqRsvBHm82CdzVnbtZETbVIZiXqGhboBQtLoGRkHqDkZG2R61JtVVO+a2ujvD17ROo4z6Z8GYhxtx3POAnm5kOZ6ncYPcUqU/EPcdNXBu2KhPfP1KgluUW20gNtgY5VkEgnPl6nGd8YpWkeKhSkjAx+KwTlRO2/tSlAz71lKikYwnGc9BSlAUoqGCBt6AClKUH//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAAAAEDBwgEBQYC/8QALBAAAQIGAgECBQUBAAAAAAAAAQIDAAQFERIhBjFRBxMiMlJh8BQ0QXGRsf/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE/8QAHREAAwEAAgMBAAAAAAAAAAAAAAECESExAwQSQf/aAAwDAQACEQMRAD8AtIEi3UKEjxAnYFoD0TaIDClI8CEKR4ENoeC0BQB/BeHYOGG3gPac0PlMEJMKSlpzJSQcT2ftBGxmIE4P62qYk5ZvlBU9m77SpkJtida0kA4g3I739omOncopFSlETErOIWy5cJN7XijlepMywtbsk6iaklLUT7WeLdrCxySN2I6Edfxj1ErPGpGRLTMyunNLObbjuTfXyggWSfi/LR234JfKGa/S3rU9IttfuUY/Vf7WjTO+ofG2qs7TXKikTTTiGV/CcUqUCQCroddnzENVP1mpjnG1z7dIdFQKw2gOtBabgA5FXj+PMQm/VJ2rVWanJtKmQ8svqU2gti+9DEWA3Aj10+wYWGr06+5yxxDD2U3ih3JtZLbrhU4hRX9ICUpFgP6tcwRxnp3WHUrcTTcZxv8ATtpeAbW8pv412BUBrEauTvUEPU/PBTUcXTpeuSrxdVWXQtScSEpHX/Iz2JV9bCmJqovvyyjkqXWQWyb36t53BBHRKTGlGwWzLqlCwoNlo69vVv8AIwFs1OXbLdOq62WLW9lxtDiRoCwuOhbqCCD2O5TR743zmocHkXKc3INOS61KLsw1LJzcUdhW9XBJG+h1BBBEKS0i0j//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Every Time the Sun Comes Up</div>
-                                    <div class="artist">Sharon Van Etten</div>
+                                    <div class="name">Ghost</div>
+                                    <div class="artist">Megumi Acorda</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAH/xAAwEAABAwMCAwUHBQAAAAAAAAABAgMEAAUREiEGEzEHFEFRcSIjYYGhseEVJEKiwf/EABkBAAMBAQEAAAAAAAAAAAAAAAEEBQIDBv/EACERAAICAQQCAwAAAAAAAAAAAAECAAMEBRESISJxFDFB/9oADAMBAAIRAxEAPwC4bXweqUwFvy3AfFKk71KY9ghMRUo5YUsDBWepqJswbshCHGXFYAGyna3Jud6inDieYkeShURbah9iehuS+4+Ng9SQPOC3MlURha1jAAKcgjO/Q5rX+oXJbSHTHjobIGrUSnB8etRaXxFcU4/brT54J3rEcT29bYRcGZ+obnDpx96YryQBxE4tptp8j36jxu6POvqalFhHXBbJPliikzfEnDgGtt6WwRtjr9fzRWTYSYfjkdcTKvT21XNDBbKLel3G3MaII/tilz3are0Ol7vMJZPtFtSRoA+4qNBxl9OqQAs46csEH1FaJES3S1I5zLZ0J0hOgJGPSgcIExRdRRBvxjy6dp19msOtLeaYAGTyk7Y9QM4qJS7zd9Da1S1HvGNCs56/HFE20R20umO+5FL6Q2ohJUFDwHWuCNIRYS0JMlcmNkN6VMkac+IOdvWsvjFBuO47j6kr9A7TGfdbux7tx5oqHkB9dqK84lukLQ1Ljht1OcY14BUOu2N8fGihWjMu/GMWZgVtg8uq1v2jlM490spCtK2k9PmKYqmwVFS1uoSAPYPLAOnxO34oopbKoCN0TJePkMy9gTn7sZUNwRp5UlR1DIBOd8j03pDc+D5ExICxFkBX8SkJP+UUUouXZUxCmNnGruUFpXV97MpDjri4jT7akkggDmIz8t6KKKqV5lhX8k63GVW2BM//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwYB/8QALhAAAgEDAwMCBAYDAAAAAAAAAQIDBAURABIhBhMxQVEiIzJhFBUzcZHSkrHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIEAAP/xAAhEQACAgICAgMBAAAAAAAAAAABAgADESEEEiIxMkFRcf/aAAwDAQACEQMRAD8AhdM2Kxy9MWyprLbHUVM6Ozu0rrnEjKOFYDwNOy2XpmLZvs8ALnavzpuT/lrOwxPJ0lYAkgj3xyLuxkL85/Oq9VZoJKd5Enldo/iHcwRn28e2sLEBwfcldLixIOpL/KelTGrLbKb4uR86f+3vxryKy9OTLuis0DL796b+2mxSwd3toYnhVCd+M4GMEeftpukpqdIyMj04XgDReytBljERb3+M57qOw2WLpq51FLa4qeogjV0kWWRuTIqnhmI8E6NU+qI0XpS9GNm/QQYJ4/Wj0a1ditkrK60dRhzuIWZVl6MsoFRtdY5Nsak5Ld1z6cDjTlPJPMsnZrmEgA2xuPP/AB1L6Qmc9PW6npo37stSISxUnGSTlAOSccHB48nVKnqaaNEkMsNNTtJ2zJu37RliGB9jgec451JZaRjKfc7txwG8WwCNzS1RGEETFlBY7ieNpPGnErIo5jDJ2zIuPhx7+NQ6mvqIjJVwRrPnI+I5yMcHjTyxigka41k0H4cIH3TIVViygnkkkYJx66W5lwXbJnLjixsJWNxHr+ato7ZUwdsCnmCxu45B5DcH91GjUXqaunqLR2ncuyKn4hRlVjkIzt2nnj7j76NV156DxxD1YHciWi6tbLjZ7jTTFai3iQojcqS4I59uD6euo91jX8ltlLSTPNKm+SbcQoRmxhR7jyc/fRo06j2I7EFRqdpYLraILRRpWVMqVKIAygZ7ZBzwR7+PXWPW9ztd7o1o6eeVEYIzOgxyo4GD5Gf9aNGjxh1ck7z+xrDlR11/JDlqIhU3hoZz2ar6Qw+rBQj9j9f8aNGjTH3ELHU//9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">And Before the First Kiss</div>
-                                    <div class="artist">The Field Mice</div>
+                                    <div class="name">He Used To Be a Lovely Boy</div>
+                                    <div class="artist">Keane</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EAC8QAAIBAwMDAgUCBwAAAAAAAAECAwAEEQUSIQcxQRNRBggyYXEisYGRoaLR4fD/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGhEBAQADAQEAAAAAAAAAAAAAAAECERIhIv/aAAwDAQACEQMRAD8AUfSfpTqXUSxvbiwuLKCG2mWFnndgwJXPAUHI/JFMG8+WPVrZDINXsJskqqRpJnvweft4/rVj+TqZIPhTXfVOC98pX74jGa0JPcxyR4YEr7ZrO/Sxxr/Q660NVa8vrZ3dS0cMDZLHwvJyD/A5qt6V07jvNZstPnuXtFvXeCGeRMj1FXPABGe4Fa2+IdC0+6mhnktIJ3jcSD1VDcDsOfHnFL/V9BsIfizS9Ts7dYUs7hbgRL9G/G3O3t2xR0tExo/R241TTILqPVVR5IWmKGD6QG2qM7vJBPbgc+RRTi0KCLSI7WbZI4iLOF7AZkZyP7v5UVdBRPl41JrTR76JJSpWUPt8cjH58U9YtbYbdzhVI/V4z7VmXpLIbeRxkkFsHH/e9O22kke2VAD+fIrjcr1Y1rxbLjVlZCAxcAHsOP8AZqqatebmDA4B4AJr0xb1Xa5bf74/aorVBJtGxQTnnmtSh4b25clQpIG3x2zRXOSIsx3r+D70UrRY9FLYT2N9IHb1UmXC4yNu3P70+rSNG2spB88ceKKKMp9KO82VjJ7moqVi7LujIBznI80UUyJBalq1naOIrstFI3bI4HHk/wCKKKKK1JH/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAcIBgQFCf/EAC0QAAIBAwMDAgUEAwAAAAAAAAECAwAEEQUGIQcSMUFREzJhcYEUI0KRcqGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKpzRXHJeIkpTtZuM9ykY+3muTVtdttL0m91C5SQW9rC87nj5VXOPPn0+9B52692QbduIY5oTKHGT2vgjnA4+/1rQafdxX9jBdW7d0UyB1P0NRtvHqtLuTWrq5uLaS1tnwsSRnvYKPAY8D+h6mnj0J6gWm6Nsy6PGrRarYQsexhw6E4VgffJwRQNqC5gnLiCaKQocMEYN2n648UUk+n+sNF1KksWX4JLPG8eAuDjJyBwOfTiigY7QQOxZ40Zj5JAJrEdbQlp0q3FLbxqsnwVTIXHDSKD6exrcAjOaynVqwfVunGuWcTIjyQgqXbC8Mp5P4osRRNIysQT4pg9FZJ0vdy3sTvGbHTP1XxByF7ZFIyPX3x9Kyt7ty9WUj9on/LxT96D7Vt9N6Z69qN7Gss+qQzRyR48RRqw7fye4/1RCn2rvZrXeMF9eStmd8zSDIGWbOTjnGf9UUvY3LTIRn0ooa+gqghuCMUNCsyPFPGro47WVuQw+x80UUVJnUvTTp275ol7kEV08fj+OSVx+KpDa2ny2/TaxtbdAZ3049q+7uhP/TRRQiVdjbBvdU6jQbd1BBDJbyM12O7OFT5gCPJPj80UUUH/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Skinny Love</div>
-                                    <div class="artist">Bon Iver</div>
+                                    <div class="name">Killing the Blues</div>
+                                    <div class="artist">Robert Plant &amp; Alison Krauss</div>
                                 </div>
                             </div>
                         </div>
