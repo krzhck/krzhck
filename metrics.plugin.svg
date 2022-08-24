@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.20
+                            Average per day at ~2.18
                         </div>
                     </section>
                 </div>
@@ -1144,6 +1144,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1216,8 +1221,8 @@
                                 08
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 09
                             </div>
                             <div class="entry">
@@ -1311,38 +1316,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAYFBwMECAEC/8QALRAAAgEDAwIEBQUBAAAAAAAAAQIDAAQRBRIhBkETMVFhIiNxocEHFDKB8JL/xAAYAQADAQEAAAAAAAAAAAAAAAACAwQAAf/EAB4RAAICAwEAAwAAAAAAAAAAAAABAhEDEiEEEzFB/9oADAMBAAIRAxEAPwDpW/1iOymMT21xI4UN8sKc5zwMkelZ7K8e5dlezurfaAczBQD7DBPNa2t38lmbVY4ywllVGYHGP9g1KqcjIrrVKwVJN0e9qWJesLCHqu70GRJv3FtZG+d1XcNgIBAA5J5HkKZm/iar5NMvZOuptc+RGHtDZiN3OdgbdvPvk+1ZKw1X6PlrOlzawzx52SoHXIwcEZGaKjF1O0sI7S0eRFchI1APHoKK7owW0hZ6wlvBPpos761SdbpZmSRyRgKeNoHIxn+6zwddQtM8DRN4ijcGEblGHscYrd1fT7+R4ZHtLW5iiJI8Nij8jHAPB4J70hydK6fdalbbnmtZ4WYRKx83OW2HBwDzkcAHtVC1kiNuUXwe5+qoNskbptfhQp4yTzj71VOj9ZFOvtRa8V/B8MRRjcPgXIP3/FPKdN6VA9vLeSiScEOu4/FwuO/+NfVvpthZSvqGIrpGUqrRgKvLA4A8vTn8mmR0imqFz+RyUrKh/U3SLzWerodfvJ5rDSYoYwzbTJEcEgcK2cknjj6n0K6RttNt5LRBd20LtjlSgwO4FFaHtliWsRk/FizVLIukiSNgLccd6qXrDVIdY1u4hsyHt0CxbxxudTkkH24Gfaiip8S6NzviJvTCYbaS5unLFVMniyYJwByfr29hWHp/UhrHUFjZSY3xq9xMhXIATbgL9Gdf+aKKbP6FY+tIsgeVFFFSFp//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EACwQAAIBAwIFAwQCAwAAAAAAAAECAwQFEQAGEiExQVEHE2EiMnGhFFIkkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASqbxnoXIp5WlIP8AXAxq87M3teLujJTV1HSzKwRY5WwzfI86UdztdXQzS+/TuihiAWGM88Z/GvAHZGDISrKchgeYOitRqGnuu8I5o0ku8fAx4cxwhvz1OmLbIb9NTpI9wEmexply3+jpGejF8ud2Zo7o3vU0SqqzMvMc8cz4zjmfOtPbO/yLbFKc5I1pkr94T3azrHNcZY5FeVlEaJg4xyPU6NTXrHbpZa21pGrFcuxIGfA6de/b96NSVX1Yslpl2Huy72rgYfx4ELRIHBKsM8+w+3pyGM6zdtTblRe66OIRPwOyqigc3LMABnt1661BsV7fcfS2bb8khFZV0kiPGo4mHECBkfjGqt6d2ev2/TWmS5We4NPMhZeCnOYgrcKs4HMZ6jl0GdENWym2vSbd2vLb7UmTI8FEr4+9w5L8+45gZ7nTqs1ElFSrDEBwIOEfPzpbC/0NVRRxUTLPUwyL7CqMfWxI+odQVIY48jV/s1dHFRok8wLjkSe50hy3TbUrBTSFQWjJ7dM6NSVbNG8CyIwZQTxY8aNCV/b8KLHwtTRrnnxRgA/91Fbg3FQWreNpoKpy1ZXqfbIHZT1Pjx+dGjSkTebWsO4q+4W+MCZZI6hkUYDhwQ2fJyhOfnU3DSPLTpU0lSzo/wBvGo+g/wBSO360aNSSVslkhjmE+MlhnB/eNGjRoT//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">No Surprises</div>
-                                    <div class="artist">Radiohead</div>
+                                    <div class="name">Some Days Are Long</div>
+                                    <div class="artist">Holly Throsby</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAMEBQYHAQL/xAAsEAACAQMDAwMCBwEAAAAAAAABAgMEESEABRIGEzFBUWEjMgciUnGBkdHh/8QAGQEAAgMBAAAAAAAAAAAAAAAAAwUAAgQG/8QAIREAAgICAwACAwAAAAAAAAAAAQIABAMREiExBVEiMqH/2gAMAwEAAhEDEQA/AKSlFHUKlBt8cIiiiIDk2sgIYXJzYgn+POmDbTWRiSjaGbvRASPIByvybDYFjgXt+3zr101OKDcIp6sStHwMYjRRgKp5XA8C5t631Za7qRZI40NOFilTtzZIaNiMWNsi2D7HRuD1EKp39mZ7157dhcY/XrUhNu2yrqubU7TVFPHIcNIgwSQcAA2vjznx40nHHNDuMkdPHLUyRSnuOqXPLjbBOLg5scG2rFt28hhTLJU0MctUGNPT8mXkBg8ri17jj73NhpKs6sTb6ypp6vbKmORU5Rxqt2JvY3AwB5Nz6aQo6uSoJ2Yze7bR+GPHsee7/srdVuIpqJpKZkNQssa9ztGMIwYEKQc3BAJ9ho0vWQjcN4p5ty+tG8TSCmU8FVeNzkf5cmw9NGjrlx4xpl2Y0s/GWrLB+Wjob8jSGB4YZJKmGNZFW0mbs5LXVVa+QSAP+6YzVDTyiULNMqKfqEWszZ9fm2fjA1N7dDUb3uUFK8tJ2GZmkKITb8pFwD65NseSTrWfw4i2rbejd2Senp6oU1TNHKZIeTMq2Pg4OD9tzpvZtBU/DuclVosXJy9a8mf790NJL05DvW/0sbFo0Mk1IpWSJAQysARbyzBiDYC1r41XqeqoTHJBFAzS1Kopa7EXBIU+STi3tra9k2GPqDZK3ppd/nkqIqbtAyxBOK3HEEEsSMBS18emsLrKCelqqqJ4XSqiqWgZCL8XBtYfOsC18RA0TGmGy+FuSkGOt2KVcrzSq3Li0Y5HtmWMYsbfbyNvbA0ai5OdUTGkkCS8WUSOCSrW82vj+jo02VKyKF91MWYPnc5Hfs/RIERO87gWLIYomKlPpxgWHxpSk3/eaOjekpdxlhpXZmaJFWxLCxPj1GNGjQOKnoiCLsTvcdJ1Z1JGiLDvtdGI07a8HtxT9IIzbHjxqNrd03WtqJJ6uveeWRi7vKoYsx8k3GTo0atxEpyM6u516SiVZIDLfkXMK3v7+NGjRqcRJsz/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAQFAQIGAwf/xAAoEAACAQMDAwMFAQAAAAAAAAABAgMABBEFEiEiMUEGUaFCYXGBkRP/xAAZAQADAQEBAAAAAAAAAAAAAAACAwUEBgH/xAAgEQABBAIDAAMAAAAAAAAAAAABAAIDEQQSBSExE0FR/9oADAMBAAIRAxEAPwBPX9QvbTWCkFzHHAYwVDIrdWTk8kGmtEbUrl43ukV7d0OJAirz78MT9sYrrLTVZbG3NukanqLK27sT8eKzqmqG9CtKojRSWI3ZHzUIlpbQ9VEAgpCKEAEMtYkhRRkAZqePUFizsgk27TgMwwrfg9q1jvobtysM8TsPCuCf5S9aTXse30UtbmE7mdR47mimZCf8G79jRRApSalzuPP7NcJc6xcr6lxLKSkc21Ivpx27e+K8NX1ae2tnuZLiQunC9Z7nioMt9JparcvA9xqkmJIwRxED9be7Y7Dx3PimmDUUe7R8bliQmTXoK1dEQyMMcBiuCKVmuGxlCVYcg5xtqHcanJDAhjDzSMfJyfuag3dxqNxOVWaZyedqe34FHHjk+q7k8m0N1Au19Z0PXDqei3G6QtcQNsfHGeODxRXAelhc2D3QkkZFmUdCsc8e/wDaKMwfhXKZGYY3lpbStR3trfahHFcnFvExlkyRghRnHxipN96gVrlnCh2dizEjyaKKPUOkNrdiOOPjj4/tKwSWeTIkcoLHqXdkE98802LmKKLCx7M98Y5oor3UEqgx51sLWO5REZ2LBiMfqiiitTWgBcpOTNIXv9X/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Fathers and Daughters</div>
-                                    <div class="artist">Rick and Morty, Dan Harmon, Asya Saavedra, Chloe Saavedra &amp; Ryan Elder</div>
+                                    <div class="name">Save You</div>
+                                    <div class="artist">Matthew Perryman Jones</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBAYHAf/EAC0QAAEEAQIDBwMFAAAAAAAAAAEAAgMRBBIhBTEyExQiQVFhcQaRoRZTorHB/8QAGQEAAgMBAAAAAAAAAAAAAAAAAQQAAgMF/8QAHBEBAQEBAAMBAQAAAAAAAAAAAQACERMhURIx/9oADAMBAAIRAxEAPwDk+PC3Ht0sZAHSaTV3E5RAA2Q+FtAgUR8rf9xElamNe33FhTxYYhbqbFEWE1vCHD8ikv4n7aebL/Lk8efOZC6SUmje/mL3Wn4LxWCYPpnZ6TReeTitVlcI4PmNd3vhkOquqG4j/Hb8JXL9H8HcCcTLy8Y+TZWCUA/Io/hVcaImxpo84aCGvaQfglCX/pHPxzeDPi5RBsaJNLvs6kIdflblqo5NI6iArD8jwsa2Qdlp6WtAo/6ljZPCV6PItPP1Kacj7kc7ciVwkcnEFpHO90h4/gZHEZ8AY2ecVkUvaSaTRePTZM33XULKrPbpabG/yonSmd8aTNPd6dYf7AgoSyZ41gAm/RCpxtf0Nv8AP4TBjtD3QROjPm1tfdI83Bjouxar9sj+kIS5tyzXizvPslkjnt2LeXuonynzLrdtsEITlyl5UpzqFWNt+W6EIQiLf//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcGCAIEBQP/xAAuEAABAwMDAwQBAwUBAAAAAAABAgMEAAURBhIhEzFBB1FhcSIUI/AzQmJygaH/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EAB0RAAICAgMBAAAAAAAAAAAAAAABAiEDERIxUWH/2gAMAwEAAhEDEQA/AHnpKa27BQ3vG4cn6qQKkM7AeqgD33CoDpyRAYcERpwPF5RSePGOQD3xS815q5pN/mWeNchFdQUoSyysIkbu4CCUqwCCOwJ+RWSlRzRyaQ+0yUAkpWCnPvXoZTDiVEPoB7H8wCKr0J0rT9mfuT9xubjxZTiP1FBOwHxuJ5GSdysqUfjipDpjVdt1ItqIzcISbsprlsKytxOMhW0/GDRz8BZd9DWZcUmYFpuq3Wgr+ltSfHbcKKXK5E233JuFIcecQsb/ANrGArBxx9Zoo5jWX4Rv0+kSrpcmJanFR4qQQpG3AURnHbjv81znrjZ9Las1DcZSlyZ/VS6lRiKUpKFJCUBBA5GM85796yiaqaFuREiSEIZbJWVbQlDbYAB4HzyPOTjNSvQlwhx40eYiFKMJ87WlJR1Xn05x1F+Ut7uAB5+BUR8OXHdI0vUbT69WaSh3KLNkERkh11noK/eQSCpO3gk4GAOPukp6e/qZWsLffnSiLgPJQEficJxxj/VeP+Crj3iOJcJ5hJAUQUg59+Kq162W5mFf2GLM0lKYLO5xDIKQsrWAUjH92Bmra1RvJca9GHO07fE3tN4gvSJUd9kpUCOyO+CP5zRXU9LdRNai/UNsJccidVTSwAVdNWSRn/Ejj7FFJIUY7RUaDcp0pxqA26rMl1Df2ScD/wBNWxhaiYZuwssC1obVakJZZfChlSEKKfHKchJOPc0UVU1o0zJRVDMbL6tinAG1r/JaQM49v571X31o01fm9Qy7u04DCXu6QB287e5wPvv5xRRSZMlSNppbum5Vog2GdBjadlw23pbhXscUgDa4tJ75Soc+cqGPYFFFBS6P/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Hawaiian Boi</div>
-                                    <div class="artist">Triathalon</div>
+                                    <div class="name">Museum of Flight</div>
+                                    <div class="artist">Damien Jurado</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAAAAUBBAYDBwj/xAAqEAACAQMDBAAFBQAAAAAAAAABAgMABBEFEiEGEzFRBzJBYdEUFiJx8f/EABkBAAIDAQAAAAAAAAAAAAAAAAIEAAEGA//EACARAAIDAAIBBQAAAAAAAAAAAAECAAMRBDEFEhNBUaH/2gAMAwEAAhEDEQA/APLSysAVPhvNMLDTYpdUtLe+vEsbablrmRSyxjHkgcnx9KVjk8U7v7qN9LtopSXm243FflANAxwjI5TWtqOXOEdTQS9JdPNfLH++dJ2NHuMgt5tqnONp4zn60wh+GNvLHFKvU9qYpD/FhZTngnCtwvIYYIx7rrdgqyEcbfYrlmDRKhSQlGGRg+PtRRcqTrTRdQ9OSaBdzxq0lzYgqi3fZaNJCRngMM/5RWZaWRl5YkD2aKAqYwvJVRmSbRWedFX5icU06h0+4sVte9sMbJlGU5zzyD9xSZSVYFTgim9/qz6nYwQ3ar3YAQkgGCR6P5qMG9QI6hUPV7D1voY9fUVZyAMZOMZq5dW/asbdwcsWYMPWMVTiXdIo9mn2p2t3ElvGIGIJLI5AO7NRmwgS+NQbK3bCcwfsQbSPIxRTW4srkK/6hMSSEED+hRVhxOVnDtU5hiipU4PiiijisuWSo84Jzj0K2emzRHlxl0GAXPj8UUUnyJrPAOU0gTIalcyyX0zs+Tk8g0UUUyoGTPX2MbGJPyZ//9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYECAIDBQf/xAAuEAABAwMCBAQGAwEAAAAAAAABAgMEAAURBiEHEjFhE0FRgQgUIiNxwUJykaH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8Ar1pe2Q7gyS7GedeScZD/ACJPty/upkS3NI1Oq0R7XIclPrDSW1SQAUqA2P0+u+f3vXT4VMh5TudglYPTtXc0vNjah4uQZsRp5tpMllo86QNwCP8AuPzRS2M8Fr9J+uIlmEytJSsOSC6VA/1TilPXmgHtHRW1TJ6HX1rCQ0lop233yT29KtboDSto1DqfVpvTC5ny01LbSFvLCUJ8Js4CQcdSaUviT0rZLRYYbFpt7MNszEKKWhgE+C/kn1P0jftVqVHxRUiYkNvKSkbA0Ug68OWpT1tuqILi2pBR9taOoVjIrToC+ptF0amBTq7i3IbdbZAJL7nOAQc7bpKtydj/ALTHwRlW6GzNeuUlplIcTyhZ3Vt5DqfakW6KebvDslEFK4bS1lvDZSOQqOCVDBzv1z1oK7PC6axCv+qX7m63bxMmJcZbkuBsq+y2FAZxnBBB/FKnxMSo0iPbQHULZVICg4lWUkpYe2yNvMbd6rBpnXF+s3MGJCpcT+UaT91HsDnB7inKfxAsV+00I8+3tRZzLnipbbThpaiCkqAHngjr7GpPKbopCprhbIIz5UVhPU0uStTCeVsk4FFIS7ZepVrXzwfDaUcZITknHc10k6wuCoXyb4Q5GUAlQxuRzc3Xy3ooqiTbDctIRIj7tws8uVMTu00uSQ2vsSnBFSNSzLLeoLSrdpx2zKTuFoy4gj06ZPvRRQSfIZjtoUW5JcWDjl8MjPuaKKKQ/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">That Inferior Feeling</div>
-                                    <div class="artist">From Your Balcony</div>
+                                    <div class="name">I'll Remember You</div>
+                                    <div class="artist">Sophie Zelmani</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUBAgQDBgf/xAAtEAACAgEDAgMGBwAAAAAAAAABAgADEQQhMQUSFCJBQmFxgbHBIzJDUYKRof/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAHBEBAAICAwEAAAAAAAAAAAAAAQACAxEEEiEx/9oADAMBAAIRAxEAPwD5Nr7Ay3EDC9g2/iIi39OPhG3ULB26gNyEH0EVWOlaPZa5WtBknGfUDj5yPi+DNDMyCPhiDcYEodVpDs1zjn9Iy1d2jYqPEsC57VzU25/bMp7kTsj3pHUvwjRaQr+y5HMIkXnOISe/ErZ38jDIk1dSJVbBnPlXfHuExXViyl62z2vjce4g/aNNbpgdO7En8q/QRaeIeN6Q5ZnOmDZyyjO+1SD7S3hazYrsT5GDjCqu/wAhO49N5DcbEyjqRPUkpxuRCdNLQ+ouFdKlnPAEIG9TxZ0Cxn1MCui2lie9FUf4InJ3hCT8T5G5vsCf7l6KnutWutSWPAEISm7oUig2z13QNPXpK34FvtMwxCEJg5bNrKy+oBon/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwABAAICAwAAAAAAAAAAAAAAAAQGAgUBAwf/xAArEAABAwMDAwMDBQAAAAAAAAABAgMEAAUREiExE0FxBjJRFGGBB5GhwfD/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBQYE/8QAIxEAAgECBAcAAAAAAAAAAAAAAAECAxEFBiGhEhMWMUNT4f/aAAwDAQACEQMRAD8ArVK4JAxnG/3qdZ24L05KLo86xGIOXG05IPPH8eawkeIjxo70qQhiM0t55eyUIGSfArvdtc9lp1x2FJQ21jqKU2QE54ye3Nb2JG9OMlDoustMhGohQTtqBwk+3uN/9ip6ptlkxlRnL1cjFUpKOm4E+xPG+njbt+1WUUSUelZPBAeWGyS2FHSfkZ2pVCCZZZyLfcWn346JMf2vMrTkLQeR5/ur/K/TqDdIjU30vcQtlw50vHUAPIGQR8EZqIG0qOAlOfArNCFtLKW1KbKvcErwFbd98VmwxVdpQ0OneXWvJt9KXfbRIs10cgyChbicaVNnIV47/isk2C7qm/SJtssydIX0+mc6TwfFXENHWVYTqBznIznzW4V6nuhjhgLaAxgugYXj4+PzTKeI0pX41YTVy/UTXLlc8wvNskWicYkzp/UJSFLShWrQT2P3pV1WNaipYClHck7kmlIliivpEd04/ZsKUpWQdSKUpQApSlAH/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">The Story</div>
-                                    <div class="artist">Brandi Carlile</div>
+                                    <div class="name">Painting By Chagall</div>
+                                    <div class="artist">The Weepies</div>
                                 </div>
                             </div>
                         </div>
