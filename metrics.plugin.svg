@@ -1155,7 +1155,7 @@
                         <div class="chart-bars">
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 00
                             </div>
                             <div class="entry">
@@ -1200,22 +1200,22 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 09
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 10
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 11
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 12
                             </div>
                             <div class="entry">
@@ -1234,7 +1234,7 @@
                                 15
                             </div>
                             <div class="entry">
-                                <span class="value">3</span>
+                                <span class="value">2</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 16
                             </div>
@@ -1294,38 +1294,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwYB/8QALhAAAgEDAwMCBQMFAAAAAAAAAQIDBAURABIhBhMxQVEVIiMyYTNx0hSRkrHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIEAAP/xAAhEQACAgICAgMBAAAAAAAAAAABAgADESESMQQiMkFRcf/aAAwDAQACEQMRAD8AhdM2Kxy9M2yprLbHUVM6Ozu0rrnEjKOFYDwNOy2XpmLZvs8ALnav1puT/lrKwxPJ0lYAkgj3xyLuxkL9Z/OrFVZoJKd5Enldo/mHcwRn28e2sLEBwe5K6XFiQdSX8J6VMastspvm5H1p/wCXvxryKy9OTJujs0DL796b+WmxSwd3toYnhVCd+M4GMEefxpukpqdIyMj04XgDReytBljERb3+M57qOw2WLpq51FLa4qeogjV0kWWRuTIqnhmI8E6NU+qI0XpO9GNm/QQYPj9aPRrV2K2SsrrR1GHO4hZlWXoyygVG11jk2xqTkt3XPpwONOU8k8yydmvYSADbG48/8dS+kJnPT1up6aN+5LUiEsVJxkk5QDknHBx48nVKnqaaNEkMsNNTtJ2zJu37RliGB9jge+OdSWWkYyn3O58cBvVsAjc0tURhBExZQWO4njaTxpxKyKOYwydsyLj5ce/jUOpr6iIyVcEaz5yPmOcjHB408sYoJGuNZNB/ThA+6ZCqsWUE8kkjBONLcy4LtkzlQLGwlY3Eev5q2jtlTB2wKeYLG7jkHkNwf3UaNRepq6eptHbdy5RU76jKrHIRnbtPPH5H50arrzwHriHiwO5EtF1a23Gz3GmmIqbeJCiNypLgjn24Pp66j3WNfgtspaSZ5pU3yTbiFCM2MKPceTn86NGnUdiOxBUanaWC62iC0UaVlTKlSiAMoGe2Qc8Ee/j11j1vc7Xe6NaOnnlSNgjM6DHIHAwfIz/rRo0fGHFyTvP7GsOVHHX8kOWoiFTeGhnPZqvtDD7sFCP2P3/20aNGmPcQsdT/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAUBAgMEBggH/8QAKxAAAgECBQMDAwUAAAAAAAAAAQIDABEEBRIhMQYTQRQygQcVIkJRUmFx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAeEQACAgICAwAAAAAAAAAAAAAAAQIREiEDBDFBYf/aAAwDAQACEQMRAD8A51j9wreuhGVcxhv/ACFaGh/Ktl6Yxfp8Wj72U3ru688SHNHLR0bJ9U4TmMnRv2mW64Ur6vXY6guu+m3ttte968A68KtmcxW3uNT0p1U46szDHY/tF8bC8fcdReM7adJPGw07eDSvqaZ5MVIWO9/953qLnTpGow9sQNs1FU3uwoqLKUQp/KnGUOwYlVYixvYXNJxs1N8sSWZGCK/asQzAGw2J3PjaqQdCfwwEw+Iw7iWWKaGJWAZ2j4+DsTbxVOOkjbEP6eSR4f0mQWPyBTbMDLLj42XAlYYzq0rAbWGkEnaxG3waU4yHEQsoxMboQSg1oVO3jeo2zbRYTkUVKc0VqxEHnmm2T5zNgIMRCjKsUoOq8Qc7i3nx/VFFK9AvJlt1I5nkkDnuSOHd+0LlhbSbarC3FrW/cGl+dZo+PlYaIxH3GlBVNJu3O1yAL72FFFAWLl5ooopiP//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">He Used To Be a Lovely Boy</div>
-                                    <div class="artist">Keane</div>
+                                    <div class="name">Sleep Is a Rose</div>
+                                    <div class="artist">RHODES</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAH/xAAwEAABAwMCAwUHBQAAAAAAAAABAgMEAAUREiEGEzEHFEFRcSIjYYGhseEVJEKiwf/EABkBAAMBAQEAAAAAAAAAAAAAAAEEBQIDBv/EACERAAICAQQCAwAAAAAAAAAAAAECAAMEBRESISJxFDFB/9oADAMBAAIRAxEAPwC4bXweqUwFvy3AfFKk71KY9ghMRUo5YUsDBWepqJswbshCHGXFYAGyna3Jud6inDieYkeShURbah9iehuS+4+Ng9SQPOC3MlURha1jAAKcgjO/Q5rX+oXJbSHTHjobIGrUSnB8etRaXxFcU4/brT54J3rEcT29bYRcGZ+obnDpx96YryQBxE4tptp8j36jxu6POvqalFhHXBbJPliikzfEnDgGtt6WwRtjr9fzRWTYSYfjkdcTKvT21XNDBbKLel3G3MaII/tilz3are0Ol7vMJZPtFtSRoA+4qNBxl9OqQAs46csEH1FaJES3S1I5zLZ0J0hOgJGPSgcIExRdRRBvxjy6dp19msOtLeaYAGTyk7Y9QM4qJS7zd9Da1S1HvGNCs56/HFE20R20umO+5FL6Q2ohJUFDwHWuCNIRYS0JMlcmNkN6VMkac+IOdvWsvjFBuO47j6kr9A7TGfdbux7tx5oqHkB9dqK84lukLQ1Ljht1OcY14BUOu2N8fGihWjMu/GMWZgVtg8uq1v2jlM490spCtK2k9PmKYqmwVFS1uoSAPYPLAOnxO34oopbKoCN0TJePkMy9gTn7sZUNwRp5UlR1DIBOd8j03pDc+D5ExICxFkBX8SkJP+UUUouXZUxCmNnGruUFpXV97MpDjri4jT7akkggDmIz8t6KKKqV5lhX8k63GVW2BM//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAUHAwQIBgH/xAAxEAACAgEDAwMBBQkBAAAAAAABAgMRBAAFEgYhMRNBUSIyQmGBkQcUFSM0UlNxsfD/xAAXAQEBAQEAAAAAAAAAAAAAAAADAQIF/8QAHxEAAwACAgIDAAAAAAAAAAAAAAECAxESMSFBBCJR/9oADAMBAAIRAxEAPwC39L9S4O7YUIEgEqXFI1gqHXtxv5rvVafRSQzSSpFIrvE3GRQe6nzR1zJgZcmFi5GG7AGa2j4mgx+T7XZvtWvWdB9Q7lF1M7JP6iZkEcYRzy4OjCy3f+zkb9/w0E5vRC1xtj5EsyQzRSPC3CRUcEo1XTAeDXzr5Jho3udTXFbceldw6izsORciLNaKWBsiMsPvvJ9mj5erNV+OqeJPUiRwRTAHsbH66eb34NudeRc+IATX/NGtl2IOjW+RNHJG35GQ+4FZEZEBDkXdAHwK769tsW54uy7S2+7rA4jeR48TH5UxC9i7E9lH/rNjSfB33asadEgx45Y0X+okQH677VdkD870v6i37+PYeDt+DDAMX1ZfU9QV7qbFHvVk0fz1zq5PobGknujdyesMTqAyRTRw4pS3jEDcHcsrBQHPeyfkAXV+dV3ZOuHSBxNA85PBuQ+59I5BiAR5B+NcwbzsGWuM25IC+M0QaLihsUwC8vg1Z1T/ANme4R4GNmQvNlPGXUqoi5sBR+ki7BH4aVS5ncslWqemWqLqozMQmAxNAn+Z8+PbRpbtUMeYHnWWS/8AHItFf00aB/ItdiLDv2RjZt0y4lY42JHEVBRg8Y4IR+VeNYhJuWRNmzY4VWycdsdPTUKiIT9TBvHfxfwK0aNPMppkfaM/VCbluu3fuEGYMhOAVoI0oAjuO9e3HzfjSaLp7qHH3t8mNWTIkUSssYLcARVtRFef9aNGt439dGbhctjWebdtskaXcd4lhliZUIkuMAkdj2+0a0aNGjevwvFH/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">And Before the First Kiss</div>
-                                    <div class="artist">The Field Mice</div>
+                                    <div class="name">The Sound of Silence</div>
+                                    <div class="artist">Racoon Racoon</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EACwQAAIBAwIFAwQCAwAAAAAAAAECAwQFEQAGEiExQVEHE2EiMnGhFFIkkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASqbxnoXIp5WlIP8AXAxq87M3teLujJTV1HSzKwRY5WwzfI86UdztdXQzS+/TuihiAWGM88Z/GvAHZGDISrKchgeYOitRqGnuu8I5o0ku8fAx4cxwhvz1OmLbIb9NTpI9wEmexply3+jpGejF8ud2Zo7o3vU0SqqzMvMc8cz4zjmfOtPbO/yLbFKc5I1pkr94T3azrHNcZY5FeVlEaJg4xyPU6NTXrHbpZa21pGrFcuxIGfA6de/b96NSVX1Yslpl2Huy72rgYfx4ELRIHBKsM8+w+3pyGM6zdtTblRe66OIRPwOyqigc3LMABnt1661BsV7fcfS2bb8khFZV0kiPGo4mHECBkfjGqt6d2ev2/TWmS5We4NPMhZeCnOYgrcKs4HMZ6jl0GdENWym2vSbd2vLb7UmTI8FEr4+9w5L8+45gZ7nTqs1ElFSrDEBwIOEfPzpbC/0NVRRxUTLPUwyL7CqMfWxI+odQVIY48jV/s1dHFRok8wLjkSe50hy3TbUrBTSFQWjJ7dM6NSVbNG8CyIwZQTxY8aNCV/b8KLHwtTRrnnxRgA/91Fbg3FQWreNpoKpy1ZXqfbIHZT1Pjx+dGjSkTebWsO4q+4W+MCZZI6hkUYDhwQ2fJyhOfnU3DSPLTpU0lSzo/wBvGo+g/wBSO360aNSSVslkhjmE+MlhnB/eNGjRoT//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAQGAgMFAQf/xAArEAACAQMCBQMDBQAAAAAAAAABAgMABBEFEhMhMVFxBkFhFDKBB6HB4fD/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBQYE/8QAIxEAAgECBQUBAAAAAAAAAAAAAAECAxEFBhIhoRMWMUNT4f/aAAwDAQACEQMRAD8ArVK8JAxnHP5qdo8djLeqmqTywWxBzJGuSD16ft5rCR4iPbW811OkFtE80z8lRBknwK3zaXfwxSyS2VykcWOIzRkBM9Mn2613bW29OQmOVdUu1nTcQyry3A4U/b25/wCxU9rzRbm1a2l1rUjasypw5Av2L057enL+qtpRJR6VlMEEziMkxhjtPcZ5UqhBM0S9TT9SinngS5t87ZoXXIdD1Hn+av8Adfp1Y6paRXvpfUQ0EpB2zHcAPIGQR2IzUMRqxwFXPgVsjR4nZY3aPd1CvgNy9+eKzYYqvEobHTvLrXs4/Sl67pFxo2qSWNwUeVcbWjOQ3j3/ABWS6Bq7Xv0i6bdm52h+Hwjnaeh7Y+auIiO4thdynOcjOfNdhvU+qG2EAeIDGDKBh8du35plPEaUr61YTVy/UTXTlc+YazplxpF6bS84f1CqGdUbdsJ9j80q6sA7FnAZjzJPMmlIliivtEd24/pwKUpWQdSKUpQApSlAH//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Some Days Are Long</div>
-                                    <div class="artist">Holly Throsby</div>
+                                    <div class="name">Painting By Chagall</div>
+                                    <div class="artist">The Weepies</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAABAAEFAQEAAAAAAAAAAAAAAAYBAgMHCAQF/8QAJhAAAgEDAwQCAwEAAAAAAAAAAQIDAAQRBQYSITFBYQcTInHRsf/EABkBAAIDAQAAAAAAAAAAAAAAAAAFAQIEA//EAB0RAAMAAgMBAQAAAAAAAAAAAAABAgMRBBIhMWH/2gAMAwEAAhEDEQA/AOaYxbGFQ78XPchCSP7WOZLdUzDK7tnsUx0qlrby3VxHBbrzlc4Vc96sSMmYITxOcHPip2CTZdBCZc9QAPVekabMyF0wR/tbI2RBo8EVumo/U7s3X7F758Vt+w2XtHXbeSG1iRLpVDPGjcHHviaw5OZ0rWvBnj4CqNt+nJjo0blXBVh3BpU++ZtmNs3ckECymW3u4fujJGCuCQQffala8dLJKpC3LLx25INZ3ElpdRXEOBJEwdf2KGbldmVjnk3I591hqlW0iFTXhu3YBstXEKQlYLtML92BkD1mpxrFzbbd3toLJIs07vhnlYlijdMDPgd65121rk2kXaSRsQuRnp4qV326Tq+ujV5rDhHbKg5s5BYggAn+Cl2XjV2/Bzh5UOffp8f5T3BPuHeupzTOTBDcSw26dPxjDnAyO/7PWlRm/uHu7+5uZWDSTStIxAwCSSTgeKVvldJS0KLfam9mClKVc5gEqcjuKuaWRwQzEgnJGaUoDs/hbSlKAP/Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcEBggFCf/EAC4QAAIBAwMDAgUDBQAAAAAAAAECAwAEEQUGIQcSMUFREzJhcYEUI5FCcqGxwf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/ANU5oqHJeIkpXtZuM9ykY+3moeq67baXpV7qFysgtrWF53bj5VXJHnz6UEDdm7INvXEMc0JlDjLdr4I5wOPv9a7+n3cV/ZQXVu3dFMgdT9DWNt49Vpdya1dXNxbSWts+FiSM97BR4DHgfwPU08ehPUC03RtmXR41aLVbCFj2MOHQnCsD75OCKKbUFzBOXEE0UhQ4YIwbtP1x4opJ9P8AV2i6lSWLD4RLPG8fC4OMnIHA59OKKIY7QQOxZ40Zj5JAJqkdbey06Vbikt41WT4KpkLjhnUH09jV4BGc/wDaqnVuwfVunGu2cRRHkhBUu2F4ZTyfxRWKJpGViCfFMHorJOl5uW9id4zY6Z+q+IOQvbIpGR6++PpVVvduXqykftE/3eKfvQfatvpvTPXtRvY1mn1SGaORMeIo1Ydv5Pcf4ohT7V3s1rvGC+vJWzO+ZpBkDLNnJxzjP+KKXqOWmQjPpRQegqghuCMUNCsyPFPGrxuO1lbkMPsfNFFFZM6laadO3dNEvcgiunj8f05JXH4rSG1tPlt+m1ja26Azvpx7V93dCf8AZoooRlXY2wb3VOosG3dQQQyW8jNdjOcKnzAEeSfH5ooooj//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Live and Let Die</div>
-                                    <div class="artist">Paul McCartney &amp; Wings</div>
+                                    <div class="name">Killing the Blues</div>
+                                    <div class="artist">Robert Plant &amp; Alison Krauss</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYDBQcEAgj/xAAxEAABAwMDAAcGBwAAAAAAAAABAgMEAAURBgchEhMxMkFhoRQiQlKRsSNDUXFygZL/xAAYAQADAQEAAAAAAAAAAAAAAAACAwQBBf/EABwRAAMBAQEBAQEAAAAAAAAAAAABAgMRMSFBUf/aAAwDAQACEQMRAD8A+gpMtxMx5PWuYCyAAsjxo9tdzgPL/wBUt3W4hF3loz3XVD1qNFyHS7wxXKejTZWo6hodnPBAIcXn+VRC4O9pdc/bpVQuXEdEe8PrUJuST8VC9H301Qhni3B1cxhPWuYKwDlXnRS7aLgldzioyCVPIHrRVGN016K0njM51LqOCNX3eN7WG3m5brZS5lIyFEdvZUrU4pUAp3z4GftWFbn3gsbmaob6xeBdJCSnt/MNWWl9aSrawlqPCRLKvDprJI8kjIB8wKC8mn0Oa+G2O3FJSMOKOB8prkn3dqDGVJlSENMJHK1H0x258qSkaxvEjhjTUoA+Ksg+qcfWk7UFt1HcJKn5sd9fy5IwkfpgcD+hS1K8YXX+Gh6f3Bdna407EtjPVxH7iy0t13BWsFYzgfCKKzvbe3zmNy9LmRGdSlNzj5JHA/EFFV5zKQmm2zxuft7q+fuRqiXD0ven4z1ykONutxFlK0lZIIOMEEVRW/bzcGE+H4ul7+04nurTEcBHpxRRVPO/GLQ32e07rRHWVO2W+Osg8tvxVrBGMeIzV8/a9yerKjYpwGM4FvJ+3NFFT1lH8GK2dug7Pr1etbA9c7BMYhpmsrecXDUgISFgknI44ooopkZSkDVPp//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgICAwAAAAAAAAAAAAAAAAYDBQQHAQII/8QAKhAAAQMDBAICAgEFAAAAAAAAAQIDBAAFEQYSITETQTJRIoGRFCNhwdH/xAAaAQABBQEAAAAAAAAAAAAAAAAFAAECAwQG/8QAIxEAAgEDAwQDAAAAAAAAAAAAAAECAxEhBAUxEhMiQTJhcf/aAAwDAQACEQMRAD8AU4mnblIsjd087aGHGXHkgpJ4RnIKugTjir97Q7zRCVXdpxO5OXP6fDWScYCirsH1j1SNrR236eiNNW+Yy7dPKnyx1pKilsgnJ9D17zg1Z6zOn4zOn2bNqRvyTJDTr62EqCWWD2pZ7BGfjjP2KEKF0vHk66puHbbXXlfRcXnR0iHCdlh1pbbfeU43A55TyQf5GKT3mNqhgD9Ctza8To/ScSzuuw50xq6vBpBiv8FHB3/Sh+QwB3SZAtTNx1LqSyzFwocuDNEeFHD6Q4+k7iPkfyOAk8Ds4xVXTL5JYJ090ozxJv8AbCYD4Sk0U13zRM6EcOsrbz1vwQf2DRUMPk2xqKSvF4NMXue7dru/NkEJekq3qHpPoD+AKyNSNwIOoprNodLtvSseBzBG5OBzyM957qnS2pboycZ/xUktJWsHOMJ/3RWy4OSte8vY233VMu8L0+0zNfSIUZhhtG8hLLifx3JHo4CTml6NJkpvrUhL6zMS+HEOqJJUsHIOe+TjmuYNjuDiWZSWVCOcqS5vCBgdkEn7FRyYMlhLMsrT41Y2rQsHkYHo5HIpKKWEKXksnozU+so99ZivxWXEtrZSv+4MEKIyR+jxRWhImo51vbSwpwrYQThBA3YJz2QfuisUtNJvAa0+s01GmoFE25hQPFZcS5yIK31xvEFqQE7lNpWQMg8bgcHiiiiFlcBXJVXmY88p5wtBe9K8JZSkAp+PAGP+13d1BcVltS5CCpveUEtp4KgAfXWPR4oopvY74KudLfnP+SS4p1z47ld4HVFFFTKWz//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">The Deeper Level</div>
-                                    <div class="artist">Jodymoon</div>
+                                    <div class="name">Seven Deadly Sins</div>
+                                    <div class="artist">The Libertines</div>
                                 </div>
                             </div>
                         </div>
