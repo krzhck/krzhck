@@ -1256,8 +1256,8 @@
                                 15
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 16
                             </div>
                             <div class="entry">
@@ -1316,6 +1316,27 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwYB/8QALhAAAgEDAwMCBAYDAAAAAAAAAQIDBAURABIhBhMxQVEiIzJhFBUzcZHSkrHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIEAAP/xAAhEQACAgICAgMBAAAAAAAAAAABAgADESEEEiIxMkFRcf/aAAwDAQACEQMRAD8AhdM2Kxy9MWyprLbHUVM6Ozu0rrnEjKOFYDwNOy2XpmLZvs8ALnavzpuT/lrOwxPJ0lYAkgj3xyLuxkL85/Oq9VZoJKd5Enldo/iHcwRn28e2sLEBwfcldLixIOpL/KelTGrLbKb4uR86f+3vxryKy9OTLuis0DL796b+2mxSwd3toYnhVCd+M4GMEeftpukpqdIyMj04XgDReytBljERb3+M57qOw2WLpq51FLa4qeogjV0kWWRuTIqnhmI8E6NU+qI0XpS9GNm/QQYJ4/Wj0a1ditkrK60dRhzuIWZVl6MsoFRtdY5Nsak5Ld1z6cDjTlPJPMsnZrmEgA2xuPP/AB1L6Qmc9PW6npo37stSISxUnGSTlAOSccHB48nVKnqaaNEkMsNNTtJ2zJu37RliGB9jgec451JZaRjKfc7txwG8WwCNzS1RGEETFlBY7ieNpPGnErIo5jDJ2zIuPhx7+NQ6mvqIjJVwRrPnI+I5yMcHjTyxigka41k0H4cIH3TIVViygnkkkYJx66W5lwXbJnLjixsJWNxHr+ato7ZUwdsCnmCxu45B5DcH91GjUXqaunqLR2ncuyKn4hRlVjkIzt2nnj7j76NV156DxxD1YHciWi6tbLjZ7jTTFai3iQojcqS4I59uD6euo91jX8ltlLSTPNKm+SbcQoRmxhR7jyc/fRo06j2I7EFRqdpYLraILRRpWVMqVKIAygZ7ZBzwR7+PXWPW9ztd7o1o6eeVEYIzOgxyo4GD5Gf9aNGjxh1ck7z+xrDlR11/JDlqIhU3hoZz2ar6Qw+rBQj9j9f8aNGjTH3ELHU//9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">He Used To Be a Lovely Boy</div>
+                                    <div class="artist">Keane</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwEAAwEAAAAAAAAAAAAAAAUGBwIDBAj/xAAwEAABAwMCBQMDAgcAAAAAAAABAgMEAAURBiEHEhMxQSNRcRQyYRUiQkNSkaGxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAQFAgMGAf/EACARAAICAgIDAQEAAAAAAAAAAAECAAMREgQxISJBE3H/2gAMAwEAAhEDEQA/AE3EnR8PRtuh3aycyWVqDD0dS+bmJ7LBPnI3rMIupZ0KY8iMroNLJ5217jNU9n1HL1bdItnvCWl291RShpTgbysklOVnwD5yDjYd6kpMU6c1N07hFaWlh4hbf3p2ODjOxH+6HDM9RrsGQISy1raLU+z6B4H6+ZVbjbpaHTLaySW2iQpJJIIwMecYPtTG8W+dqPVcm9W8MxmghMdKJKSFL5c5Vt239xUfozUWmtKrNxjtBu2TQlCnAnPTcIzggHYd/jtV1G1TbFWwPN3KIWFfYpKwdvbbuf8APvUuK2uCDgCd5dxUkgeTOaoQhwJYnPByQ6ghSxsO2AAPaio29arYmOFhh8OLzvtgY+DvRTP9foiZxuctMs01Yo0y3/WTy7HStzDanB00KCd1FKiMLIH8OQfnepS8Kc+vcS4+l4JOErSdsePj48VqXDC93SLYFt+hMgRl/UdNweowhBHOpPY43/qHkeaQ3TS0i7atdTMXGhomSFIZfZSnkcUVbqUkKyNjuRtnb80o90Zms6jRdHwqeTPLYJIuXD242JhsKuP1rLrasfyjnm38AEZ3967Y0FqPq2JDtKYxcbYCJCur6algbqye2cjbHeve1w/RF1gbIme9cG5LKltIhkIc7kDqA5Axj37keKZWnRN00drFKZENc2CHUcxda9N1nIPNsruDgEfnJ2qlmBBI6l+uQA4zEOu7lBXeIlwsrwLD8dJdbyOZlzsUqxtn8Cin/F+zXC0RktfpsVtguOeo0kKUUE5SVEEnI7ZIFFFcVrBXjWB311beDEdiVFYs9nTKeUhqTzqlFv7w0Fnmx4OwT/cUnveom1Xd6RAjI6K8pbMhPOtKM/tV4AOPA2ooq5/ZcGQq9W2Hc0vhwLRbb3Fm2m8QXJ7scuyC4kpyCcqKjk4UM9vNWnEG+R7tpV+YXW21W8h5h9ChgPA8o5sj9zZJAPyNsUUUoVmDlcx1nNecdTL4/ERN0tM5y7ht25SUKS4VJwMnsU+B/wAooorR13NqJmW4ybH+z//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">It Only Gets Much Worse</div>
+                                    <div class="artist">Nate Ruess</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwEG/8QALhAAAgEDAgMGBgMBAAAAAAAAAQIDAAQRBRIhIjETI0FRYXElMkKRwdEGFDNi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APU7ez1pV4jD0hInxS6i8JDke9VdZwl/b3KfI4VgaUv7eSPV5JlC7BINpY4yTxA+1FYJ6ecJeQt9UZ+4IxXbSPttJlVQc5yw9a1nsZ1upp7ZQ8PKDg8TuOAB5nPCsolm02cTYBiLlGw2RuHUe/GpJ1sO/G4gY6H8UVY1jTlWNb2zHcv8wH0miom4T/d02S0c99Fzx+o8RTOm3Nvf2jW1/GeZgrOBzRuOAYeYweIpfVrSbTr3tFVo2U5FLvM7AXVgwSRTuePAOD5jNIivZQtYrp1vzSJPeLI58Ywr7VHtncftUO9jMeiNxBU374IP/FbjUbi4Alt3CzoqqY8DiqnIwfekrq8kcF1Aa3LFpISMBWPU4/NBUf49dq0LW8gDJjmQ+I8xRUzZHCi3Nq5RgcheuaKkuWeqNF8O1xTLAeVJiOZT5HypLVdPm0uZZYn3wt/nKvQ+h9aKKQRYC4Jkt+7uF4lR9XqP1WMtx2+115LkcGx0cfuiigsbTiWznK0UUVJ//9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Nothing Hurts Like This</div>
+                                    <div class="artist">SLO</div>
+                                </div>
+                            </div>
+                            <div class="track">
                                 <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAQBAgMH/8QAIhAAAgIBBAIDAQAAAAAAAAAAAAECEQMhMUFREiIzYXHR/8QAGQEBAQEAAwAAAAAAAAAAAAAABQQCAAMG/8QAIxEBAAICAAYCAwAAAAAAAAAAAQACAxEEBRITIUExUWGRsf/aAAwDAQACEQMRAD8A+a2VQ+OL1JUVx9YR21RZzJ1Wp9si5cbbLNgk5ez0NypUnFOjVfjsqMcvVLoE67d3df1HzHQwtbe/cJpL7BnP2DTw1bvUnlnMfG2x16d61Iyu3KEVVKiSiyGkI90NcwwmbpN61B+T0L2sWdE6lolqcdnVcrczkGx4Wnn5/MZz1XymiGA9nwCkQCQ5KI7fc8MUcUpRWSco3d1Hbr9KMkYxdY5OUe2qAL+NuiBD+BNCw+NT1gsLxe2SSyXso2q/oB0l3th9hPR58tqrU+PH8mZFh8Lx5J+XUo/ff4ADNah4INe7Z2z/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
                                     <div class="name">So Soldier (feat. Ainslie Wills)</div>
@@ -1323,31 +1344,10 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBAYHAf/EAC4QAAEDAgMFBgcAAAAAAAAAAAECAxEABAUSITEyQWFxExQiUZGhBhZCU6Kxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAEEAAIDBf/EABwRAAMBAAMBAQAAAAAAAAAAAAABAhETIVESMf/aAAwDAQACEQMRAD8A5Pbspt5U62QBumKaqxN0MAJcPhTAIEEda3/cQ5vIStPNMip2rMMpCktNFBMashQ9xFL8T9NOWX+HJ2798uFTjpMGdeInWtPguKsPBcI7PKYKzsUa1V1hGD3iVd7w1mY3mZaP46e1K3fg/B1SbS7u7byS6gOgHqIPtVXFIKtMmbvhkIStJB6E0Uv+Ub+3M2L9rdGZGRzKr0VFFDX4HDVNuZRvECrK7jwoSlwdnl3UgCD/AGlaXPCa9B2FJ286acp9iU25WFxRH1QUkbeNIcfw+4xB+xFtfm1Q072jmXQrHlpTNcxvCTVZxOVJka9ajWok3jJL493hWYL5CDRSx5YzwJJ8qKpjNfpM39/hLFukLUw0ps8Upj1pHe2LcFVrEfbI/VFFLq3LGuKbntCxxS06FOznUS3TxKpVpoKKKcOU3hSeOYRI0150UUUAps//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAUGBwEECP/EAC0QAAEDAwIEBQQDAQAAAAAAAAECAwQABREGIRITMUEHFCJRYRUjMnFCgeHx/8QAGgEAAQUBAAAAAAAAAAAAAAAAAwABAgQGBf/EACERAAICAQQCAwAAAAAAAAAAAAECAAMRBBIhMQVRE0Fh/9oADAMBAAIRAxEAPwD6ppSlKKcqh2bW8xfiLctIXu2oiym2zLgyW1ktSY5OAenpWDsR0yDj5vlZRrq5Rhfpl2YSlyXao5jtgdXONWSgY/kpaUgHfGOm9c/yOsGjrDnk5wBCVIXOJq4zjfAPxSoTRlydu+mLfNktuNvut+tDieFQIJG47HalXK3+RA4+4M8HEm67Sso8Q/Flu03lWmdIRBedUEetAP2Yny4R1Iz+I398UrLFrG5jHAJ6li8UNcR9GWVKkNql3mYrkwILR+484SBn4SMjJ/Q6kVnFiVKlXFPA2+zZ2UlDgKuY5JnLXggKG5SgbcXv+jUTpSBCm3qfe9RXn6nfHXfJKfU5uytQzyWeHZOx6Jyev47itr0zZPLpaefZSyhsAMR8AcsdiR2PsO376ZTV2P5XUCmpTtHZPXPr99S2gFK7ieZM2aF9PtUaLxKWWmwkqJySe+/fele6latEFahB0JTPJyZE6oi3Sbp+dGsE5u33RxspjyXG+YltXuU/9x1welZCnwl1M9bWrc3ebbYorzebi/bW1uSZbxJKll1QSQCd/wCyOlKUK7TpcQXGcSQYr1LTpLwvhaIjMp0w0w9Kb41Kl3FZcdUpQx6dsIGdzwgZ71bXWdQFxTjUmGAttI5KwSG18PqIUBkjPTP+UpR1QL1GJzJaCmSmMPOrQp8klXL/ABGTsB74GBnvSlKlGn//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Hawaiian Boi</div>
-                                    <div class="artist">Triathalon</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcBCP/EAC8QAAIBAwMDAgQFBQAAAAAAAAECAwQFEQAGIRIxURMiBxQVcQgjMkFhM0KBkaH/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBBQb/xAAkEQACAgECBQUAAAAAAAAAAAABAgADEQQSEyEiMVEFI2Fxcv/aAAwDAQACEQMRAD8AeJ3vcFQ8kVXQiIynifgLHj2gADOfPP28airWX6rkmENdbWjyV9RIiOngcDJ4PBxnPOrK+0KfO3C5hxQ2t4lDQmPDnAwDjPtz4GDk84JOqWy3K3yyinSBuiRh+p/aWPbKjgEn9+eT315Th0UrzO76laIzZKiWNFNcxVPMtfTNSyMzoshz7RwR1Bccffv3Ore511wFvL0UVJE5jLpJK5MYGP1EgDCjvnsfOljcRpoKipEimOlpYfzFyTzgE/YBQo40h7uraer2rfqdnMKJSOAyOVOFGVBx3UkAYJIORo6lqcjaIfAYruJkL4SfFK8Xbecth3PWpWwVRdYJY1ACyKCcKVAyjYOP8aNI34fNv1V2+INHXRxt8pbczzSY4zghVz5JPbwDo1vqdVS3YXxEITier9x2uK92msoJ5GjSZQPUQ8qQQQR55Hb99Y1BZqqG8RUFkuLTypL+YWTpWUdXub98AY4yeQCR/Osbiqmodu3GsEgjaKBmDeDg4P3zpS2FQUaX+51BmC1ZpvTX036vTTOM8jg4C8HgajrsO0+JZSNqs3iRt539IZy0lDJPBUSdJRZsRsrRqrZwOSCB4wT/ABrNLzbbluDfVfb3hcbct1Mtc9NHK6RzoBlScngsf7RgDDAds60S7UHye4ZrvWXWoq6BIGhjp3kDSqzAFXQEDByO5JHPjTTtySG5UstRTREiSljjb1VBZijSL7iOGBOdUV3jT81Gcjv8xRBZeZmabFuVZtyWlprWizRVMio1HGVVOSeVJHBGe579j/Bru1KG5/WLXVdEfy31OWBlwR0yCMs6dOcjA7E8Z0abrjWLASuciLUDE1TePTNtavjIDL6ascjg4ZTo2LBS/RRJBDEs3Uys4QAjwPtjHGjRrmIejEd2rMNy7epJKV6lVhiEMLn0vSX03GMnq4zk9s548aj7IhWnlrPSBEPSqLHjtyT/AMJb/ejRpm47ZgHtmLtPXSr8Up7XG6imFXJUtGAP6jUwBPbOefOjRo0WvPUn5EQDP//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Can't You Hear Me Callin'</div>
-                                    <div class="artist">Crooked Still</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAYHCAECBf/EADEQAAEDAwIEAggHAAAAAAAAAAECAwQABRESIQYHMUETYRQVIjIzcYGhCFFiscHR4f/EABcBAQEBAQAAAAAAAAAAAAAAAAUDBAb/xAAjEQACAgEDBAMBAAAAAAAAAAABAgADBAUREiEiMXFBUWGB/9oADAMBAAIRAxEAPwDONnsypkSVJUFKbYQk4T1JOf4FOMfgmPHiMuSmVkurCApR9xWMgKHmO4rzy+XBXAXCnPejGS42pt7sSgAlJ+YJq8GyoVa48J530hxt9Kg4UAKKUnIzjbvjNBZ+ZZU/HwI1h41b1cvJmdOLOEjb47MmM0RqOFoByOmQRXwGbWVpVkD2Gionz2/utEcSWNt3hllhZJlqwpGge5gnGfp9qk6behLVyYW4PECVJVoGwGRVtPzjcvFvIkM3FVO5ZOpASl1aUdASPvRXH0hDq0pOpIJGaKXhkdbawEW+yHHxFOKP0T/lWvhLiGXLWU25mdOnstpLsdzSlrUUjdKz28jUfiSkxbXY3FrQGmGVrUnG5JGEj6k1Tfw/3dUvjm4xdGhqayVNeJsrKMdvlmitRqFlRJHURHT7mrfb4M5xJfLm+5OgxYcmDKCcthaBrScHOlQBSds9N8Amp6265GskszSnWYytDmceIc75/V+9ahuzNrhJnRrw+21HmlDXtpJCidQAwN+qh0waXL1N9Tzmo13vVuER9shpr0I60uFWUgjcK27nAxsdqw4FoQdo9zbmhbBsR6MxodzvRVH5sw237m3Mj3NNxUlkpeWGfD0qDisDz2O35DA7UV0KsGG8CIKnYxOmPtBiG2TrToSXNDmdh28jinzl9xTYOHuZkS5tofVbUAISt5WlaVKGCpXkMmiipvWGQgyvI8x/JZeYPMXhKfEZci3SA+tlaXAhKlE5ByO3Wki48dWG7TlXF0QC74mlXi5LmAAApPbPn12ooo1MNFQgE9TFKcki1WKg7fcn/MviGHd7q76qjw40NTY+Cr3ldSTt1zRRRSdShUAELyG3sY/s/9k=" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Creep</div>
-                                    <div class="artist">Karen Souza</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcIA//EAC4QAAIBAwMCBQIGAwAAAAAAAAECAwAEEQUGIRIxEyIyQWFRkQcUIzNScaGxwf/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBQAE/8QAHREBAAMAAgMBAAAAAAAAAAAAAQACEQMhBBITUf/aAAwDAQACEQMRAD8A5xglVJcuC/xmmbZuuz7f1qHUbVXlhOY5Y/5Ie/2ODSz+RufBjm8F/DkJCNj1Ed8U37B221/eLJeyvbWjExBlAJJ9+Dxj/tK5L1rVVj+KlmxhNGm38dRu4rW3uTaWx9Uiesn6c1pm1ILl9HWS6UiRmPSTw3T7E/NRdu7ctJLe2lvLLTXvIwoE8VuEfgY83fnHuDTQIWt5ECn9Af4qY2V3ZStbrJUXKzJIVuGwg+aKudQRJFUcEiimnN+zD1OV9Wt36Fn09wrKvmhx5c4wSB2qtsdzXdq6iaMGMc5Q/wCs16vqarIGVhgexPH9VZ7H0a1u9QkuL7wzbLIPDQng55+1NsALYg9lT1Zuf4d3Ez6BFcTsxacdYzxwadLZuqHzYIpO0qRIYookwEjXCgdsUwQXWYujhSOc5rgGGxrJNy6rluxoqDdSl0ZPeigsIdTit3dvUxpp2xqEkdoYg3oPb4ooqx5ANJP8Wz9JpW3dxuyKrE+QYOTTfputG5f9wdJ+lFFSLmMroZsYorhDbu5kAYDsfeiiiiRM/9k=" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">From the Dining Table</div>
-                                    <div class="artist">Harry Styles</div>
+                                    <div class="name">Femme Fatale</div>
+                                    <div class="artist">The Velvet Underground &amp; Nico</div>
                                 </div>
                             </div>
                         </div>
