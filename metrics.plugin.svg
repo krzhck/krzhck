@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.22
+                            Average per day at ~2.21
                         </div>
                     </section>
                 </div>
@@ -1127,6 +1127,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1294,24 +1299,31 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAQFBgcIAgn/xAAwEAABAgUCAwYFBQAAAAAAAAABAgMABAUGEQchEhMxFSJBUXGRMkKBoaIIFDNhwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAABESFR/9oADAMBAAIRAxEAPwChEWPXnGGx2NVuIjcCmuDBwNs4yfWOm9PbgW3xGjVsHhzjs107+XSN1SDmFDf7w/S7m3xH3jNT1q4488xp3dZUrFAq2ASMmRe3Hn8MK5WybvlmuBNtTq985cpjqj7lHSNLa1X5V6pWaZZWmlU5lafdWJ5UovDjATjCeM7J+bODnbG0O2hlYuiRu647OvKqu1aYkmGZyXml79xWxGTuRkjr0wY0mMtOWheP7dwG15nCwdk0tziHp3NoI3TqZcj1p2HWq5KsCZfkmC422onBOQBnG+BnJ/oQQMNNPI28IW1itSVAo8xUak6W5dkZOBlSj4JSPEmGqROyYiutTksu0HkTMwtnkjnNhCOIrcPdSnHTG6vaCKOt+eRbuoLVwSMi28VTD7x5hIcWhxRVgnJCSAcAj65jR+ijlMq0pW7hk0TXaM/OKbmlTWOJIR/GhOBsgIKcDzyYrm76LQkaP2tWpOSbl6vMhlKnEEgudw8eR0O4z0iwNA0LXaUw66sqW5M53O/CEJSD+OPpAPWq08tm3WZBttpztFwsuJcSFAtgFShg7b4A+sEMOtzqpdNvKSUgmYeSCfPl5/yCAWU14cCd4jOsMgqetiYdQruoQgqAG4wvr+f2gggkIZK1BdU0LqEks85+h1BDhV4hpZIz7qUIk36ca42JWfkeW/nn5LhA5eCkFODnJOQobA9RBBBU01tpYrNiPrafLT1OdRUEEfNy8lST47pKh6wQQQH/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAUGAQMHBAL/xAAuEAACAQMDAgYBAgcAAAAAAAABAgMABBEFEiEGMQcTFCJBUXFhoRYjMkKBkbH/xAAZAQEBAAMBAAAAAAAAAAAAAAAEAwACBQb/xAAdEQACAwADAQEAAAAAAAAAAAAAAQIDEQQhMUES/9oADAMBAAIRAxEAPwDnk8JOaXyWxz2qkNuXICjJ/FeHUre4gjYQwt56tyDwRj7Brqz5if087Vws+C19LRIkmb3xP85KkH8EfuM0qltkaVgpAX+05z++BWNal1FHRbqRsbcLtPGP8UvsDfuXS1B2/wBTZ7f7NFsu1bo+viTh3pmaHGaKZellEK+dt8z5x2oojtQyMcRdhg1ysEDLNOzbVWF1ck/pg14dZmfTJXtb7d61AN2GDgnvywNIenpi2vWJjYhkmWT2nBwvJ/5X11teNL1XqsrI6mW4aT3ApgHkDDDPb771aVUVLEDg5OP6fop16/e8WJSixgZyc1rs9Vkhs/TiFGULgfnPJNXPhVpOnazNqw1D0kxEKR+muEIJDuArK4BK+/apwMjeDkDJrpKdJdK6fG8tzodntgjaSSLdll9p4O7J7hhyCAcDnNTnGOZg6DbijgMGpsd63Ebbc+0/VFUXitoH8P8AUBkiWKO1vcyxxxrtWM4G5V/QE4zgfXxRUXWjEsItLh0YMh2spyCPut2rajLqV/NeXc8s9xOd8kkpyxY96KKdP3Qta6H/AIedXw9J6ndzXVkb61uYPJeIMAQdwIYEjHwR9c857VbXHjJp7koNAuWhk/mOvrNpWTcX4IBJG7GckAjgKPkoqTEw8JTxN65s+srHRxDp8tneWTXHmkkMjrI+5QD3yAAOePkYoooqZuf/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Just Another</div>
-                                    <div class="artist">Pete Yorn</div>
+                                    <div class="name">On Melancholy Hill</div>
+                                    <div class="artist">Gorillaz</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUCBAcGAQj/xAAuEAACAQQBAwIFAgcAAAAAAAABAgMABAUREgYhMRNRFBUiQXFCoSMyYWKBkbH/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQQCA//EACERAAICAQMFAQAAAAAAAAAAAAABAxECEiFBBBMiMXGh/9oADAMBAAIRAxEAPwDXXcRoWYgKBsnfYUL/ABERo9tzHJdd+X4r17YXSvbM3ETApy9t9qm3Rg4aW9P6AdxjwNb8Hue1RTyzYNdvG0UQxxZrzyplI3MiQxyS25RJN6bmvE69j96tKdl1ZgrRgGQb7rv3qh1biJbbG4vE4+T1LmSeSRZJEPFF7Ak8dnyyj+u6U9NYu9ucvfYzJzW/xFvClzHJbqSroxZfqBAIbY9u4rk5up4w2+nRRQc5/h0w4MoYOCD3B80VCONbZRbluZjHHevairE20r2JHVumW7Pj8VD4/nX/ALTHP9TYfp8R/Nr2OBpN8F0WY6G/AFKFk9F1lJH0fV59qxLrDqyG76vGSa1V0s42Y8iSsjsQFOj22Na/xut6bYJmuRdcWGeztvj7S2dIODSPcXEoiAUaOtaPfYXzrdX8Jm8WM/nvi57OO5idQLr1F1LDxBCg/wBpOiNnud1xHRdnib3phbrpy6T5zLBJ6jzSFpOcikOrKPGm7r214rJruObMXlyEuIoY7a1WPjJIyH6AAyeDyZtE/n/VGlPYdn0lLJFLLJLA6vG7FlZTsMD4INFLOnIDDgMdEXViltGu1fmD9I/V9/zRR6MjB41kjdJFV1YHaMNgik2SwsLiMWeMxDJ5dbiAdz9taH5oooQcELPH3lm/rWtlhrebiRyhjKnfbiNgb15/apWGHHqynIYzDBHO9wRbJJ872P3ooptiHccaRRiOJVSNAFVFGgB9gB7UUUUhn//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUDBgQHCAL/xAArEAACAQMDAwMDBQEAAAAAAAABAgMABBEFEiEGMUETUWEHIjIUJEJxgaH/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQMCBP/EAB4RAAIDAAIDAQAAAAAAAAAAAAABAgMREiIEITJh/9oADAMBAAIRAxEAPwDm+NCh5OB/VNdEDSXIt42ZQ/bB5HvSu5kOxOMHbg1k6FfJZ6gs0ymRUUsEz+TeM4q6z5Mtte0bL6f6ZvdVdoIJnlWMcIzAbSR7nj/KX3/TN1Yo/rRkocr3wVbB7jz2rcPQ8OmLe2cUe55Xh9dhGPxYKSxz/FcfaM+/ApX9VLm1OmQXCIUkMq/acZc4IIOK1dXWvkcHZq5M0+1qI5YQAdxGcngc96KnNz+5bZGMk/iBwvx/2iqePbGMMY7IvkUbUpFZo9ihRsHnNPOhba3bUFub61gvLQH0pI5QxEe7hWbHIGeM+KrMpyaytG1K40nUEu7Qr6i5DK4ysingqw8gjjFcyn21iR0L9I7jpRtfnWxv9Q0iZ45IbvS7ib1ImPY7Secg+cmqv9RpJG1QShz+lT7UyfPNJtTvNIm1qHVtLtjbz3NukkqO2drkYbGf6/3vUPVOqJcWMKsd7bs9/isW9im9l+GBYXCxT7jsOVYLuGSpopM94BJnG1cePNFbrnxWBP2yumvULCOTcUD/ABmiipkxgdVmJzsXPvmopb6WbHqHt80UUYNELzFmz2ooooDT/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Streets of London</div>
-                                    <div class="artist">Ralph McTell</div>
+                                    <div class="name">Got So High</div>
+                                    <div class="artist">The Pretty Reckless</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAUHBgQCCP/EADAQAAEDAwMCAwUJAAAAAAAAAAECAxEABCEFEjFBYQYTUQcUIoGRFSNCUnGxwdHw/8QAGQEBAAMBAQAAAAAAAAAAAAAAAgADBAEF/8QAGxEBAQADAAMAAAAAAAAAAAAAAQACESESMVH/2gAMAwEAAhEDEQA/ANPaanbvPKZS2feNpVuEEY7dczmn7ItbhuS0hW7PIJB6def7qS6Wt339Din0oUEgqKTz6jH74qp6PdsPpCWCFmBuVtgfLtXnvrdrS8rs2LaSxbBxKc+XvHJniT6dKz1pbWthqWo3FzaBBuFoLKBG4JITKAJ/PJJBgz1jG3eYBGAPpU88S2DmovONB1CLu0UXbVcAFKh37xFAd8oEy1FdoLIpatti9pQQrMGRJmc4n60Uh0nV/tNp4PILT4w82sQWXByk9jiIwQZoouP2ZZjwmAbT3pceSVFJTv8AwjHTn+aonh7WrUXTrAZbPlkNAt8EnqfQ9qh1jrDLWm2dqpwp8v7xZjkTJA74p3aa4LW3Q8yo7lueYpOZ+v6VoXkdbb6TfhNsFgFKYEHpNTHx/e29nfJfMoWtoocWhe1WRgyOY+cVz2ftRcOkX1pcWu+6CCpn4+QSBB9YGcVI/EOr3jz5XcPKcSoyAT0nEUMNbp4s213WFWuqruUlQcSNq1IEFxAkRjhQ5HQ5HUQVkEakVXSnXypaVp2nOQekxRVty52VK3JOdiCDnrApyypD7KFs3jaNx2qDhSkgxOBPHeiiq2ZPtIOmWqkruby3XI+I7xJHpxiuXX9PsHrRTlpeMqAV8ILk/If7iiigc7dsI6oocV5iMdYx1ooorQFWt//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAjACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUBBAYCA//EAC0QAAIBAwMBBgUFAAAAAAAAAAECAwAEEQUSITEGIjJBUXETI2GBsRQkoaLB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/8QAHREBAAICAgMAAAAAAAAAAAAAAAERAhITIUFhcf/aAAwDAQACEQMRAD8Ai1n+LOqNIsYZgN7HAH1NOpbBo0nlWYfpU2mKRsgy7hkAD1xSOxiSK4jlwH2HO1uhrW6RBPc/umKyu8yrGkhI7wUhdp54xkc8Dg5obnxyzzkkhQK9IrcyOVXxBS3JxwASf4FOr3VHg2ZgilL/ADFfcWGc4yBgeh8uTzRbaxNJMFnVY4iu4GRvfz4GSOPahPZVTOG4ZDtwcUVZ1UwzahK1qD8DhU7uOAAB+KKi6kkUpHnWhsddkt4IY1iX5YIySevOD/Y+9cRdm7hyeVTHXNXbXs7IuCzoSD0zVn0f1Npq5hihQW6OYxhW3EEcgn75Gap9oNaEemtLNauqRYO2LJyOnT1+vpV26WK1do1gXcDjx5/ylmpy5gJ4XkcZz5ijaTjRToeqS6nFNJJaSW8atiMuu3ev3oq09yobvGirSbQ37UtlmkS4cK5AB4oorTIfJNeuzXTliST1pTfeA+4/NFFZlJfJyaKKKbKX/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Far From Any Road (Main Title Theme from "True Detective")</div>
-                                    <div class="artist">The Handsome Family</div>
+                                    <div class="name">I Love How You Love Me</div>
+                                    <div class="artist">细野晴臣</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMAAwAAAAAAAAAAAAAAAAQFBgIDB//EADEQAAEDAgMFBgUFAAAAAAAAAAECAxEABAUSIQYHEzFRFEFCYYGRFTIzccGSobLR8P/EABoBAAIDAQEAAAAAAAAAAAAAAAMFAAIEAQb/xAAiEQABBAICAgMBAAAAAAAAAAABAAIDBBEhBRIxYRSBkdH/2gAMAwEAAhEDEQA/ANFHSKVEw67eu7WzKrF5pxxoLd4yShaVHwkcpH7zp0pj2KOYG1bLFqh4OlQOZRERHl50L5DepcRjCNFRlmkEUeyfCmhCjyB9q5Blw+E+1ZwbaPcLiDCk5OWbiGJ9qutmsdbxx27Q2GD2dam1lpSjCkkAg5gOtUbbY44ajWeJsVRmUAfYUtNu4e4D1pXVf3F1YIvLt23durdtsrS3bGVGByCT3/Y0qGy4HHUoArAgHsFcMMKcV9I93dWV3rNltnCUQUhSnD/GrQb0sE1CGLonzSkfmsttntVhe0wtlF/sYt8wGY55Ko5xyGlZpi97cEJrw8kNa22R7tD+K4t2U4lsPc2mHcNSkPBb0y2hQEFRQT/h5aVx3WJXcfFlqUt05kakk6nMSfWszbXWHtsrZbxiUcMoCUgABKvmnWCTp9oFSMB2qt9l2nexXDD4eUOJxD0nlB050vp1ZI3knwm3IW6jq8jGu7EnWt+16c6w8CcrK/00rDr3tspVlctmtejp/qlOAX+v1eT6s9rxVLairWYGnOplou3Die0JcU348mp9JpSsB2tQGFYOJwJxAKn7pLpH041npMR+Kq30sJccFul0NzCc8T6xpSlTwrLoWmBlSDNKUroKqV//2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Which Side I'm On</div>
+                                    <div class="artist">Blind Pilot</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1319,13 +1331,6 @@
                                 <div class="infos">
                                     <div class="name">The Coast No Man Can Tell</div>
                                     <div class="artist">Bill Fay</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUBAgQDBgf/xAAsEAACAgEDAgMHBQAAAAAAAAABAgADEQQhMQUSFEFxIiNCYYGxwTJDgpGh/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQMEBQL/xAAcEQEAAgIDAQAAAAAAAAAAAAABAAIDEQQSITH/2gAMAwEAAhEDEQA/APk2vsDLcQML2Db+IiLfy49I219gxqAxOQg+wiqx0rR7LXK1oMk4z5gcfWR8XwZoZmQR6Yg3GBKHVaQ7Nc45/aMmu7RsVHiWBc9q5qbc+sp7kTsj7pHUvdGi0hX+FyOYRIvOcQk9+JWzv5GGRJq6kSq2DOfZXfHyExXViyl62z2vjcfIg/iNNbpg2ndiT+lfsItPEPG9IcsznTBs5ZRnfapB+JbwtZsV2J9hg4wqrv8AQTuPLeQ3GxMo6kT1JKcbkQnTS0PqLhXSpZzwBCBvU8WdAsZ9SAqotpYnvRVH+CJyd4Qk/E+Rub7An+5eip7rVrrUljwBCEpu6FIoNs9d0DT16St+Bb8TMMQhCYOWzaysvqAaJ//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Turpentine</div>
-                                    <div class="artist">Brandi Carlile</div>
                                 </div>
                             </div>
                         </div>
