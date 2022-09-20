@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.20
+                            Average per day at ~2.18
                         </div>
                     </section>
                 </div>
@@ -1139,6 +1139,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1306,24 +1311,10 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAYFBwMECAEC/8QALRAAAgEDAwIEBQUBAAAAAAAAAQIDAAQRBRIhBkETMVFhIiNxocEHFDKB8JL/xAAYAQADAQEAAAAAAAAAAAAAAAACAwQAAf/EAB4RAAICAwEAAwAAAAAAAAAAAAABAhEDEiEEEzFB/9oADAMBAAIRAxEAPwDpW/1iOymMT21xI4UN8sKc5zwMkelZ7K8e5dlezurfaAczBQD7DBPNa2t38lmbVY4ywllVGYHGP9g1KqcjIrrVKwVJN0e9qWJesLCHqu70GRJv3FtZG+d1XcNgIBAA5J5HkKZm/iar5NMvZOuptc+RGHtDZiN3OdgbdvPvk+1ZKw1X6PlrOlzawzx52SoHXIwcEZGaKjF1O0sI7S0eRFchI1APHoKK7owW0hZ6wlvBPpos761SdbpZmSRyRgKeNoHIxn+6zwddQtM8DRN4ijcGEblGHscYrd1fT7+R4ZHtLW5iiJI8Nij8jHAPB4J70hydK6fdalbbnmtZ4WYRKx83OW2HBwDzkcAHtVC1kiNuUXwe5+qoNskbptfhQp4yTzj71VOj9ZFOvtRa8V/B8MRRjcPgXIP3/FPKdN6VA9vLeSiScEOu4/FwuO/+NfVvpthZSvqGIrpGUqrRgKvLA4A8vTn8mmR0imqFz+RyUrKh/U3SLzWerodfvJ5rDSYoYwzbTJEcEgcK2cknjj6n0K6RttNt5LRBd20LtjlSgwO4FFaHtliWsRk/FizVLIukiSNgLccd6qXrDVIdY1u4hsyHt0CxbxxudTkkH24Gfaiip8S6NzviJvTCYbaS5unLFVMniyYJwByfr29hWHp/UhrHUFjZSY3xq9xMhXIATbgL9Gdf+aKKbP6FY+tIsgeVFFFSFp//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHAQQFA//EAC8QAAIBAwIEBQMDBQAAAAAAAAECAwQFEQAhBhIxQQcTIlFhFCNxFSQyQoGhwfH/xAAYAQEBAQEBAAAAAAAAAAAAAAAFBAYCA//EACIRAAICAQQCAwEAAAAAAAAAAAECAAMRBBIhQQUiBhQxMv/aAAwDAQACEQMRAD8ApF2kEvCvmU4MrRBHGDgbHqD7an09ykjs1yWdnkeCPKFz/Fj/ANOqiLb9TwpUUqTEmWErzMcBD/rSVx3bLVa+GY6eMVJrZoVV2cjcjfJ+dunzonXapKzszyepTpdM1t6kDgSeeHVv4mv9x/ay+VR8xjEmAScDOBv1Pztqn0sq/r16t9YGihpxCMTMHKkxglWPTO+/bSDwpV3Ph+2V96oaJp0plMqxcxWMuo2yR2AO/vr38FLhV3SO8Xa+StK85kqJsIXYtkEkKN+mwA7DUHoVFi/oIjOpNjq9RORgxyvXDNdZ4TWWaoRKTmE00WQPSB0BPUfGjWg/iJwvebJLHWTyW+ZoWSBp0MiB1J/pHwO40aTZcmZFqzniPVAwFrmb0sqtzMpfAZQckE4OpNxzPNxFfqSamknxJJyR06+pUwfUdjgknbOqdSfa4ZmlduZ6jKQqpzz9tvydJXC+YqijkmRqYrVz00POnRlJOT+R30V5oCiz7IGSBiaPx9or/rv8j3buFTa/D6pt4TnkeFyync5YbjSV4QWWosl/jo5o3iNQrzxyDrylf8YODp3peKleWCknaeOecL5eUOGDcoH4/musx3KigvkEcwKmkppIh9skn7nLsfynXQugZ732IpGeTme51O1X3c5zOVXeC/DVwudZV1Qnb6idpygkwqsxJOMdtzo012viKkuDxileVhInmKxQgYwp/scOux30a2SrhQIAwBMVqC4Q1l2ZIAEhpR5cEYGy42zrs1VpjNFFTx1LwOXMkjooJLNv3Hzo0aF+RuUoQDs8y+j2ck9TYprbXMYm+udnp2XMTIvLIABuD7nGts0Mv6rLA1wmjM6iRfQhwOnL07EZ999GjUvghglp1cepw0nnhrJmaoZk5mHlFBgb+/XbGjRo1oQTCCxn/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Exit Music (For a Film)</div>
-                                    <div class="artist">Radiohead</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwEAAwEAAAAAAAAAAAAAAAUGBwIDBAj/xAAxEAABAwMDAwMCAwkAAAAAAAABAgMEAAURBiExBxJBEyNRFHEiMmEVQkNSgZGhscH/xAAZAQADAQEBAAAAAAAAAAAAAAADBAUGAQL/xAAgEQACAgICAwEBAAAAAAAAAAABAgADERIEMSEiQRNx/9oADAMBAAIRAxEAPwBN1J0fD0bbod2snclhagw9HU53dxPCgT5yN6zCLqWdClvIjL9FpZPe2vcZqns+o5erbpFs94S0u3uqKUNKcDeVEkpys+AfOQcbDmpKTFOnNT+ncIzSxHeIW3nvTscHGdiP90uGZ6zVYMgRllrS0Wp9n0D0P18yq3G3S0OmU1kkttkhSSSQRgY84wfimN4t87Ueq5N6t4ZjNBCY6USUkKX25yrbjf5FR+jNRaa0qs3GO0G7ZNCUKcCc+m4RnBAOw5+3FXUbVNsVbA83cohYV+RSVg7fG3J/z8164ra4IOAJ3l3FScDyZzVCEOBLE54OSHUEKWNhxgAD4oqNveq2JbimGHw4vO+2Bj7Heiqf6/RIzjc5aZZpqxRZlv8ArJ5djpW5htTg9NCgndRSSMLIH7uQeOd6lLwpz69xLj6Xgk4StJ2x4+328VqXTC93SLYVt+xMgRl/Uem4PcYQgjvUng43/mHkeaQ3TS0i7atdTMXGhomSFIZfZQnscUVbqUkKyNjuRtnapHujM1nUqLo+FTyZ5bBJFy6e3GxMNBVx+tZdbVj+Ec92/gAjO/zXbGgtR9WxIdpTGLjbARIV6vtqWBurJ4zkbY5r3tdPkRNXmyJuD1wbksqU2iGQhzkgeoDkDGPnkjxTK06JumjtYhMiEubBDqO4ute26zkHu2VyDgEfrk7UFmBBI6h9cgBhmIdd3KCu8RLhZXgWH46S63kdzLnBSrG2f0FFP+r9mn2iMlr9mxW2C457jQClFBOUlRBJyOMkDaimuK1grxrFLkq28GI7EqKxZrOmU6pDUnvVKLf5w0Fnux4OwT/cUnvmom1Xd6RAjI9FeUtmQnvWlGfwq8AHHgbUUUZ/ZcGDq9W2Hc0vpwLRbb3Em2m8QXJ7scuyC4koyCcqKjk4Izx5/pVn1Bvke7aVemF5ttVvIeYfQrYPA9o7sj8TZJAP3G2KKKkIzByuZbzmrOOpmEfqIm6Wmc5dw27cpKFJcKk4GTwU+B/yiiitHXc2omYbjJsf7P/Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">It Only Gets Much Worse</div>
-                                    <div class="artist">Nate Ruess</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAj/xAAsEAABBAEDBAECBgMAAAAAAAABAgMEBREABiEHEjFBExQiCDIzQoGRUVJi/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKUe6Ubiibcrr2yeqK+ssG0uxnZc9tsuBQBGEk5Jwc4xxpu30J3c5TN24fohVOJC0zDZtBkg8A9+casvfy62R096cUtfCjzN5XNLHgR3JC8ohxlJT3uBJPalROR34yAFc8DTXqLQUdVc9Kdi309KNmssvqkul74m330pzlagftyo/wCePkOgoHcPS/c9Ld1VSqG3OnWjXzxEQHQ+HEZ/MCnjHvPjHOkG6dsXW07IV+465+BLKA4lt0D7knwQRkEZBHB9auTZpvbG02lR7csn48CWzOgrmoSCtNamSVKUlZGU8AgEYOcDXLc3Z3n+IDbci1gyYu2o0+PXwkSmlJT8KF/b3FXtR5OecHHrQVLbbXvqeujT7WmsIUKT+i/IjrQhfGRgkY8c6NelOrrm5k9Jt/nfa1IS9foRStu4/TDgI7Mft7Ace+FaNBHdhwq7qPRwnXunCbF2BHYrDYydwuREPLbbAShtPbjOBntAOM8+dbqe0q7xbvTiD0hdlu18p15cdy6V3RnMhK1F7tHaMgDzg8eeNKfw1VFgmBdbt+jnWsahClVtYyFOB6ctIHcED2lOMnGQFA+tMemlJvaTU9SYDLMus37ZiJNb+dX0zy2lPrLqkqOCkE+/40DZ6ydZbfsmJquma9thNAmvZYFg7IKz8oSjOMknnjOfJOt0WgsesOzJMiy6ovuVVVILslqbStx1xnEJP3KKV+Akn2R/I1Idxb4j7Pg9RLN76ebcMSoMKOpSAoLmpiICnAP+CFH1+XHvUV2dYUVx0C3BtDaU6RY7xlQ12k9sR3At1fyILiQojCsJwnAJz686CD3FbB3vV2uOptndyKCA7LYjz4C0JeQgZV8alOHnxyRnHogaNOJEgbugybWooZNVU7b2g7AkOuNdgckFBQUgjzyonnngk4zo0FRUG99z7dgmHRX1lXxFLLhajPqQkqIAJwD54H9axk7z3NJuRbvX1mq0DXwCWJKw78f+vcDnHPjRo0HbtPqLuraTEtmgt3Ircpz5nwWm3O9eMZJWk86eNdb+oTSytm/+NZ4KkQo6Sf5DejRoOW76xb8vKmVWWm4XpEGU2W3miw0kLSfIyEA/0dGjRoP/2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Blinded by the Night</div>
-                                    <div class="artist">Molly Nilsson</div>
+                                    <div class="name">Ashes and Wine</div>
+                                    <div class="artist">A Fine Frenzy</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1334,10 +1325,24 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAAAAUEBgcBAgj/xAA1EAACAQMDAwICBQ0AAAAAAAABAgMEBREABhITITEiQQcUFjJRcZEkQlJTYWKBobHB0eLw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQD/xAAeEQEAAgICAwEAAAAAAAAAAAABAAIDESExEhNBMv/aAAwDAQACEQMRAD8A9J1q9Hry5JVFLYwPYfdrP6/cFXUyj8ilHBGI4SPF4znOMfZpvctw3dNx3Cio46EQU7qitKjsxyisc4Yfpaj3WS83Kjelle3Ij4yVhfPnPu+qcZ4m7V3J8q2/NtaisV3RU1a09WJnlkbilRJwbx3x4Gck/hq3bWZaygWpYyo7khkdy4GDjtyGqabDcmWNfn6ZeCFfTE4PknP1vPfXJsVfIEL1dMQue3TcA5bJzhv+Gsu7NFdRdLZB55mlPTIy/wCq/wCNGqjYdw3WW5UtDVUdPHTGQwBwpDMBGxDD1Efme40aSiSwRIrudzpKbel6inlCP10Pce3Rj1XdufEaln3pX7duTKrJJJ8vWnEcUgXGUwT5HfvnvjUy+xwTfEG/mWoCMk0eU7fqY++TrO7LsFKy9sbzelnQ3CaSMRjiYyDyPk+DnH9NV5dVpVO5NiW1rD1NMpN3Cep3PQI8bXKgDTUaOo4zxEejiVb1eoEex8aqd5+KzUtTaZoaOqkt0sSyVPSpSWDKWE6jJ7cTxP7MHvpRDtelnuNbWI8RngApqaDm2JeUzIC5zkEFM9u2DpN9FrZS1dsRpCetEXmLFjxLu3VwAc+nhj+PvqP2p8ZYY9/Sb5QVtPW3CxTUsySxyz9RCrZyphkIP4aNJtp2O3WCp29SWyVZIopysZZwzkdKTOT5/to03KcxOLqRd47IudfvO5XOjlcR1DoQhi5AcY1U98j7NRKPZN2SSSWVnVy5YBKQkYC4Hlx3+7Ro0RlugL1FeorZ19nSL4f3VKuOpW41odHaTj8guGySe/r/AHv5agzfDK6S3Cjq2u10DUzvII1o14sWYsQfX4yfGjRrtwne+5a9q7UuNBerXNWVdVMlIW7yUoQN6GUZYOcfW9ho0aNZdbdwsZon/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAUBAgMEBgcI/8QAKhAAAgEDAwQCAgEFAAAAAAAAAQIDAAQRBRIhBgcTMVFhIkFxMlKBkuH/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQMEAv/EABwRAAICAwEBAAAAAAAAAAAAAAABAgMRIXESE//aAAwDAQACEQMRAD8A9G3up3MU06W8SyMqnxhnChmz6PBIGPqsSCXqLUbNZoJbCwmG5WjkQzr9HIK4/jmn7WkDMWaJSx5Jq7HGkYwihQfioOn5xoQ3Nv1M0ym21DS0j8aAh7V2O/H5H+scZ5Aont+p/Ftt7/S9/P5vbPz6wMBv5rYCQBk+qmpOShRJn8mUj6X/ALRVdFAc07qdb3OiWE1ra6Zfr5GEQvmJhjDY3YRhyTgHkYH3VrVe4F4Ojk6gtbG5sngMbPb3UWYblHYL+Mg/fOQRj7BGKYd59CHUHTdhai4aCY6hAsZAB3FiUI5+mJ/xTLp+K1uO1unxylJbZtKj3lgCOIhnP64Na4yqUItx3nfDDOu92SxLCxrpz/pXrLVerND6i8l+NPGmae0iOpyWdg58jtjOFC+gB7zzgU/7V9wNW6x08zNo4ZY5yk1wLhVRAeQAuMkgEfrnHvNIO2NlbaR2V6iF7bo7iOd7hZlGXzArqrZ98OMA/NbP2c0GLpWHWtDjDjwS28x3tkkvbR7j/uslLZVNy8x4TTC5KPuXRb0b3TTVOr00XUgIQ5ltoZABtmlVztPyuVGMc8/zRWLp3TtnJ30vdQmt0MJaVYE2jak8cVq/kA/uPlfn55oqu755ThrRbQrMNWNM7EQDjIBxzUBVC7QoC/GOKKKoNBHjQqV2KVb2CODUhVDFgBuPs490UUBHjTfv2LuznOOc+qKKKA//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Your Summer Dream</div>
-                                    <div class="artist">The Beach Boys</div>
+                                    <div class="name">Yesterday</div>
+                                    <div class="artist">The Beatles</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcIA//EAC4QAAIBAwMCBQIGAwAAAAAAAAECAwAEEQUGIRIxEyIyQWFRkQcUIzNScaGxwf/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBQAE/8QAHREBAAMAAgMBAAAAAAAAAAAAAQACEQMhBBITUf/aAAwDAQACEQMRAD8A5xglVJcuC/xmmbZuuz7f1qHUbVXlhOY5Y/5Ie/2ODSz+RufBjm8F/DkJCNj1Ed8U37B221/eLJeyvbWjExBlAJJ9+Dxj/tK5L1rVVj+KlmxhNGm38dRu4rW3uTaWx9Uiesn6c1pm1ILl9HWS6UiRmPSTw3T7E/NRdu7ctJLe2lvLLTXvIwoE8VuEfgY83fnHuDTQIWt5ECn9Af4qY2V3ZStbrJUXKzJIVuGwg+aKudQRJFUcEiimnN+zD1OV9Wt36Fn09wrKvmhx5c4wSB2qtsdzXdq6iaMGMc5Q/wCs16vqarIGVhgexPH9VZ7H0a1u9QkuL7wzbLIPDQng55+1NsALYg9lT1Zuf4d3Ez6BFcTsxacdYzxwadLZuqHzYIpO0qRIYookwEjXCgdsUwQXWYujhSOc5rgGGxrJNy6rluxoqDdSl0ZPeigsIdTit3dvUxpp2xqEkdoYg3oPb4ooqx5ANJP8Wz9JpW3dxuyKrE+QYOTTfputG5f9wdJ+lFFSLmMroZsYorhDbu5kAYDsfeiiiiRM/9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">From the Dining Table</div>
+                                    <div class="artist">Harry Styles</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EAC8QAAIBAwMDAgUCBwAAAAAAAAECAwAEEQUSIQcxQRNRBggyYXEisYGRoaLR4fD/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGhEBAQADAQEAAAAAAAAAAAAAAAECERIhIv/aAAwDAQACEQMRAD8AUfSfpTqXUSxvbiwuLKCG2mWFnndgwJXPAUHI/JFMG8+WPVrZDINXsJskqqRpJnvweft4/rVj+TqZIPhTXfVOC98pX74jGa0JPcxyR4YEr7ZrO/Sxxr/Q660NVa8vrZ3dS0cMDZLHwvJyD/A5qt6V07jvNZstPnuXtFvXeCGeRMj1FXPABGe4Fa2+IdC0+6mhnktIJ3jcSD1VDcDsOfHnFL/V9BsIfizS9Ts7dYUs7hbgRL9G/G3O3t2xR0tExo/R241TTILqPVVR5IWmKGD6QG2qM7vJBPbgc+RRTi0KCLSI7WbZI4iLOF7AZkZyP7v5UVdBRPl41JrTR76JJSpWUPt8cjH58U9YtbYbdzhVI/V4z7VmXpLIbeRxkkFsHH/e9O22kke2VAD+fIrjcr1Y1rxbLjVlZCAxcAHsOP8AZqqatebmDA4B4AJr0xb1Xa5bf74/aorVBJtGxQTnnmtSh4b25clQpIG3x2zRXOSIsx3r+D70UrRY9FLYT2N9IHb1UmXC4yNu3P70+rSNG2spB88ceKKKMp9KO82VjJ7moqVi7LujIBznI80UUyJBalq1naOIrstFI3bI4HHk/wCKKKKK1JH/2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Skinny Love</div>
+                                    <div class="artist">Bon Iver</div>
                                 </div>
                             </div>
                         </div>
