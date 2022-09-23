@@ -1229,8 +1229,8 @@
                                 15
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 16
                             </div>
                             <div class="entry">
@@ -1289,27 +1289,6 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBAYHAf/EAC4QAAEDAgMFBgcAAAAAAAAAAAECAxEABAUSITEyQWFxExQiUZGhBhZCU6Kxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAEEAAIDBf/EABwRAAMBAAMBAQAAAAAAAAAAAAABAhETIVESMf/aAAwDAQACEQMRAD8A5Pbspt5U62QBumKaqxN0MAJcPhTAIEEda3/cQ5vIStPNMip2rMMpCktNFBMashQ9xFL8T9NOWX+HJ2798uFTjpMGdeInWtPguKsPBcI7PKYKzsUa1V1hGD3iVd7w1mY3mZaP46e1K3fg/B1SbS7u7byS6gOgHqIPtVXFIKtMmbvhkIStJB6E0Uv+Ub+3M2L9rdGZGRzKr0VFFDX4HDVNuZRvECrK7jwoSlwdnl3UgCD/AGlaXPCa9B2FJ286acp9iU25WFxRH1QUkbeNIcfw+4xB+xFtfm1Q072jmXQrHlpTNcxvCTVZxOVJka9ajWok3jJL493hWYL5CDRSx5YzwJJ8qKpjNfpM39/hLFukLUw0ps8Upj1pHe2LcFVrEfbI/VFFLq3LGuKbntCxxS06FOznUS3TxKpVpoKKKcOU3hSeOYRI0150UUUAps//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Hawaiian Boi</div>
-                                    <div class="artist">Triathalon</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAEDBAYHBQj/xAAtEAABAwIFAQcEAwAAAAAAAAABAgMEABEFBhIhMRMHFDJBUWFxIkKRoSNzwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APPd6ebSwQNbq0q8/ovb90zSkEbkGtIkIREJOp9wD+u/+0i0RglRQ+tSrbDp2ufzTKW1qF0pUR8Ulj6GgS9FFFBMw2KqXILaCkHSVfUqw2F+atuXsqYnmfCHE4a0wTGf0lTrgRYFNyPX3qrYSyl18pUso+PTzrRcq4TiTUB9aX+74aZDbK3Eka1KWbEj1sLee1/eqHMv5MbYxhqFjD+uA8novBCihTL6k3Fh9wTYk+1r81Ae7MMy91clYbGanR2XVthbLgCyEkgkpNiPI7XrWcHyjJawmcY0hL0pp95mEl4ABxtKxcqIHiUUeK3AA4rrZNkyBlcQeie8vF1ToV9oUSCPc0HlPE4zrDyg8z0latJT6Hm37oq79tDDMDGoGHRWm2WY0fT00A88XO532oqDP2nC2vUk7iuy1jSOiyh1pVmvCEnbV5n8AUUUF6yR2lQcvSXlSo8+Syq3ST17paJJKyAo77WHwPerlK7aMvKQlbMOb1SdwUC3zzz8UUUGNZ9xxrMWYnp7IXoWAP5OaKKKD//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Some Kinda Love</div>
-                                    <div class="artist">The Velvet Underground</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAAAAEDBwgEBQYC/8QALBAAAQIGAgECBQUBAAAAAAAAAQIDAAQFERIhBjFRBxMiMlJh8BQ0QXGRsf/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE/8QAHREAAwEAAgMBAAAAAAAAAAAAAAECESExAwQSQf/aAAwDAQACEQMRAD8AtIEi3UKEjxAnYFoD0TaIDClI8CEKR4ENoeC0BQB/BeHYOGG3gPac0PlMEJMKSlpzJSQcT2ftBGxmIE4P62qYk5ZvlBU9m77SpkJtida0kA4g3I739omOncopFSlETErOIWy5cJN7XijlepMywtbsk6iaklLUT7WeLdrCxySN2I6Edfxj1ErPGpGRLTMyunNLObbjuTfXyggWSfi/LR234JfKGa/S3rU9IttfuUY/Vf7WjTO+ofG2qs7TXKikTTTiGV/CcUqUCQCroddnzENVP1mpjnG1z7dIdFQKw2gOtBabgA5FXj+PMQm/VJ2rVWanJtKmQ8svqU2gti+9DEWA3Aj10+wYWGr06+5yxxDD2U3ih3JtZLbrhU4hRX9ICUpFgP6tcwRxnp3WHUrcTTcZxv8ATtpeAbW8pv412BUBrEauTvUEPU/PBTUcXTpeuSrxdVWXQtScSEpHX/Iz2JV9bCmJqovvyyjkqXWQWyb36t53BBHRKTGlGwWzLqlCwoNlo69vVv8AIwFs1OXbLdOq62WLW9lxtDiRoCwuOhbqCCD2O5TR743zmocHkXKc3INOS61KLsw1LJzcUdhW9XBJG+h1BBBEKS0i0j//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Ghost</div>
-                                    <div class="artist">Megumi Acorda</div>
-                                </div>
-                            </div>
-                            <div class="track">
                                 <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAcFBgMECP/EAC0QAAEDBAECBAUFAQAAAAAAAAECAwQABREhBgcSMTJBURQicYGhExVCYZFS/8QAGAEAAwEBAAAAAAAAAAAAAAAABAUGAgP/xAAhEQACAgIBBAMAAAAAAAAAAAAAAgEDBBExBRJBUTRhcf/aAAwDAQACEQMRAD8AmiyB5c+NaXJ5yrPxydOQe1xps9h9lHQ/JqztRVvMLcDeQgFQTjGcUgOqPKrhcLpJtJUlmDHX2qab/kof9E+OD9qHRNyVuZmRVXPvgz9GrW7L5W3clPEIjJccXrJX8uD+SKvPDnFqj3KOpaV/oTnAkoGsKwvH+qNUfpdImw7Te5VuU98ShopZS3k7I3rwI0Kz9J+QuouUy2zGi4uStUhTudpX/LI9q08b2Len2rUyb8jPCDreN0Vs9mtoB3RXDRSd5bbTdrfb4EpF0fQhrCldysAlIByAfzXJ18dcu0693lEdPwTs07z5CsqKcfZJroTkdlj8itbkCW4W0qOUuNkhSDsZGv7wR6iq1yzisWydJJ1thqDgjlMpTiz8y1hQyfD21j2oquSczsdmaW8ci04ByAcXuE5uY2VMONHuAV6419c1OdF4X7nzK4znEILKG1g4GMFZ1hPtgH6Cl44y8Q46SpR7AonO8Gmp0ccgvWlaUpSi4xHF9yu4pKkLxjONKGsb8K1YsLuQLC7rbFTfAyJ6kpdUW1jtBxkDX2oqOlPaA7h5jRQUsWSV6Ul0FQJ8uz491R/MJUeNxma9PYRIjBKQplStOHIAB37/ANUUUVXM7iBNl46djN9e5ELyG5xpneuI0zDSVFHw7W/lxrfqPsPGpDpK86jlC0NglDkdYX9Bgg/7RRXa7iRFg/IT9Gi+o9/rjNFFFKy7k//Z" width="32" height="32" alt="" />
                                 <div class="infos">
                                     <div class="name">当时的月亮</div>
@@ -1317,10 +1296,31 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAAAAgGBwMEBf/EACwQAAEEAQIDBQkAAAAAAAAAAAEAAgQFAwYRFCFBBxITMWEWI2OBkqGiscH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AldBzQq1tMwqz2aqHPr4RcYeEkmOwknw2+iSa1biMOH+Lh+tcB81Zl7Kqoe+LFWwC7lz4dnL7LW/aDKiyNP2ZZEisPDv27mFrSOXoFbE9J7REWWgqq6+8czTtZjY/baLiH4BSoVQNZqGhdUQcUmwgteyPjaffAEENAPVWXGenbs57nu3JKxPVcomksGnrhd+l7UyZQ5N3Yb6E13QOzNP9WIaolRjWymYp8LOTjIHh52kn5eampI1oiIjYiIgIiICIiD//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAUBAgMEBggH/8QAKxAAAgECBQMDAwUAAAAAAAAAAQIDABEEBRIhMQYTQRQygQcVIkJRUmFx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAeEQACAgICAwAAAAAAAAAAAAAAAQIREiEDBDFBYf/aAAwDAQACEQMRAD8A51j9wreuhGVcxhv/ACFaGh/Ktl6Yxfp8Wj72U3ru688SHNHLR0bJ9U4TmMnRv2mW64Ur6vXY6guu+m3ttte968A68KtmcxW3uNT0p1U46szDHY/tF8bC8fcdReM7adJPGw07eDSvqaZ5MVIWO9/953qLnTpGow9sQNs1FU3uwoqLKUQp/KnGUOwYlVYixvYXNJxs1N8sSWZGCK/asQzAGw2J3PjaqQdCfwwEw+Iw7iWWKaGJWAZ2j4+DsTbxVOOkjbEP6eSR4f0mQWPyBTbMDLLj42XAlYYzq0rAbWGkEnaxG3waU4yHEQsoxMboQSg1oVO3jeo2zbRYTkUVKc0VqxEHnmm2T5zNgIMRCjKsUoOq8Qc7i3nx/VFFK9AvJlt1I5nkkDnuSOHd+0LlhbSbarC3FrW/cGl+dZo+PlYaIxH3GlBVNJu3O1yAL72FFFAWLl5ooopiP//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Explosions</div>
-                                    <div class="artist">The Mary Onettes</div>
+                                    <div class="name">Sleep Is a Rose</div>
+                                    <div class="artist">RHODES</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAEDBAUCB//EACIQAAICAQMEAwAAAAAAAAAAAAABAgMREiFBBAVRYQZx8P/EABcBAQEBAQAAAAAAAAAAAAAAAAMCAQD/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECMf/aAAwDAQACEQMRAD8A+4L7JTK3LcKQMHhbn9kjJXqDkYsw6FmQV6tgbDoUuW5DsxyeJywZ7bMIxspKnJt6ju1nyil12wh2mFb1V4y7JPl+MHfU88nOr2k3yXRsJzRNtORcNuv2DIrPYEocJslsZbZNvAAeikISXk9xksABpsqESkuMoAFUk//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Vanilla</div>
+                                    <div class="artist">落日飞车</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYECAIDBQf/xAAuEAABAwMCBAQGAwEAAAAAAAABAgMEAAURBiEHEjFhE0FRgQgUIiNxwUJykaH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8Ar1pe2Q7gyS7GedeScZD/ACJPty/upkS3NI1Oq0R7XIclPrDSW1SQAUqA2P0+u+f3vXT4VMh5TudglYPTtXc0vNjah4uQZsRp5tpMllo86QNwCP8AuPzRS2M8Fr9J+uIlmEytJSsOSC6VA/1TilPXmgHtHRW1TJ6HX1rCQ0lop233yT29KtboDSto1DqfVpvTC5ny01LbSFvLCUJ8Js4CQcdSaUviT0rZLRYYbFpt7MNszEKKWhgE+C/kn1P0jftVqVHxRUiYkNvKSkbA0Ug68OWpT1tuqILi2pBR9taOoVjIrToC+ptF0amBTq7i3IbdbZAJL7nOAQc7bpKtydj/ALTHwRlW6GzNeuUlplIcTyhZ3Vt5DqfakW6KebvDslEFK4bS1lvDZSOQqOCVDBzv1z1oK7PC6axCv+qX7m63bxMmJcZbkuBsq+y2FAZxnBBB/FKnxMSo0iPbQHULZVICg4lWUkpYe2yNvMbd6rBpnXF+s3MGJCpcT+UaT91HsDnB7inKfxAsV+00I8+3tRZzLnipbbThpaiCkqAHngjr7GpPKbopCprhbIIz5UVhPU0uStTCeVsk4FFIS7ZepVrXzwfDaUcZITknHc10k6wuCoXyb4Q5GUAlQxuRzc3Xy3ooqiTbDctIRIj7tws8uVMTu00uSQ2vsSnBFSNSzLLeoLSrdpx2zKTuFoy4gj06ZPvRRQSfIZjtoUW5JcWDjl8MjPuaKKKQ/9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">I'll Remember You</div>
+                                    <div class="artist">Sophie Zelmani</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgEFCAT/xAAvEAACAQQAAwUGBwAAAAAAAAABAgMABAURBhIhBxMxQVEUIkJxgZEWMlJhscHw/8QAGAEBAAMBAAAAAAAAAAAAAAAABAECAwX/xAAdEQADAAIDAQEAAAAAAAAAAAAAAQIDEQQhMRJR/9oADAMBAAIRAxEAPwDlZQCwB9adPZ5irK7sIknhDoB9d/Ok5bwNMHKlfd0SCep2ddPWmZwtxR+H4zGLNp2QhQoY87N5aGtffxrDOnU6n0Tx2pe68GjlODsdLanUEi+7+qlZxzhLOwtJe7Qny53Oz/t0xX7QruThsZNcTM0TSd33egG3Sx4y4lly0Qgnxj2pduUo3Nzb8vLX0o+JZPrvwTlcKevRb0VPcRCEgc6s2yGUeK6OutFPOaTY6WJFuFlVdsnMjH4WB2P7FPzgqyxWexNvd3A5JkQB2RivMB5EDxrnamH2Z5qW1ZoBJ0HlusM8NztCePaVaY2r3J42DhnIzNe2sDWl2jLESNqR05SPl5VrOJUwUWLbLWaxmZouYFvh2N9BVaz4xuQd7y8scaLtCSXfIKodvVowNsflWi4zuGj4cQTTgyy8qqiAqAvpo9da9aPOHzsVeTSbaKBdXAmjVeRQQzOW11JJ/jpRXlop+jmt7MgEnQrYW5uLDu7mLw8SKKKhkz+l7sO0m2tbPlOEtXuwNd80ak/cjdVLMZC5z977VfSpHExOgGU8vTf5diiionHKe0WrJVLTITi7P2SaUZKISofdiI6uOpBB3+w6ePWiiirGZ//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Ulysse</div>
+                                    <div class="artist">Ridan</div>
                                 </div>
                             </div>
                         </div>
