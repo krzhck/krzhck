@@ -1229,8 +1229,8 @@
                                 13
                             </div>
                             <div class="entry">
-                                <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 14
                             </div>
                             <div class="entry">
@@ -1299,10 +1299,11 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAAAAgGBwMEBf/EACwQAAEEAQIDBQkAAAAAAAAAAAEAAgQFAwYRFCFBBxITMWEWI2OBkqGiscH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AldBzQq1tMwqz2aqHPr4RcYeEkmOwknw2+iSa1biMOH+Lh+tcB81Zl7Kqoe+LFWwC7lz4dnL7LW/aDKiyNP2ZZEisPDv27mFrSOXoFbE9J7REWWgqq6+8czTtZjY/baLiH4BSoVQNZqGhdUQcUmwgteyPjaffAEENAPVWXGenbs57nu3JKxPVcomksGnrhd+l7UyZQ5N3Yb6E13QOzNP9WIaolRjWymYp8LOTjIHh52kn5eampI1oiIjYiIgIiICIiD//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHBAUIA//EADAQAAEDAwMCAwgBBQAAAAAAAAECAwQABREGEiEHMRNBcRQVIkJRYYHBkRYkMuHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQADAQAAAAAAAAAAAAAAAQACETFB/9oADAMBAAIRAxEAPwCR6Chtah1QX39rjEEDw2/lJ8vwMVvuqa4Meay5ESyZqWVLUEJzu2kYCsfYkc1M9JxrjJvCIVukOxn3O+1zw+31P5qiXSwqkSbi84ttE5uKpxQjuhZWcABKgOw4JJ7kmpUkC522Vb48S6xwkQLgklBT/ig+aCKX3XFOLK1E5P3qpX2dAV07t8GMEbopC1Nq4Oc8nB9andnYZlzWkSEK8LJ3bRyfoP8AiKsSaui9g9/66hhxIVGif3Dme3HYfzRTDY3P6I0bep7DjXtk1JZZKTgp3cDHfsMnvRUnKZouchmezMbVskNHORx+PTHFWbTF3lXwb7VKbYjLAMltmMkuZ7ErWo/o1JdV2NdguaYTxCl+Gle5JyFZzyMgHy+lbLR7zrrDlttqHvb3iVAtLwVDA4/1SFt+oalWuUq2R1IWh0bkkfKNwPP8VhtdOdX+82WVWK4NB1eFfAO2cK7GvRHT3VD89C50V1hxaxtU6rcTz9s8etdQi7wmor7qNUxVzt25shxshHxEgA7B5bT602VMV5c7dTrPc406zWFyIuK2tJU0HFpSlRAAHJOBgHzPnRVh6xWu1aqssVMN1Ey7sZUxIYKS4hRI+BXYYIHn9KKbIjQTq6VPazDaUkkMtpSB3PJ/Zp06MWu3wXLhPISq5MpSwE7txbzyo+p7fiiinlDs96gmrLbb8mcmDFQrc64OXFY+VI/dKOmLhbLvr1izwIr3sqsPOLfcCioJGeRjj0+9FFTQ2zPLHjZfWuTA0/phyJbFOolzX0jcV84Tyo8dvIUUUUCw5K7b/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Explosions</div>
-                                    <div class="artist">The Mary Onettes</div>
+                                    <div class="name">Creep (Live In Boston)
+Explicit content</div>
+                                    <div class="artist">Brandi Carlile</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1313,24 +1314,24 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAEDBAUCB//EACIQAAICAQMEAwAAAAAAAAAAAAABAgMREiFBBAVRYQZx8P/EABcBAQEBAQAAAAAAAAAAAAAAAAMCAQD/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECMf/aAAwDAQACEQMRAD8A+4L7JTK3LcKQMHhbn9kjJXqDkYsw6FmQV6tgbDoUuW5DsxyeJywZ7bMIxspKnJt6ju1nyil12wh2mFb1V4y7JPl+MHfU88nOr2k3yXRsJzRNtORcNuv2DIrPYEocJslsZbZNvAAeikISXk9xksABpsqESkuMoAFUk//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUEBgECBwP/xAAvEAABAgQEBQIFBQAAAAAAAAABAgMABAURBhITIRQiMUFhB1EVMnGBkaGxweHx/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EACERAAICAgIBBQAAAAAAAAAAAAECAAMEETFBEhMUIVFh/9oADAMBAAIRAxEAPwDuEYv+YyIhqn5cTnDBQLw7WhJIHMzwpbiSiq0IFUeYXUFPKWClSysrzdj49xEN7EmrUlSrLQ2zZkqScyctutt+/aLTKrS5LtLTcBSQesGryKshiq8iJauzHAJ7m56wRsRBCobUr68WU1twtuKWhY35rD9b+IVu1+lLm333NJaE2ssAZkk7AE3/ALiyKo9PJ5pRo/W8eUxSaehN+CSQTvlF/vEWVzyYxHoHRlIBEy886yJZ8EnKq5VY9ha9rjbfv4tFpkKvw7bbTjK9JKALgc2b9rRIkqbJ6Z1JZpKgeYAk/wCQh9SnTRcMrmaZKp1luJbLvXRBvzb7eN/eIV0rSC6jX3LeXurFpHfEffHWw4Lsu6eU5jl3vtbv06wRy/0nrNRrGIFSdSRxkqWVLUtQtpkdDcedoIrXYbBsTjNxBi2em/yfydpzfX7xW8U4np9FCGZxwF5z5GwCSfNhBBFLmKrsSeBSt9oVuIrw/iL4kgBJbbmjfWbSixSoG1iD/MN6rPuo0pNaWS28hWZbqMyVAW5bHb8wQQdHZk2YqylK7yo6k+hSMnJygXIyDEmXhmc0Wwi5HvBBBC0A1M25iXOzuf/Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Vanilla</div>
-                                    <div class="artist">落日飞车</div>
+                                    <div class="name">Under the Westway</div>
+                                    <div class="artist">The Coral Sea</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgMAAwEAAAAAAAAAAAAAAAUCBAYBAwcI/8QALxAAAgEDAwEHAwMFAAAAAAAAAQIDAAQRBRIhMQYTIjJBUWEUQnEkkaEzUoGxwf/EABkBAAMBAQEAAAAAAAAAAAAAAAMEBQACAf/EACARAAIDAAICAwEAAAAAAAAAAAECAAMRBBIhQRMiMYH/2gAMAwEAAhEDEQA/APmWJCxwK5l4JUgbulXWs2gcFSXxE0h2+noP5qNpYPLCbgSL4RvKkc5z0/ivC4Hkw1dFlp6oNMnYI1k8Fy8KStuBjVX8efQ49q0+ua1LdaVGI4oYVUZddxLKSPMuP2zn4qcelaVfpDMIbiOWVAO7tzk7sfaD69etLdV0Ke0VFa3uVVifFL1GMYJxnH+qULq7A+5Qbg3U1kn8zZln8zfmimYsE3FWYnnzqdwopzuBJfQmXoXCXMqEeFrZxznjPTH7VO0urF4QItwb4BHP+KXx3LNdb5ArMqbQM44qtYXhs1mj7tX3HAOfL74NAsrLLglHg8hKbgzHB59bNDoi3bTx/RRFJwhQsw6EnqPXpTfV7LUNO02OS/t7nu5lOJG3KHB54J610dhO1Muj65DqHcozx5wB7kY9a2HaztYO1Gi2Wmzh0t7IEQhpC5Gfk80L4yT9hHH5qopWh93x/J5Yt5FG4EdpEPySf+0UahbrDIdik89aKZwGRSxEUWwT6mM3Ku8IYd4qNtYrnkA44OPin8j9my7mDTNWVDDhQ94hIl/uOE5X46/NFFFJyCA2WI7nQo2futO1MDK7d10pwMDOcL75/Aq02p6EEhAsNU3D+p+qXnj7fBxzRRXObOtyI7+5jluJjbq6QFj3ayHcyrngEgcnHriiiitk2mf/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAwEG/8QALhAAAgEDAgMGBgMBAAAAAAAAAQIDAAQRBRIhIjETI0FRYXElMkKRwdEGFDNi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APU7ez1pV4jD0hInxS6i8JDke9VdZwl/b3KfI4VgaUv7eSPV5JlC7BINpY4yTxA+1FYJ6ecJeQt9UZ+4IxXbSPttJlVQc5yw9a1nsZ1upp7ZQ8PKDg8TuOAB5nPCsolm02cTYBiLlGw2RuHUe/GpJ1sO/G4gY6H8UVY1jTlWNb2zHcv8wH0miom4T/d02S0c99Fzx+o8RTOm3Nvf2jW1/GeZgrOBzRuOAYeYweIpfVrSbTr3tFVo2U5FLvM7AXVgwSRTuePAOD5jNIivZQtYrp1vzSJPeLI58Ywr7VHtncftUO9jMeiNxBU374IP/FbjUbi4Alt3CzoqqY8DiqnIwfekrq8kcF1Aa3LFpISMBWPU4/NBUf49dq0LW8gDJjmQ+I8xRUzZHCi3Nq5RgcheuaKkuWeqNF8O1xTLAeVJiOZT5HypLVdPm0uZZYn3wt/nKvQ+h9aKKQRYC4Jkt+7uF4lR9XqP1WMtx2+115LkcGx0cfuiigsbTiWznK0UUVJ//9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Hat</div>
-                                    <div class="artist">Graham Coxon</div>
+                                    <div class="name">Nothing Hurts Like This</div>
+                                    <div class="artist">SLO</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwACAwAAAAAAAAAAAAAAAAUGAQQDBwj/xAAqEAACAQMDBAAFBQAAAAAAAAABAgMABBEFEiEGEzFRIjJBYdEHFBZx8f/EABkBAAIDAQAAAAAAAAAAAAAAAAIEAAEGA//EACIRAAIDAAIBBAMAAAAAAAAAAAECAAMRBDESBRMhQVFxkf/aAAwDAQACEQMRAD8A8tLKwBU+G80wsNNil1W0t768SwtpuWuZFLLGMeSByfH0pWOTxTu/uo30u2ilJebbjcV+UA0DHCMjlNa2o5c4R1KCXpLp5r5Y/wCc6VsaPcZBbzbVOcbTxnP1phD+mNvNHFIvU9qYpD8LCynPwk4VuF5DDBGPddcMFWQjjb7FckwaJUKyEowyMHx9qKLlSdaUXUPTkmgXc8atJc2IKot32WjSQkZ4DDP+UVMtLIy8sSB7NFAVMYXkKozJm0VnnRV+YnFNOodPuLFbXvbDGyZRlOc88g/cUmUlWBU4Ipvf6s+p2MEN2q92AEJIBgkej+ajBvIEdQqHq9h630MevxFWcgDGTjFbl1b9qxt3ByxZgw9YxWnEu6RR7NPtTtbuJLeMQMQSWRyM7siozYQJfGoNlbthOYPj9yf2keQQKKb3FnchH/cJtkkIIH9Cir8xOVnDtU4Af5E9ZU4Piiijis3LJUecE5x6FWemzRHlxl0GAXPj8UUUnyO5rPQHKaQJIalcSyX0zs+Tk8g8UUUUyoGTPX2MbGJP2Z//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQDBQYHCP/EACwQAAEDAwMDAwQCAwAAAAAAAAECAwQABREGEiExQVEHExQVIkJhJJEzccH/xAAZAQACAwEAAAAAAAAAAAAAAAAAAgEDBQT/xAAeEQACAgEFAQAAAAAAAAAAAAAAAQIRAwQFEiExE//aAAwDAQACEQMRAD8A9Esp2tZJyKSduD7sl2LbooWpogOPvKKG0HGcDjKjjsOB3INc7netukExFCHLmSHdp2luIrbu6DO7HerKxerOhpEdmMm8mO4hISUymnEHPfkjB5/dJyR0PS5kr4s08hu7qWpSJsRCug/ikj+9+aVcu8y3up+rRELjFW35kfO1BPA3pPKR2yCQD1wKkjau03PXiFfLY/8ApEpGf6zmmJL0eY2pG5uSytJSUpIUkg9c0WVuEo+qhpSkhQUQUnPnvRVHp2QmTY2UPb3PiurZBUeVBClJSSe/AHNFApxGwemOrIVlZYfjWlsvEJSy6lDi9yuvISccDPXjFSv+lWp2dynLNY5Kt27ey9sOM5xyQMdq7zfYvzrM62lKFPhB9oq4CV4+09QRz+6YRcYjNqjy5jjEb3G0qKSsJTuI7ZP/AE5pPmjVW8ZlXS6PLz+k34M5lu9WFdnjc5cZUp4vH8UpGVHJPHmsnfHJyblEg2lUiBMlutMI9pam8LUQO2PI6V6mvd2tDF1am3RxCIKW1AuPoJRkqSEnGOfy5p+JKsWqIwXZ5EaZ8SQyf8ZHtFKgoYyOOAenjBqVjRXPc8k27Xqol0lZXbNp6Hb5El2a7HT98l4krdVkkqJz5J48UVpmWghPB7UU9GayjYeZfSpJdT93YKqAWu1pIcjw47joVyooC9vkDPT/AEMUUUqZJU3nRNsuMGaw+pTLMlaVrEfCeU5xgYIGcnOByeaU05pWbpdiQizSom18Jz75JOc9SQBn9dh470UUwUa61u3RDh+oOwVMAHllKgonjHU4AxnvRRRQB//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">That Inferior Feeling</div>
-                                    <div class="artist">From Your Balcony</div>
+                                    <div class="name">Battles and Wastelands</div>
+                                    <div class="artist">Neo Retros</div>
                                 </div>
                             </div>
                         </div>
