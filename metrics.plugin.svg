@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.09
+                            Average per day at ~2.08
                         </div>
                     </section>
                 </div>
@@ -1144,6 +1144,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1311,38 +1316,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUGBwIDBAH/xAAwEAABAwMCBAMHBQEAAAAAAAABAgMEAAUREiEGEzFBBxRxIlFhgaGx4RUjJEKiwf/EABoBAAICAwAAAAAAAAAAAAAAAAQFAgMAAQb/xAAhEQACAgEEAgMAAAAAAAAAAAABAgADBAUREiEicRQxQf/aAAwDAQACEQMRAD8AuG18HqlMBb8twHulSd6lMewQmIqUcsKWBgrPU1E2YN2QhDjLisADZTtbk3O9RThxPMSPcoUkW2ofYnQ3JfcfGwepIHnBbmSqIwtaxgAFOQRnfoc1r/ULktlDpjx0NkDVqJTg9+tRaXxFcU4/jrT78E71iOJ7etsIuDM/UNzh04+9X15IA4iUtptp8j36jxu6POvqalFhHXBbJPuxRSZviThwJ1tvS2CNsZz9fzRUTYd5v45HXEyr0+NVzQwWyi3pdxtzGiCP9Ypc/wCKt7Q6XvMwllXtFtSRoA+4qNBxl9OqQkLVjpywQfUVokRLdLUjnMtnQnSE6AkY9Kw4QJgiaiiDfjHl08Tr7NYdaW80wAMnlJwMeoGcVEpV5u+htapaj5jGhWc9fjiibaI7aXTHfcil9IbUQkqCh2HWuCNIRYS0JMlcmNkN6VMkac9wc7etRfGKDcdw3H1FX6B2mM+6XdjLbjzZUOwA+u1FecS3SFoalxw26nOMFeAVDrtjfHxoqNaMy78YRZmBW2Dy6rW/aOUzj9pZSFaVtJO3zFMVTYKipa3UJAHsHlgHT3O34ooofKoCN0TFePkMy9gTn8sZUNwRp5UlR1DIBOd8j03pDc+D5ExICxFkBX9SkJP/ACiihVy7KWIUws41dygtK6vvhlIcdcXEafbUkkEAcxGflvRRRTOvMsK/kXW4yq2wJn//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHBAUIA//EAC0QAAEDAgUCBgEFAQAAAAAAAAECAwQRIQAFBhIxB1ETFCJBYXEVIzJikaGB/8QAGAEAAwEBAAAAAAAAAAAAAAAABAUGBwP/xAAlEQABBAECBgMBAAAAAAAAAAABAAIDBBESIQUGEyIxQVGRsfD/2gAMAwEAAhEDEQA/ALFuPc4UdXa8y7T48IOokSuChK7I5uoj5FKC4rhG6ldRZrRn5XBhuR223iz5rdRTlDSqO3qBuK8XxIZM10NLbkJUpwpJJH761qSSaXqD3OMv4Vy66UCWydvhPJ7Yb2sVwX1mgnMI7KcvkCOqzri1UKTUCwHIGKFlWZJzeG3Oyx6O7DcBKFEq3drilr45Te3zIKXkIeKGhvJBHq5G6nNLdvvjG60zrPMtNpR5Fb4hrUFFtR9CiOfo0tg+5y5C9maww4fJXKO24Hv8Lp5oSt4Lxj7PcoKq/wCjBhZ6f6yY1dCeWloR5LKvW1u3en2IP+fYwYibUD4ZDHIMEJkxwcMtK0PUPTsZ/KFvZnL/ACGaMtBbSSltlaRuAUpO0WTVQrWvtfEUz9WXJzdbL8udVNNqxtdoBQUJBAVYfHAOLDHyGcOursqe67mGXLhLWz490x9xFEJBsaEK4798eWo+kTE/MHH8sQxESq+0OK2lQ4qkpJ4sb/VMWlC/FT0xzSZBaDkbAZ9fwS+WJ0mS0e1ND1Eeb0/JyaPAj+JIcSpb6QG1bU0NAkWBJ9we9sKk2ZPkZmt+Y2px5z1FKibkgXTevB/6MNUfptqAarnZSGlOtxvCK3kBsOeGqu1aQVWFlWBHF8NbPRCa4tTjs9DY2+hCnKr3fKgnj3p882w6N3h9M51Aat/tDdOWT14R0Lly0ZuuMqewyl0lTkcp9ToANgPYg1v2wYztF9NtRZVqNmRJXFRFivJWla1lwuD3KaGo+jQf1gxIccNexZ6jJBuEdW1sZghRLO9Z6izKf+Qk5vMEpKdoU04WxQDsmgxnw84zeUyVPZvmSlKKiT5lfNUjv/LBgxoxhjbGAGj6Skudnys/KpkoOv5j5qQZDNk/qqoQhaaA3qRcnnk4vOkNUZhmX4JqWWl+cYdW6uhCiUmgpemDBiZ5gjZ0wcD3+I6oSnwpoqm5X94MGDECma//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">And Before the First Kiss</div>
-                                    <div class="artist">The Field Mice</div>
+                                    <div class="name">Never Know</div>
+                                    <div class="artist">Jack Johnson</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAcFBgMECP/EAC0QAAEDBAECBAUFAQAAAAAAAAECAwQABREhBgcSMTJBURQicYGhExVCYZFS/8QAGAEAAwEBAAAAAAAAAAAAAAAABAUGAgP/xAAhEQACAgIBBAMAAAAAAAAAAAAAAgEDBBExBRJBUTRhcf/aAAwDAQACEQMRAD8AmiyB5c+NaXJ5yrPxydOQe1xps9h9lHQ/JqztRVvMLcDeQgFQTjGcUgOqPKrhcLpJtJUlmDHX2qab/kof9E+OD9qHRNyVuZmRVXPvgz9GrW7L5W3clPEIjJccXrJX8uD+SKvPDnFqj3KOpaV/oTnAkoGsKwvH+qNUfpdImw7Te5VuU98ShopZS3k7I3rwI0Kz9J+QuouUy2zGi4uStUhTudpX/LI9q08b2Len2rUyb8jPCDreN0Vs9mtoB3RXDRSd5bbTdrfb4EpF0fQhrCldysAlIByAfzXJ18dcu0693lEdPwTs07z5CsqKcfZJroTkdlj8itbkCW4W0qOUuNkhSDsZGv7wR6iq1yzisWydJJ1thqDgjlMpTiz8y1hQyfD21j2oquSczsdmaW8ci04ByAcXuE5uY2VMONHuAV6419c1OdF4X7nzK4znEILKG1g4GMFZ1hPtgH6Cl44y8Q46SpR7AonO8Gmp0ccgvWlaUpSi4xHF9yu4pKkLxjONKGsb8K1YsLuQLC7rbFTfAyJ6kpdUW1jtBxkDX2oqOlPaA7h5jRQUsWSV6Ul0FQJ8uz491R/MJUeNxma9PYRIjBKQplStOHIAB37/ANUUUVXM7iBNl46djN9e5ELyG5xpneuI0zDSVFHw7W/lxrfqPsPGpDpK86jlC0NglDkdYX9Bgg/7RRXa7iRFg/IT9Gi+o9/rjNFFFKy7k//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAUGAwQBAv/EACsQAAIBAwMDAwQCAwAAAAAAAAECAwQFEQASIRMxQRQiUQYjYXEVMlKBkf/EABoBAAICAwAAAAAAAAAAAAAAAAMEAAUBAgb/xAAiEQACAgIBAwUAAAAAAAAAAAABAgARAzEEEhMhMkFRkfD/2gAMAwEAAhEDEQA/ALKjt38pD1CYoY0YozTPgZwBwo7nBHnTCh+l6XfMrwT1cRULub7UZ75474HHznnU3bPqQWygqKihp4pldA/VlJ9uM8qAMnI/PjWc9/uFfCslRXsYpE3LAn2Ux8HB3efJP51WlseMzqKr0zCKOakLRBmUwv0W5A27T/3xpnU1M609P6eQOrKzv4J/x5H6zqauMNLGYpzKIiVDenXaWl55O7PcHv5xrovd0pqWZeoZHhSLrFEYIIyq52scdyPH60RQ1EnUXdgXjmpuKCJGRiNxWMv4yfj4GjUdS36WupJ62aiaFaderHGr+wce3IxliT5J7dtGhhSZqyi4kuK1S3WqjqLtBRIlRGEHVRVKFyrEb+GIG3t23Z7DWVypqj09RUyXGgdoGc2+6R1MQEmzarRFASVYK7SbR/b2450NZ62to/XU9UfWyExqJIzujA58k4yD5541K2ungWaUSSPUVkalqgRhsqoxnDDGCBnnPfTKdNE1qK5VyO9BvEtC1O8b2293C315o7hCq1Me3pyQOU3ZZTtxgkZJyBnOM8J6ugp1RaWaupbsDb3WGoSsVYoJkkO0tz7SyKpBcjJOAfGuNbdW11HUtbrtFtjQydGTIJVUVyR3Gdz7R8kE/OH8k8kVN/HzUE1bXYEcxppQNz+7IHkj2MfjA0RAOm6gTeQgBtbnyQ6TKIrnBXtPQLUMkLI6QSbh9vC9sBm7k5K5/GjU81xFHVyekirbbPMgDFpGJwfcG9w4OPjx20aCzV7fvqWfGYqlHzFt3Nwo4KWGaqeETzYLFgW44BODwMknGn1ReqK3KkbLVU8DFt+Y9pnOeXOeTu/1o0ayjGwPmJue2xImi362UFTTdAStBIRLGyMpXA7AqQc9ux/WvfqC9QSXlZonCwRhmkeMmMnCkDGPwSPPfRo0SqFDUsuJixursVF1Ety+rI73IsdbSSmONi8Ljg7iqgbiBkghFGPGNGjRqDURQCtT/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">当时的月亮</div>
-                                    <div class="artist">王菲</div>
+                                    <div class="name">She's Always Hiding</div>
+                                    <div class="artist">The Servants</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAcIBgQFCf/EAC0QAAIBAwMDAgUEAwAAAAAAAAECAwAEEQUGIQcSMUFREzJhcYEUI0KRcqGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKpzRXHJeIkpTtZuM9ykY+3muTVtdttL0m91C5SQW9rC87nj5VXOPPn0+9B52692QbduIY5oTKHGT2vgjnA4+/1rQafdxX9jBdW7d0UyB1P0NRtvHqtLuTWrq5uLaS1tnwsSRnvYKPAY8D+h6mnj0J6gWm6Nsy6PGrRarYQsexhw6E4VgffJwRQNqC5gnLiCaKQocMEYN2n648UUk+n+sNF1KksWX4JLPG8eAuDjJyBwOfTiigY7QQOxZ40Zj5JAJrEdbQlp0q3FLbxqsnwVTIXHDSKD6exrcAjOaynVqwfVunGuWcTIjyQgqXbC8Mp5P4osRRNIysQT4pg9FZJ0vdy3sTvGbHTP1XxByF7ZFIyPX3x9Kyt7ty9WUj9on/LxT96D7Vt9N6Z69qN7Gss+qQzRyR48RRqw7fye4/1RCn2rvZrXeMF9eStmd8zSDIGWbOTjnGf9UUvY3LTIRn0ooa+gqghuCMUNCsyPFPGro47WVuQw+x80UUVJnUvTTp275ol7kEV08fj+OSVx+KpDa2ny2/TaxtbdAZ3049q+7uhP/TRRQiVdjbBvdU6jQbd1BBDJbyM12O7OFT5gCPJPj80UUUH/2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Killing the Blues</div>
+                                    <div class="artist">Robert Plant &amp; Alison Krauss</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUEBgECBwP/xAAvEAABAgQEBQIFBQAAAAAAAAABAgMABAURBhITIRQiMUFhB1EVMnGBkaGxweHx/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EACERAAICAgIBBQAAAAAAAAAAAAECAAMEETFBEhMUIVFh/9oADAMBAAIRAxEAPwDuEYv+YyIhqn5cTnDBQLw7WhJIHMzwpbiSiq0IFUeYXUFPKWClSysrzdj49xEN7EmrUlSrLQ2zZkqScyctutt+/aLTKrS5LtLTcBSQesGryKshiq8iJauzHAJ7m56wRsRBCobUr68WU1twtuKWhY35rD9b+IVu1+lLm333NJaE2ssAZkk7AE3/ALiyKo9PJ5pRo/W8eUxSaehN+CSQTvlF/vEWVzyYxHoHRlIBEy886yJZ8EnKq5VY9ha9rjbfv4tFpkKvw7bbTjK9JKALgc2b9rRIkqbJ6Z1JZpKgeYAk/wCQh9SnTRcMrmaZKp1luJbLvXRBvzb7eN/eIV0rSC6jX3LeXurFpHfEffHWw4Lsu6eU5jl3vtbv06wRy/0nrNRrGIFSdSRxkqWVLUtQtpkdDcedoIrXYbBsTjNxBi2em/yfydpzfX7xW8U4np9FCGZxwF5z5GwCSfNhBBFLmKrsSeBSt9oVuIrw/iL4kgBJbbmjfWbSixSoG1iD/MN6rPuo0pNaWS28hWZbqMyVAW5bHb8wQQdHZk2YqylK7yo6k+hSMnJygXIyDEmXhmc0Wwi5HvBBBC0A1M25iXOzuf/Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Under the Westway</div>
+                                    <div class="artist">The Coral Sea</div>
                                 </div>
                             </div>
                             <div class="track">
                                 <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAUGBwEECP/EAC0QAAEDAwIEBQQDAQAAAAAAAAECAwQABREGIRITMUEHFCJRYRUjMnFCgeHx/8QAGgEAAQUBAAAAAAAAAAAAAAAAAwABAgQGBf/EACERAAICAQQCAwAAAAAAAAAAAAECAAMRBBIhMQVRE0Fh/9oADAMBAAIRAxEAPwD6ppSlKKcqh2bW8xfiLctIXu2oiym2zLgyW1ktSY5OAenpWDsR0yDj5vlZRrq5Rhfpl2YSlyXao5jtgdXONWSgY/kpaUgHfGOm9c/yOsGjrDnk5wBCVIXOJq4zjfAPxSoTRlydu+mLfNktuNvut+tDieFQIJG47HalXK3+RA4+4M8HEm67Sso8Q/Flu03lWmdIRBedUEetAP2Yny4R1Iz+I398UrLFrG5jHAJ6li8UNcR9GWVKkNql3mYrkwILR+484SBn4SMjJ/Q6kVnFiVKlXFPA2+zZ2UlDgKuY5JnLXggKG5SgbcXv+jUTpSBCm3qfe9RXn6nfHXfJKfU5uytQzyWeHZOx6Jyev47itr0zZPLpaefZSyhsAMR8AcsdiR2PsO376ZTV2P5XUCmpTtHZPXPr99S2gFK7ieZM2aF9PtUaLxKWWmwkqJySe+/fele6latEFahB0JTPJyZE6oi3Sbp+dGsE5u33RxspjyXG+YltXuU/9x1welZCnwl1M9bWrc3ebbYorzebi/bW1uSZbxJKll1QSQCd/wCyOlKUK7TpcQXGcSQYr1LTpLwvhaIjMp0w0w9Kb41Kl3FZcdUpQx6dsIGdzwgZ71bXWdQFxTjUmGAttI5KwSG18PqIUBkjPTP+UpR1QL1GJzJaCmSmMPOrQp8klXL/ABGTsB74GBnvSlKlGn//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">I'm Waiting for the Man</div>
+                                    <div class="name">I'll Be Your Mirror</div>
                                     <div class="artist">The Velvet Underground &amp; Nico</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMDAQYFBQEAAAAAAAABAgMEAAURBhIhMQcTFEFRYSJScYGRIzIzQtFi/8QAGAEBAQEBAQAAAAAAAAAAAAAABAMBAgX/xAAgEQACAQQCAwEAAAAAAAAAAAABAgADERIxBCETIkEy/9oADAMBAAIRAxEAPwBMJbUEbylXd5xu2nGfTPSpkqQ0QpxAUkf1z1p3xvC2bseU3KQppD8f4kONhe51eRgfnPtSr0zDty9T21m/FXgC4N5BwDnpuPUDPXHIpSVLgyb8fC3e5zw5BeKlNsvIHy7un5/2oHkJ3kthQR/11qxa8tFvsmspca0994XahW1wngqGcDIBwOOtQ2OE3JuDK5JaRDZWlbynFhI25/byeScYwOaoGuuRmePvGaNw01dYVnj3SVDdbgyP43SODRXpRRZv2iG3I8JvwzyEo7l1QKG8HCsYz74oohr22Ik8QH8mY6gt8OfpuexHbZKwglO1QO0p548hxS6gaTiXS7Wp16Mty2NJdekobOwngBKfur36U+L3YnzEebjkqDiCjk8gGlvOMjTtwahIKkxA2haEq+fB3An681ZUZmsv2d1GplbmLi+6edkaniy0ePXClOlIM8frcZHPnjHTPOOtdHsl0varxJuyr/CTJQyhKW0OLKAnlQKh68jGaYzDyLy083JSnhKW0EDBC1kDII88ZNWC83C12x1MNaxDcLeELS2eEemQOOaoabYYDYkUK5BjqK6yajj6atl/066l5bkOSrwrrZBwCcYJPp9KK2r/AGS3WFyTf/AruNtd2p7hvhSisYBA6k7vvzRQ3pC/sO4pagH2WjRXblZbwpuPdc2+Wo7cOnKFH2V/uKZEqJa79G+JLTqTyKKKaygJ5B0Z5tNi3RlPuOnHrM9Gdt7YdYRJDzgJ+IjGBz6AEnFca/spvl7hqcdAEMqDjTauHM4IHv1xyOmaKK01GCBhu8RSAYkGJztC7QrhdGJenlRmGGY8pSC6ySO8QkkBJSenkcg+VFFFZbI3MKzG+5//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Bamboo</div>
-                                    <div class="artist">Hinds</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHAgMFBP/EAC4QAAEDAwMDAgQHAQAAAAAAAAECAwQABREGITEHEhNBgRQiIzIVRFFhcZGxwf/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFAAb/xAAgEQACAgIDAAMBAAAAAAAAAAABAgADESEEEjEFMlHB/9oADAMBAAIRAxEAPwC0AV5bzcmLPbXZ0pLhZax3eNOTuccfya2zpkaBHVImvoYZBAK3DgAnikXqFqS1TrK1Dh3Bh3yyEeUoV9qAckk/pnFeLpQuw1qbvHoNrgY1GzTGo7fqSO89bVLKWVBKgtODkjI9eK7YqL9OJTNkuEB9DqAxc1ONyGB+XUXFFrI9Bj/tWoDFFuUVtgeS3MoFL4HhgMiishRQu0UnLnQ41wjKjzWUPMKIJQsbHG4qUdSrJarZNAhxy0lcR6Q6hKz2/Kk9uB6bj3qxBG/IqKdZX+++T0hC1Mx4rTS1pVgI7lAkkeowSMe9Twu3fGdTU+NLG3qDqNkHQ1rc020lpKvxr4NC/IXVH6mAeM45242zTbo+6m8WJh9zPxCPovpPIWnY5/2pT0n1ciVqeJBffLjymVR8AgICR8wXk7lRwAef9p8jOJsHUNyH3AQ7yjzNjP2vDOR77/3R70OSvv5J5CWEvXackbH9jqKKy7f3FFKYMypqSneuXI0zZpb1wclww+Z4SmSlxZKVhPG2dvaiiuUlTqWViv1OIvTek2mZDvliNvRHMHASsqTxtsdxjnY1s0/0ygQXkSbpcJM6WhSShYWUBJScgjckH3waKKaWxm9MJZy7iMFo+u9hJxRRRQW9i4n/2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">party favor</div>
-                                    <div class="artist">Billie Eilish</div>
                                 </div>
                             </div>
                         </div>
