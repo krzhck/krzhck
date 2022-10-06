@@ -1187,7 +1187,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 01
                             </div>
                             <div class="entry">
@@ -1232,7 +1232,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 10
                             </div>
                             <div class="entry">
@@ -1251,7 +1251,7 @@
                                 13
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
+                                <span class="value">3</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 14
                             </div>
@@ -1262,7 +1262,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 16
                             </div>
                             <div class="entry">
@@ -1272,12 +1272,12 @@
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 18
                             </div>
                             <div class="entry">
                                 <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 19
                             </div>
                             <div class="entry">
@@ -1321,38 +1321,40 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMDAQYFBQEAAAAAAAABAgMEAAURBhIhMQcTFEFRYSJScYGRIzIzQtFi/8QAGAEBAQEBAQAAAAAAAAAAAAAABAMBAgX/xAAgEQACAQQCAwEAAAAAAAAAAAABAgADERIxBCETIkEy/9oADAMBAAIRAxEAPwBMJbUEbylXd5xu2nGfTPSpkqQ0QpxAUkf1z1p3xvC2bseU3KQppD8f4kONhe51eRgfnPtSr0zDty9T21m/FXgC4N5BwDnpuPUDPXHIpSVLgyb8fC3e5zw5BeKlNsvIHy7un5/2oHkJ3kthQR/11qxa8tFvsmspca0994XahW1wngqGcDIBwOOtQ2OE3JuDK5JaRDZWlbynFhI25/byeScYwOaoGuuRmePvGaNw01dYVnj3SVDdbgyP43SODRXpRRZv2iG3I8JvwzyEo7l1QKG8HCsYz74oohr22Ik8QH8mY6gt8OfpuexHbZKwglO1QO0p548hxS6gaTiXS7Wp16Mty2NJdekobOwngBKfur36U+L3YnzEebjkqDiCjk8gGlvOMjTtwahIKkxA2haEq+fB3An681ZUZmsv2d1GplbmLi+6edkaniy0ePXClOlIM8frcZHPnjHTPOOtdHsl0varxJuyr/CTJQyhKW0OLKAnlQKh68jGaYzDyLy083JSnhKW0EDBC1kDII88ZNWC83C12x1MNaxDcLeELS2eEemQOOaoabYYDYkUK5BjqK6yajj6atl/066l5bkOSrwrrZBwCcYJPp9KK2r/AGS3WFyTf/AruNtd2p7hvhSisYBA6k7vvzRQ3pC/sO4pagH2WjRXblZbwpuPdc2+Wo7cOnKFH2V/uKZEqJa79G+JLTqTyKKKaygJ5B0Z5tNi3RlPuOnHrM9Gdt7YdYRJDzgJ+IjGBz6AEnFca/spvl7hqcdAEMqDjTauHM4IHv1xyOmaKK01GCBhu8RSAYkGJztC7QrhdGJenlRmGGY8pSC6ySO8QkkBJSenkcg+VFFFZbI3MKzG+5//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYEBQcCAwH/xAA1EAABAwMCAwYCCQUAAAAAAAABAgMEAAUREiEGMUETIlFhcZEUgQcVJTIzQkNicoKSscHx/8QAGgEAAgMBAQAAAAAAAAAAAAAAAwQBBQYAAv/EACkRAAICAQIEBAcAAAAAAAAAAAECAAMRBBIhQWGhIjFx0QUjMpGxweH/2gAMAwEAAhEDEQA/AMe4bu77TciAX1obUrtGyoZClfmHPbNbRa2Xbjb47cQzwkDK3T3QRjcjbPt71jl84PuNptrVxy1IgOYUiQyTjB5EgjIq84Q4x4ldZFqtzsU6E4C3QdQHy51UaqncC646zRaPVlflsOPKP3El6FmipaWtTqkA6dZyo9APM1n1sUzHVORd19muVpUpClADdWT/AFAcsU9QOGXD9oXR5Uu4EZC3NkoP7U+Pmd/Sk3i+zOOw3+4e11ahkdfCkdO6K20Hz5xy9SyE8xyihxfDtTM12RYpqVodV3mCCR742oqrfhvx1BDzZQs8geZoq9TgPPMoHLk+EYjFbOLLvZY6IqkJnWpaCl2I8coVnqlXMHPUbeIqtsfEH1Tcm5KLbrSlepTZcIChn7ucZHrXTMVto4ZW6wT0adwP7d/81K+GkggImzwfAISf9g15cbhgiNpUgbKvj7fvEZ5X0r3B1JTAsceOgk6Ul5S9I6DfnS7c+I7/AHFOqVIZgtnkG0YUfTO5+VcliWGwpc24LSduejPlkZrznQzauzcnR3I6nslvW2pS3PHGdzz8qAtFSnO0CHOSPrJ7d/7IENhSXi65qWRupTu5V/LJ2HkSPUUVLZTc1p1QrallCf1pQGR77D5Ciil15/mESqwDw5A6LnuZ6MxJjiVGFcpa0p5hTQfSPUpKse1aArim3vWx1uPEaTfls/jtsq2fKdClaQM4x/yiiptoXI4wNepLqSQOHr7yimTGZHC6LU4ys/DhKnXkktJLmSSFAbJBB64JxUt++NzblbZaBIdYjEakMt6irGDkEAjJxg94cqKK62pa1yJGlue+3YTgdJ8vl0fvEVbTloXrUoOdotLQ7/U4UVdOpGaKKKRXUMnBQJpB8EotAZmbPqPaf//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Bamboo</div>
-                                    <div class="artist">Hinds</div>
+                                    <div class="name">Warm (feat. Mia)
+Explicit content</div>
+                                    <div class="artist">Dre'es</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAQFBgcIAgn/xAAwEAABAgUCAwYFBQAAAAAAAAABAgMABAUGEQchEhMxFSJBUXGRMkKBoaIIFDNhwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAABESFR/9oADAMBAAIRAxEAPwChEWPXnGGx2NVuIjcCmuDBwNs4yfWOm9PbgW3xGjVsHhzjs107+XSN1SDmFDf7w/S7m3xH3jNT1q4488xp3dZUrFAq2ASMmRe3Hn8MK5WybvlmuBNtTq985cpjqj7lHSNLa1X5V6pWaZZWmlU5lafdWJ5UovDjATjCeM7J+bODnbG0O2hlYuiRu647OvKqu1aYkmGZyXml79xWxGTuRkjr0wY0mMtOWheP7dwG15nCwdk0tziHp3NoI3TqZcj1p2HWq5KsCZfkmC422onBOQBnG+BnJ/oQQMNNPI28IW1itSVAo8xUak6W5dkZOBlSj4JSPEmGqROyYiutTksu0HkTMwtnkjnNhCOIrcPdSnHTG6vaCKOt+eRbuoLVwSMi28VTD7x5hIcWhxRVgnJCSAcAj65jR+ijlMq0pW7hk0TXaM/OKbmlTWOJIR/GhOBsgIKcDzyYrm76LQkaP2tWpOSbl6vMhlKnEEgudw8eR0O4z0iwNA0LXaUw66sqW5M53O/CEJSD+OPpAPWq08tm3WZBttpztFwsuJcSFAtgFShg7b4A+sEMOtzqpdNvKSUgmYeSCfPl5/yCAWU14cCd4jOsMgqetiYdQruoQgqAG4wvr+f2gggkIZK1BdU0LqEks85+h1BDhV4hpZIz7qUIk36ca42JWfkeW/nn5LhA5eCkFODnJOQobA9RBBBU01tpYrNiPrafLT1OdRUEEfNy8lST47pKh6wQQQH/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYEBQECAwj/xAAsEAABAwMCBQMDBQAAAAAAAAABAgMRAAQFEiETIjFBUQYVYXGBsSQ0kaLB/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQb/xAAgEQACAgEEAwEAAAAAAAAAAAABAgADEQQTIUEFEjHB/9oADAMBAAIRAxEAPwDzszjXH0qKShITtzmOxP4FZ9odOmHGeaAOY9T07Ux2rlzZAC3UEw4HRyg8wBHftBIjvWqby8ZDYQpICOHpGgbFsyg/UfifNda1DQDXFtWJeDZWFtKTpKtlEyAJ8eKgFBHUU3+45Bu34CHoa4amtGkRpM7f2MHtNUy7X4peye4JSUxTRTXmPSGTxWCxGYvGUIscqlxVsoLBKggwZA3FFAKS3KzMGMwsiswlMnxUdVmCQNpJgfWqu19SF55CeOy2SoAEtk/fY08eqc8n0xlmDYMWzlrdM8Ru5iCo6YWokdTJOwgx3pup8zUlqVoufb8xLSyFCw6is7YEdR9qiuWR8GuScy884v8AXJjYzwRG9cHLkuOFPuypns2Rv4qo62nHyTm1OpaZJD7uLxjTjji2mkuBCVKJCJXJgdqKhXjjisdZIF+9qSXEnk3J1fWikDV1DjEDcUxJYuC2udKTV3aZCz0tG6SlZQCnRokQTPmiiucrsIxMYSybymHA/aNmNoIVEfz81l7L4cJJRjrUqPlJ/wBNFFU77YihWJRX2SbeOlDaUNJnShEgb/FFFFTtYcxoUT//2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">City of Stars</div>
+                                    <div class="artist">Ryan Gosling &amp; 艾玛·斯通</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAQFBgcIAgn/xAAwEAABAwMDAwIEBQUAAAAAAAABAgMRAAQFBgchEhMxIkEVUYGRCDJxoaImM0Jhwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAABESFR/9oADAMBAAIRAxEAPwChEaHzzrDY+DZbqI5AxrggwOJiT+tdN7e6gW31HDZsHpmPhrp5+Xit1WDkKHP70/W7nH5j96zU9auOPPMbd6rJVGAy0AkSbF7kfP8ALSu10Rq+2a6U6avViZlzGOqP3KPFaW3q15l8pmcZovbTKdebfdWL5VouHGAmIT1nhPvMGeI4p12MzGqLHV2o9HaxyruXuLJhm8t7pfPoVwoSeTyR58Qa0mMtuaQ1iLZz+l7qFg8JxTvV9PRxRW6dzNSPaT0Hms7asC5fsmO422qYKpAExzAmT/oUUMNOPI49qW5jNWWAw9xkck6W7dkSYEqUfZKR7k01WJ4TUV3qct16QeRc3C2SyO82EJ6utw+lKY8Ryr7URR2n75GndwWtQWNk28VXD7x7hIcWhxRVBMkJIBgEfWa0fsq5jMtaZvUNmm6+I394pu6VdAdSQj+2hMDhAQUwPnJqudX4XBI2f0tmrOybt8vchlKnEEgueg9cjweRPirA2DQtekrh11ZUty5nk89IQlIP8Y+lA9brXy2dPM2DbbThyLhZcS4kKBbAKlCDxzAH1oph3udVbjTqklIJuHkgk+/bn/lFULMa8OhPNRneGwVfaYuHUK9KEIKgByIX5/n+1FFRIQ20yC8psXkLJZ7z+DyCHCr3DSyRP3KhUl/DjnGxa39j23578lwgduCkFMGZJkKHAPkUUUVNN7cWMzoR9bT5aexzqMggj/LtyVJPvykqH60UUUH/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
                                     <div class="name">Just Another</div>
                                     <div class="artist">Pete Yorn</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYFBwIDBAj/xAAsEAABAwMDAwIFBQAAAAAAAAABAgMEAAURBhIhMUFhEyIyUXHB8AcUI4GS/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQMEAgD/xAAeEQACAgMBAAMAAAAAAAAAAAAAAQIDERIhBBMxQf/aAAwDAQACEQMRAD8A9Kz7w3CeLS40hxYSD/GEnOc8DJHyrfCmLkuKSuHKjhIBy8EgHwME81zXqe5CVFDbZUHXUoUoHGPwA1KJOQCOhotYWTKkm8GVLDusIDOq5dhcQ9+4jQjOWtKSobAQCAByTyOgNMyvhNV8i2TXNdPXzDLYXEMINrWc7ArdvPnJI7Yrksm1j9HyK+iVFZfbzsdQHE5GDgjIyKKjE3KJAbiRFuISs7G0gHgdhRR0ZlySFnWDswP20Q50VEhMpLykOOEjASeNoHTGf7rexrplTy2FNK9RI3BQbWUKHg4xmu272+4OLZcXEiyWmiT7FFKxkY4SeDwT3pDXpW3SrlG3LeivsqUGUq7uHKvTODgHnI4APbFULWSJG5RfB6f1UxhxpaNq+EgE4yT26eaqqz6zKNf3JUxK/Q9MNNjcPanOevn7U8I03amFR3ZjocfBC07j7uE47/hrOPbbfCdXcMNSm1JKUqbwlPuUDgDpxxz9zTI6JNYEy+RyUslRfqZaJl51c1qCY+9AtLTLYUraXGjgkDhKs7iTwMfU/Ir0hGtsdyIgS4zK1Y+EoBA7gdKKNXulUtYjZ+Gq/ErF0kcjYCrjjPNVLrC6M3i9SGYZC46AhreDjetJySD44GfFFFTVLo298RN21RZjOSZSyopSXPVcwTgDk/Xt4FadP3IXjUEGE5t3tpXIeQpOQAjbgJ+i1p/zRRTZ/QqvskiyBRRRUhaf/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHBAUIA//EADAQAAEDAwMCBAUDBQAAAAAAAAECAwQABREGEiEHMRMiQXEUUWGBwRVCkRYkMuHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEBAQADAQEAAAAAAAAAAAAAAQACETEhQf/aAAwDAQACEQMRAD8AkegobWodUl9/a4zBA8NvPlJ9PsMVvuqi4Meay5ESyZqWVKUEJzu2kYCsfQkc1M9JxrjJvCIVukOxn3O+1zw+3zP3qiXSwqkSbi84ptE5uKpxQjuhZWcABKgOw4JJ7k1KkgXO2yrfHiXWOEiBcEkoKf8AFB9UEUvuuKcWVqJyfrVSvs6Arp3b4MYI3RSFqbVwc55OD71O7OwzLmtIkIV4WTu2jk/If8RViTX0XsH6/rqGHEbo0T+4cz247D+aKYLG5/RGjb1PYca+MmpLLJScFO7gY79hk96KkPKZouchmezMbVskNHORx9vbHFWbTF3lXwBdrlNsRlgGS2zFSXM9iVrUfwakuq7GuwXNMJ4hS/DSvck5Cs55GQD6fKtlo9511hy221D3x7xKgWl4Khgcf6pC2/UNSrXKVbI6kLQ6NySP2+YHB/isNrpzq/8AU2WVWK4NB1fm8g7Zwrsa9EdPdUPz0LnRXWHFrG1TqtxPP0zx711CLtCaiPuo1VFXN3bmyHGyEeYkAHYPTafemypivLnbqdZ7nGnWawuRFxW1pKmg4tKUqIAA5JwMA+p9aKsPWK12rVVliiG6iZd2MqYkMKSXEKJHkV2GCB6/KimyI0E6ulT2sw2lJJDLaUgdzyfyadOjFrt8Fy4TyEquTKUsBO7cW88qPue32oop8odnvUE1ZbbfkzkwYqFbnXBy4rH7Uj80o6YuFsu+vWLPAivfCqw84t9wKKgkZ5GOPb60UVNDbM8seNl9a5MHT+mHIlsU6iXNfSNxXzhPKjx29BRRRQLDkrtv/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Exit Music (For a Film)</div>
-                                    <div class="artist">Radiohead</div>
+                                    <div class="name">Creep (Live In Boston)
+Explicit content</div>
+                                    <div class="artist">Brandi Carlile</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBQT/xAArEAABAwMDAwMDBQAAAAAAAAABAgMEAAURBhIhBxMxQVFhMpGhFCJxgcH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwEC/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQMhEjEiMjP/2gAMAwEAAhEDEQA/AONXBCSMkDwPFImnL4vSPUe5OxYpmJeSQW0k5AOFHwCeP4p51Bb1GyykNLTvUnGdudo+Pmpt03tOoE6mi3KxwFyjFw6/gjbsUCCkk+pGcDzmjJJxZVXyVFL6i6huchC4qrAl+3KaSoqLanV7lJB2lI+kjPrUPv8AaX7TJbblIDTjie52s8pB8A1dzrJDOpb0Uvx+04AhDTW5whwcZKsYBx6ZqF6rmu3C+ypD7hWpSjyfaswXdFc6VWZFFFFKCFk6gXyDFtT9vdde/VvJylLJ+j2J9hWv0GvTrui77Z47Ta5jW9xpKjjulaCEhXqRuGPxURuc524zX5UgjuOKz8D2A+K69KXp/T99jT47ikBKgHADjcjPI/2pSx+FLspCdSNGLOm2yPcXpkVBfU+Uq7gxsc5zhI4H2paeUtxanV+VHz81YusdsSzGMxlvYZ+11xOOFqHO4fOKn1stkeZEKFFYOdw5+9c45prkUyQbaQtUVqXq2C3PKaKsqACs59DRV1tWg706ZnLG1RTkHBxkeDXZYoCrpe4EBA/dJfQ1/ROD+KKKyTqNmxW0WfrpOVGTAZyO2lBjoGPAwOfxSJp5LqnUMpOV+TkCiihx+Yx+wr6imKl3iUvfuQFbUkew4ooopkekDk9s/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMDAQYFBQEAAAAAAAABAgMEAAURBhIhMQcTFEFRYSJScYGRIzIzQtFi/8QAGAEBAQEBAQAAAAAAAAAAAAAABAMBAgX/xAAgEQACAQQCAwEAAAAAAAAAAAABAgADERIxBCETIkEy/9oADAMBAAIRAxEAPwBMJbUEbylXd5xu2nGfTPSpkqQ0QpxAUkf1z1p3xvC2bseU3KQppD8f4kONhe51eRgfnPtSr0zDty9T21m/FXgC4N5BwDnpuPUDPXHIpSVLgyb8fC3e5zw5BeKlNsvIHy7un5/2oHkJ3kthQR/11qxa8tFvsmspca0994XahW1wngqGcDIBwOOtQ2OE3JuDK5JaRDZWlbynFhI25/byeScYwOaoGuuRmePvGaNw01dYVnj3SVDdbgyP43SODRXpRRZv2iG3I8JvwzyEo7l1QKG8HCsYz74oohr22Ik8QH8mY6gt8OfpuexHbZKwglO1QO0p548hxS6gaTiXS7Wp16Mty2NJdekobOwngBKfur36U+L3YnzEebjkqDiCjk8gGlvOMjTtwahIKkxA2haEq+fB3An681ZUZmsv2d1GplbmLi+6edkaniy0ePXClOlIM8frcZHPnjHTPOOtdHsl0varxJuyr/CTJQyhKW0OLKAnlQKh68jGaYzDyLy083JSnhKW0EDBC1kDII88ZNWC83C12x1MNaxDcLeELS2eEemQOOaoabYYDYkUK5BjqK6yajj6atl/066l5bkOSrwrrZBwCcYJPp9KK2r/AGS3WFyTf/AruNtd2p7hvhSisYBA6k7vvzRQ3pC/sO4pagH2WjRXblZbwpuPdc2+Wo7cOnKFH2V/uKZEqJa79G+JLTqTyKKKaygJ5B0Z5tNi3RlPuOnHrM9Gdt7YdYRJDzgJ+IjGBz6AEnFca/spvl7hqcdAEMqDjTauHM4IHv1xyOmaKK01GCBhu8RSAYkGJztC7QrhdGJenlRmGGY8pSC6ySO8QkkBJSenkcg+VFFFZbI3MKzG+5//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Danser sur le disco</div>
-                                    <div class="artist">La Grande Sophie</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcBCP/EAC4QAAIBAwMDAgUDBQAAAAAAAAECAwQFEQAGIRIxURMiBxQVYXEjMkEIM4GRof/EABkBAAMBAQEAAAAAAAAAAAAAAAIDBAEFBv/EACMRAAICAQIGAwAAAAAAAAAAAAECAAMRBBITISIxUWEFI3L/2gAMAwEAAhEDEQA/AHid73BUPJDVUIiMp4nOAsePaAAM588/jxqKKy/VckwhrbayZK+okZHTwOBk8Hg4znnVlfaFPnbhcw4oLW8ShoTHhzgYBxn258DByecEnVLZblb5ZRTpA3RIw5Z/aWPbKjgEn+eeT315Th0Ur1HcfUrRGbJUSxoZrmKp5lr6ZqSRmdFkOfaOCOoLjj89+51b3KtuAt7PRR0kTmMukkshMYGP3EgDCjvnsfOljcRpoZ6kSKY6Wlh/UXqJ5wCfwAoUcaQ93VtPV7Vv1OzmFEpHAaNypwoyoOO6kgDBJByNHUtTkbRD4DFdxMhfCT4pXi7bzlsO561K2CqLrBLGoAWRQThSoGUbBx/jRpG/p82/VXb4g0ddHG3yltzPNJjjOCFXPkk9vAOjW/J1VLdhfEQhOJ6v3Fa4r3aqugndo45lA9RO6kEEEeeR2/nWNQWaqhvEVBZLi08iS/qFl6VlHV7m/nAGOMnkAkffWNxVTUO3bjWdYjMUDsG8HBwfznSlsOgokv8Ac6gzBas03pr6cgb00zjPI4OAvB4Go67Dg+JZSNqs0jbzv6Q1BaShkngqJOkos2I3Vo1Vs4HJBA8YJ+2s0vNtuN/33X2+SFxty3Uy1z00crpHOgGVJyfaWJ/aMAYYDtnWiXag+T3DNd6y61FZQJA0MdO8gaVWYAq6AgYOR3JPfxpp25LDcqWWopoyRJSxxsJQCzFGkX3EcMCc6orvGn5qM5Hf3FEFl5mZpsS5Vm3JaSmtaLNFUyKjUcZVU5J5UkcEZ7nv2P2Nd2nQ3T6vbKrpj+W+pywMMEdEgjLOnTnIwOxPGdGm641iwErnIi1xiapvHpm2tXxsAy+mrHI4OGB0bFgpfookghiWbqZWcIM/YfjGONGjXMQ9GI7tWYbk29SSUr1KrDEIYXPpekvpuMZPVxnJ7Zzx41H2RCtPLWekCIOlUVMduSf+Et/vRo0zcdswD6zF2nrpV+KU9rjdRTCrkqWjAH9xqYAntnPPnRo0aLXnqT8iTgz/2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Ecstasy</div>
-                                    <div class="artist">Crooked Still</div>
+                                    <div class="name">Bamboo</div>
+                                    <div class="artist">Hinds</div>
                                 </div>
                             </div>
                         </div>
