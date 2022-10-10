@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.09
+                            Average per day at ~2.08
                         </div>
                     </section>
                 </div>
@@ -1133,6 +1133,13 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                         </g>
+                        <g transform="translate(44.199999999999996, 26)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
                     </g>
                 </svg>
             </section>
@@ -1299,27 +1306,6 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYEBQcIA//EAC4QAAIBAwMCBQIGAwAAAAAAAAECAwAEEQUGIRIxEyIyQWFRkQcUIzNScaGxwf/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBQAE/8QAHREBAAICAwEBAAAAAAAAAAAAAQACAxEEEiETUf/aAAwDAQACEQMRAD8A5xglVJcuC/xmmbZuuz7e1qHUbZXlhbMcsf8AJD3+xwaWfyNz4Mc3gv4chIRseojvim/YG22v7xZL2Z7a1YmIMoBJPvweMf8AaVkvWtVWPxUs2NE0effx1G7jtbe4Npbn1OnrJ+nNaXtSC5fR1kulIkZj0k8N0+xPzUXbu3LSS3t5b2x017yMKBPFAEfgY83fnHuDTQIWt5ECn9Af4qY2V3uUrW81Ki5WZJCtw2EHzRVzqCJIqjgkUU0zfsw+TlfVbd+hZ9PcKyr5oceXOMEgdqrbHc13auomjBjHOUP+s16vqarIGVhgexPH9VZ7H0a1u9QkuL7wzbLIPDQng55+1MsVB7EHZU6s3P8ADu4mfQI7id2LzjrGeODTpbN1Q+bBFJ2lSJDFFEmAka4UDtimCC6zF0cKRznNcIw2Nsk3LquW7GioN1KXRk96KCwh5OK3d29TGmnbGoSR2hiDeg9viiirHIBpJ/Fs/SaVt3cbtGqseUGDk036brRuX/cHSfpRRUi5pldDW4xRXCG3dzIAwHY+9FFFEiZ//9k=" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">From the Dining Table</div>
-                                    <div class="artist">Harry Styles</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYEBQcDAQL/xAAsEAABAwQBAwIEBwAAAAAAAAABAgMEAAURIQYSMUFRYQcIE1IiMkKCkaHw/8QAGAEBAQEBAQAAAAAAAAAAAAAABAUGAgP/xAAfEQACAwABBQEAAAAAAAAAAAABAgADBBESEyExQQX/2gAMAwEAAhEDEQA/AMrtLTYCQtjrV93WRTXboxUvKElA9M5qBa4WSnVOVpt/bRFaUADzMwzFvE6W6KoKSTlQ8jNMsJlIQAG8fuNew4YSkaq2jxtdt0eywGe9aGcUspxhKSD65NFWbceijlokLMps0HY1TpbYYCQMCodohJTjR/imuDFGAcUi634Iamo+zPmPE0KgWu+xrhe37dAbckusrLasEJT1DHVs9wOobFWfJparPxe63FpILkWM46ke4SSP7rJvlnlrn3N9chJUta1JJA/NgdYUT69xrwajbtLVqOky7+dlSwnrHPE3FUVTTi21D8SD0nz70VH4qGJjEuVDfaWwFhr6aF9RbIzkK9DnwfFFdUXmxAxnOrOKbSgEXrcyB4pihtaFFFIsYwlaCUXI7hZbymbxy4OPoadAacdaP6vt/wBrOqlfD3g1v4OJZhFf0wkuBxeFdwckHxrAx7UUVB0EuxJPqaqulaqlCfRLX4YQ48fiDwhqLjLkp14LV3UFLJ37+KKKKXhY9kSbvUd8z//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">show me love (acoustic)</div>
-                                    <div class="artist">isaac gracie</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgEFCAT/xAAvEAACAQQAAwUGBwAAAAAAAAABAgMABAURBhIhBxMxQVEUIkJxgZEWMlJhscHw/8QAGAEBAAMBAAAAAAAAAAAAAAAABAECAwX/xAAdEQADAAIDAQEAAAAAAAAAAAAAAQIDEQQhMRJR/9oADAMBAAIRAxEAPwDlZQCwB9adPZ5irK7sIknhDoB9d/Ok5bwNMHKlfd0SCep2ddPWmZwtxR+H4zGLNp2QhQoY87N5aGtffxrDOnU6n0Tx2pe68GjlODsdLanUEi+7+qlZxzhLOwtJe7Qny53Oz/t0xX7QruThsZNcTM0TSd33egG3Sx4y4lly0Qgnxj2pduUo3Nzb8vLX0o+JZPrvwTlcKevRb0VPcRCEgc6s2yGUeK6OutFPOaTY6WJFuFlVdsnMjH4WB2P7FPzgqyxWexNvd3A5JkQB2RivMB5EDxrnamH2Z5qW1ZoBJ0HlusM8NztCePaVaY2r3J42DhnIzNe2sDWl2jLESNqR05SPl5VrOJUwUWLbLWaxmZouYFvh2N9BVaz4xuQd7y8scaLtCSXfIKodvVowNsflWi4zuGj4cQTTgyy8qqiAqAvpo9da9aPOHzsVeTSbaKBdXAmjVeRQQzOW11JJ/jpRXlop+jmt7MgEnQrYW5uLDu7mLw8SKKKhkz+l7sO0m2tbPlOEtXuwNd80ak/cjdVLMZC5z977VfSpHExOgGU8vTf5diiionHKe0WrJVLTITi7P2SaUZKISofdiI6uOpBB3+w6ePWiiirGZ//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Ulysse</div>
-                                    <div class="artist">Ridan</div>
-                                </div>
-                            </div>
-                            <div class="track">
                                 <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQDBQYHCP/EACwQAAEDAwMDAwQCAwAAAAAAAAECAwQABREGEiExQVEHExQVIkJhJJEzccH/xAAZAQACAwEAAAAAAAAAAAAAAAAAAgEDBQT/xAAeEQACAgEFAQAAAAAAAAAAAAAAAQIRAwQFEiExE//aAAwDAQACEQMRAD8A9Esp2tZJyKSduD7sl2LbooWpogOPvKKG0HGcDjKjjsOB3INc7netukExFCHLmSHdp2luIrbu6DO7HerKxerOhpEdmMm8mO4hISUymnEHPfkjB5/dJyR0PS5kr4s08hu7qWpSJsRCug/ikj+9+aVcu8y3up+rRELjFW35kfO1BPA3pPKR2yCQD1wKkjau03PXiFfLY/8ApEpGf6zmmJL0eY2pG5uSytJSUpIUkg9c0WVuEo+qhpSkhQUQUnPnvRVHp2QmTY2UPb3PiurZBUeVBClJSSe/AHNFApxGwemOrIVlZYfjWlsvEJSy6lDi9yuvISccDPXjFSv+lWp2dynLNY5Kt27ey9sOM5xyQMdq7zfYvzrM62lKFPhB9oq4CV4+09QRz+6YRcYjNqjy5jjEb3G0qKSsJTuI7ZP/AE5pPmjVW8ZlXS6PLz+k34M5lu9WFdnjc5cZUp4vH8UpGVHJPHmsnfHJyblEg2lUiBMlutMI9pam8LUQO2PI6V6mvd2tDF1am3RxCIKW1AuPoJRkqSEnGOfy5p+JKsWqIwXZ5EaZ8SQyf8ZHtFKgoYyOOAenjBqVjRXPc8k27Xqol0lZXbNp6Hb5El2a7HT98l4krdVkkqJz5J48UVpmWghPB7UU9GayjYeZfSpJdT93YKqAWu1pIcjw47joVyooC9vkDPT/AEMUUUqZJU3nRNsuMGaw+pTLMlaVrEfCeU5xgYIGcnOByeaU05pWbpdiQizSom18Jz75JOc9SQBn9dh470UUwUa61u3RDh+oOwVMAHllKgonjHU4AxnvRRRQB//Z" width="32" height="32" alt="" />
                                 <div class="infos">
                                     <div class="name">Battles and Wastelands</div>
@@ -1327,10 +1313,31 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAQFBgcIAQP/xAApEAABAwMDBAICAwEAAAAAAAABAgMEAAURBhIhBxMxQSJRFHEkYaGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANU1Brtri22a6vQZ18gCUFnLRbWe0PIB2+wP795qc1SvVrTcOfdJqUiBElSVMuqkmMQ9gAAbV4wclJz7xigthiQ6tpE38qIuEpAWFpOE7fO4Kz9f84ppsWqYF2uLkSDeLbLd3qV2mnNywgfRHBxx4zVcTbbfrP0Xa0/GhsLDje0SZMscbl9zaEBJ3AD44JGaq/Qlj1radXRr9BgRXg3L7fDwaZWVghQGBwkA84HHqg1/RTVZHby6lSr1FgxjgbURn1OnPvJKU0UCHqHdX7Joq73CGSJLLB7RAyQokJBA/ZrLjF5nypka7SJ8h+XtxmSoubT74V7Fas1c4W7KsgkZWgZB5HP6rLr7aGnJXcUovB1eVK8ZCiCf8oET/UbUMVcqK7JE5jeVqRIHLZXyrt48cA8eBngVPtP6mYj6rtSFOxZFpcSJDCkqCe0FKSlW/wA/0Rx9iqHv7Ep+dMdabOS8Cn6I2+R9+DxTnZCbgiBZIcQzL13stlv5KILiMJPr4krXkeBnNBvAeKK4BgAUUHhOitTY6mX92wkH4nByDkc1BpfS3Trjy1fiy3A84pxz+SRgqJJwP2aKKBqm9FtKzUNdyDPT2j8dk9SSrJJO7HnG44pRpHpPpzTGoY92tNtmNSmtwQ47L3pAIwcpPPjx/uKKKCymu5tHcCd2OSD7ooooP//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcDBggFBP/EAC8QAAEDAwMCBQMDBQAAAAAAAAECAwQABREGByESExQiMUFRCDKBN3GzQmFzsfH/xAAXAQEBAQEAAAAAAAAAAAAAAAADAQIA/8QAHREAAgICAwEAAAAAAAAAAAAAAAECESExAyJBUf/aAAwDAQACEQMRAD8A7m4WttZxNxbvbLPdzGgMKR0o7LZCE9tJPJSSeSapFy351NGjuNQ5i3V/amQ80nOffygAYqPfvU6LRuNf2IKleMKm0uZHABbQf9fFJ5EhdwfPee61qORkcf8AaGpW29D9aSWxx6Y3s1tdJzMV+d96uXG2UccfHTWmtNybrLsjby3+5LdYUpCnUjp6+MZAx8/2rKO0NlKZVxfUhS4jbYQHVJx585UB+B+K0vorVES66mZtUBTiWYtqS+EOJKFHrUjzKSeRx8/OfepF3J/CTVRr0tMA3wzGfHCII4Se520nJVzgjzcD8Giu1RTgmBvqRON6NScf1tfwoqDa+xxLtc7AmU0lxhx6Ul9JVjqCG0qSOOfU1N9SP60al/yNfworg6Tv0nTcO23Nttt9tia7hrqwo9TQSQfge9ZnrBuG8j21XCkWKyojWF1qLAdWmN4dEUuq6lqIJC+sFPr6nNer6Vok1jVWonL0y4zPU0W2kyElDvbStIJwfbPSM/KcZ4qnw5+s9bT7dJtjJstvaUJKXZmFNlYGEkcdRGCfbFM3aeTIk723YylFamrIGu5jAcIeSVKA9gSTii47WGbnVWh90UUU4JjrfHavW2od077dLPYH5UCQtstPJdbAUA0gHAKgfUH2qmDY/cEYB09K+0E+dr1+Pvoorjhi6J0fqvRls70Xb6feL+QUpfnTGfDsD0HQ2Fc/uT+2Ksn056P1rZ9xb/e9aWt2J46GUh1S2ylSy4lXSAlRwMA8emBRRUSK2zRbanCVdaAkA+XBzkUUUVSH/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Whiskey and Morphine</div>
-                                    <div class="artist">Alexander Jean</div>
+                                    <div class="name">The Coast No Man Can Tell</div>
+                                    <div class="artist">Bill Fay</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBQT/xAArEAABAwMDAwMDBQAAAAAAAAABAgMEAAURBhIhBxMxQVFhMpGhFCJxgcH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwEC/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQMhEjEiMjP/2gAMAwEAAhEDEQA/AONXBCSMkDwPFImnL4vSPUe5OxYpmJeSQW0k5AOFHwCeP4p51Bb1GyykNLTvUnGdudo+Pmpt03tOoE6mi3KxwFyjFw6/gjbsUCCkk+pGcDzmjJJxZVXyVFL6i6huchC4qrAl+3KaSoqLanV7lJB2lI+kjPrUPv8AaX7TJbblIDTjie52s8pB8A1dzrJDOpb0Uvx+04AhDTW5whwcZKsYBx6ZqF6rmu3C+ypD7hWpSjyfaswXdFc6VWZFFFFKCFk6gXyDFtT9vdde/VvJylLJ+j2J9hWv0GvTrui77Z47Ta5jW9xpKjjulaCEhXqRuGPxURuc524zX5UgjuOKz8D2A+K69KXp/T99jT47ikBKgHADjcjPI/2pSx+FLspCdSNGLOm2yPcXpkVBfU+Uq7gxsc5zhI4H2paeUtxanV+VHz81YusdsSzGMxlvYZ+11xOOFqHO4fOKn1stkeZEKFFYOdw5+9c45prkUyQbaQtUVqXq2C3PKaKsqACs59DRV1tWg706ZnLG1RTkHBxkeDXZYoCrpe4EBA/dJfQ1/ROD+KKKyTqNmxW0WfrpOVGTAZyO2lBjoGPAwOfxSJp5LqnUMpOV+TkCiihx+Yx+wr6imKl3iUvfuQFbUkew4ooopkekDk9s/9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Tu n'as pas cherché...</div>
+                                    <div class="artist">La Grande Sophie</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAYHBQMI/8QAMBAAAgECBAUDAgUFAAAAAAAAAQIDBBEABQYhEhMiMVFBYXEHkRQVIzKhM2KB0eH/xAAZAQADAQEBAAAAAAAAAAAAAAABAwQABQL/xAAfEQADAQACAQUAAAAAAAAAAAAAAQIRAyEEEiIxQVH/2gAMAwEAAhEDEQA/AHis03UhiUlXjt0nuD844ZZSmaMyROHQbEruL+1j/OJZrn6i1Ga5g0eWzSrRRkcoE8G/k+v84ydOaoqslrDPHKhNr2ueD1vcevx5xGow6d+aqazsu01CXhXhd1dl7e+OEeUmOLjkdpG36Qv/AHGZQardtITZxVRqzwsRaIGxFwAfNt8TbP8AXOYyVzTR1kyIr8xIVfpQ+Nu9vf5wcBXNKSLlp7LDPKHqpAsXGQFAN/vfBiDZNrbOafNYZaOqnarIMQ50nGOrzfa1/bBjYKfkKvpiZH+H5Eol3l24AoNze+9+3j7440sjLMvLAIJsAy3+98UT6maQioc+EtKhpqOqVnAFiofuQB3A/wAbYy8k0pLWZhRQw1AimZj124jxKbnb4998NT6ObUWq9P4PMFO0f0uqVaaMO6sweS8ar1W7Wv6drG584jk5pmlWxfl2Aa5FyfUg+L49KLpqnkyFcsqiahFT98gv1eR43Pp2xINS6JbIK1ZP60Lh+JuX0A2NhcnY23F/GAvks5+OlKaQirJy3JRjsek3wYa9FaX/ADfPaakWoi5w/UMckZKso7nvuL7fODB0nUcldoqetq5M2kaJKaRI41shkAV1BNyCp87dvGMnTLvRZnQSRwy8CShmVYS4awI9Nxse++++DBjyipra0r0WYU0v7I3Y/wBsZ/1hF+pfPqIBEkDGidgWVVKvt5NwexIt6jBgxkMttrGKGl1iyvP6KtcSmOkk5oXh4LKFII+Sfe2+DBgxhS9vSP/Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Fresh Roses</div>
+                                    <div class="artist">Juke Ross</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAAAAQFBgcBAwgC/8QAKxAAAQQBBAECBgIDAAAAAAAAAQIDBBEABQYSITGBoRMUMlJhcQdRYpHR/8QAGQEAAgMBAAAAAAAAAAAAAAAABAUBAgMG/8QAIBEAAgIDAAIDAQAAAAAAAAAAAQIAEQMEQSExEhMiUf/aAAwDAQACEQMRAD8A5uD8figLjA0KvkcdNrS2os6w2jmsjipZ+n1xiqzQ8nFj0GZAU2qVFdbC+08hXIZm6qR8T2b4cjKwYD1JFvuMhxEechtlpRSlKg2Anl15ofnIdWTLc+lz3tFhzo8BfyCGwtx1PfFR6VYJsC/xWQ7M9YgpQPqW3KOWwKm1taUtKSQLP+IwzXhhFQcNH/a+mqkuuy1EBuMkuWQCDXZ6/XfplkbSdOvaYr5ttmkLsc1Akf7xRsjas2Boam56gQ4eZZsEUR4IIq/UZ4iQoMeC/NipVEU2tfxmSqg2U3fnv3xFsbK5iyqe+I81sX1oL8f2L9+ySztyawwtBQiKoq4m/q6/7lFx4b0hBU2g8Qav0vLHh6onWNrbpeVYUpJLaVHvgAKHt75WQcWOuaq/eGaGM41ZO3ANxlZgeRT8hJCVEtKAAusMTBxYulqo9ecMYfqB2k6V0bXgmC2JSAWq6+495Av5Y3DpwD8PTiFS3aDyk+K/I/uusMM57S10OxcebhKY7XshO09ZjwW5kOYAGZbK2uZ8IJBAPXfmsYJTCY7nFD7T4+5u69wMMMfKoViR2JSxZQDyZ+AOHL47Pi6s3+vGGGGTcihP/9k=" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Spooky</div>
+                                    <div class="artist">Dusty Springfield</div>
                                 </div>
                             </div>
                         </div>
