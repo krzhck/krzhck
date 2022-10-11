@@ -1246,13 +1246,13 @@
                                 14
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 15
                             </div>
                             <div class="entry">
-                                <span class="value">2</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 16
                             </div>
                             <div class="entry">
@@ -1311,10 +1311,10 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUCBAcGAQj/xAAsEAACAQMDAgQFBQAAAAAAAAABAgMABBEFEiEGMRMiQVEUFUJxoTJhYoGx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAhEQACAgEDBQEAAAAAAAAAAAAAAQMRAhIhQQQTIjFxof/aAAwDAQACEQMRAD8A11nEaFmICgZPPAoQeIqNGC28blI53favXthdK9szbRMCm72zxU26MGzC3p+gHMY7DGex5PFRTyzYNdvG0UQxxZrzyplI3MiQxyS25RJM4beu049j61aU5LqzBWjAMgzyufeqHVukS22m6XpOnyeJcyTySLJIh2ovAJO3J7sB++aU9NaXe3Or32manPB8RbwpcxyW6kq6MWXzAgENke3Irk5up4w2+nRRQc5/h0w2MoYOCDyD3oqEca2yi3LbzGNuce1FWJtpXsSOrdMt2e34qHt+tf8AaY9QdTaP0+I/m16kDSZ2LgsxwM9gKULJ4LrKSPJ5u/tWJdYdWQ3fV41JrVXSzjZjuJKyOxAU4PGRjH9Zrem2CZrkXXFhr2u2+n2ls6Q7Gke4uJREAowcYweche+M1f0TW9LHUGvfFz2cdzE6gXXiriWHaCFB/iTgjJ5Oa4jouz0m96YW66buk+cywSeI80haTfIpDqyjthuV4x2rJryObV7y5CXEUMdtarHtkkZD5AAydjuZsE/ejSnsOz6SlkillklgdXjdiyspyGB7EGilnTkBh0DToi6sUto1yr7wfKPq9fvRR6MjB41kjdJFV1YHKMMgik2o6JC6xiy0zSGTu63FuOT6YwKKKEw4IWen3lm/jWtno1vNtI3QxlTnjaMgZx3/ABUrDRx4sh1DTNGCPzmCHJJPfOR+aKKbYkO4o0ijEcSKkaAKqKMAD0AHtRRRSGf/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUEBgECBwP/xAAvEAABAgQEBQIFBQAAAAAAAAABAgMABAURBhITIRQiMUFhB1EVMnGBkaGxweHx/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EACERAAICAgIBBQAAAAAAAAAAAAECAAMEETFBEhMUIVFh/9oADAMBAAIRAxEAPwDuEYv+YyIhqn5cTnDBQLw7WhJIHMzwpbiSiq0IFUeYXUFPKWClSysrzdj49xEN7EmrUlSrLQ2zZkqScyctutt+/aLTKrS5LtLTcBSQesGryKshiq8iJauzHAJ7m56wRsRBCobUr68WU1twtuKWhY35rD9b+IVu1+lLm333NJaE2ssAZkk7AE3/ALiyKo9PJ5pRo/W8eUxSaehN+CSQTvlF/vEWVzyYxHoHRlIBEy886yJZ8EnKq5VY9ha9rjbfv4tFpkKvw7bbTjK9JKALgc2b9rRIkqbJ6Z1JZpKgeYAk/wCQh9SnTRcMrmaZKp1luJbLvXRBvzb7eN/eIV0rSC6jX3LeXurFpHfEffHWw4Lsu6eU5jl3vtbv06wRy/0nrNRrGIFSdSRxkqWVLUtQtpkdDcedoIrXYbBsTjNxBi2em/yfydpzfX7xW8U4np9FCGZxwF5z5GwCSfNhBBFLmKrsSeBSt9oVuIrw/iL4kgBJbbmjfWbSixSoG1iD/MN6rPuo0pNaWS28hWZbqMyVAW5bHb8wQQdHZk2YqylK7yo6k+hSMnJygXIyDEmXhmc0Wwi5HvBBBC0A1M25iXOzuf/Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Streets of London</div>
-                                    <div class="artist">Ralph McTell</div>
+                                    <div class="name">Under the Westway</div>
+                                    <div class="artist">The Coral Sea</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1325,17 +1325,10 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUDBAYHAf/EAC4QAAEDAgMFBgcAAAAAAAAAAAECAxEABAUSITEyQWFxExQiUZGhBhZCU6Kxwf/EABkBAAIDAQAAAAAAAAAAAAAAAAEEAAIDBf/EABwRAAMBAAMBAQAAAAAAAAAAAAABAhETIVESMf/aAAwDAQACEQMRAD8A5Pbspt5U62QBumKaqxN0MAJcPhTAIEEda3/cQ5vIStPNMip2rMMpCktNFBMashQ9xFL8T9NOWX+HJ2798uFTjpMGdeInWtPguKsPBcI7PKYKzsUa1V1hGD3iVd7w1mY3mZaP46e1K3fg/B1SbS7u7byS6gOgHqIPtVXFIKtMmbvhkIStJB6E0Uv+Ub+3M2L9rdGZGRzKr0VFFDX4HDVNuZRvECrK7jwoSlwdnl3UgCD/AGlaXPCa9B2FJ286acp9iU25WFxRH1QUkbeNIcfw+4xB+xFtfm1Q072jmXQrHlpTNcxvCTVZxOVJka9ajWok3jJL493hWYL5CDRSx5YzwJJ8qKpjNfpM39/hLFukLUw0ps8Upj1pHe2LcFVrEfbI/VFFLq3LGuKbntCxxS06FOznUS3TxKpVpoKKKcOU3hSeOYRI0150UUUAps//2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAYHBAUIA//EACsQAAEDAgUCBgMBAQAAAAAAAAECAwQRIQAFBhIxB1ETFCJBYXEVkaEjMv/EABgBAAMBAQAAAAAAAAAAAAAAAAQFBgcD/8QAJhEAAQQBAgYCAwAAAAAAAAAAAQACAwQREiEFBhMiMUFRgZGx8P/aAAwDAQACEQMRAD8AsW49zhR1drzLtPjwg6iRK4KErsjm6iPkUoLiuEbqV1FmtGflcKG5HbQ8WfNbqKcoaVR29QNxXi+JDJmuhpbchKlOFJJI/wC61qSSaXqD3OMv4Vy66UCWydvhPJ7Yb2sVwX1mgHMI7KcvkCOuzri1UKTUCwHIGKFlWYpzeG3Oyx6O7DdBKFEq3drilr45Td3zIKXkIe2NDeSCPVyN1O1u33xjdaZ1nmWm0o8it8Q1qCi2o+hRHP0aWwfc5chezNYYcPkrlHbcD3+F080JW8F4x9nuUFVf6MGFnp/rJjV0J5aWhHksq9bW7d6fYg/z7GDERagfDIY5RghMmODhkFaHqJp2M/lDj2Zy/wAhmjLQW0kpbZWBuAUpO0WTVQrWvtfEUz9WXDN1svy51U02rG12gFBQkEBVh8cA4sMfIZyeursqe67mGXLhLW144qmPuIohINjQhXHfvjy1H0iYn5g4/lqGIiVX2hxW0qHFUlJPFjf6pi1oX4qemOZ+QWg5GwGfX8EvlidJktCmh6iPN6fk5NHgR/EkOJUt9IDatqaGgSLAk+47m2FSbMnyMzW/MbU4856ilRNyQLpvXg/rDVH6bagGq52VBoutxvCK3kBsOeGqoStIKrCyrAji98NbPRCa4tTjs9DY2+hCnKr3fKgnj3p882w6N3h9M51Aat/yhunLJ68I6Fy5aM3XGVPYZS6SpyOU+p0AGwHsQa37YMZ2i+m2osq1GzIkrioixXkrStay4XB7lNDUfRoP1gxIccNexZ6jJBuEdW1sZghRLPNZ6izKf+Qk5vMEpKdoU04WxQfCaDGfEzjN5TO57OMyUpZUSfMr5qkd/nBgxoxhjbGAGgfSUlzs+Vn5XMlB1/MfNSDIZsn/AFVQhC00BvUi5PPJxedIaozDMvwTUstL84w6t1dCFEpNBS9MGDEzzBGzpg4Hv9I6oSnwpoqm5X7wYMGIFM1//9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Hawaiian Boi</div>
-                                    <div class="artist">Triathalon</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EACwQAAIBAwIFAwQCAwAAAAAAAAECAwQFEQAGEiExQVEHE2EiMnGhFFIkkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASqbxnoXIp5WlIP8AXAxq87M3teLujJTV1HSzKwRY5WwzfI86UdztdXQzS+/TuihiAWGM88Z/GvAHZGDISrKchgeYOitRqGnuu8I5o0ku8fAx4cxwhvz1OmLbIb9NTpI9wEmexply3+jpGejF8ud2Zo7o3vU0SqqzMvMc8cz4zjmfOtPbO/yLbFKc5I1pkr94T3azrHNcZY5FeVlEaJg4xyPU6NTXrHbpZa21pGrFcuxIGfA6de/b96NSVX1Yslpl2Huy72rgYfx4ELRIHBKsM8+w+3pyGM6zdtTblRe66OIRPwOyqigc3LMABnt1661BsV7fcfS2bb8khFZV0kiPGo4mHECBkfjGqt6d2ev2/TWmS5We4NPMhZeCnOYgrcKs4HMZ6jl0GdENWym2vSbd2vLb7UmTI8FEr4+9w5L8+45gZ7nTqs1ElFSrDEBwIOEfPzpbC/0NVRRxUTLPUwyL7CqMfWxI+odQVIY48jV/s1dHFRok8wLjkSe50hy3TbUrBTSFQWjJ7dM6NSVbNG8CyIwZQTxY8aNCV/b8KLHwtTRrnnxRgA/91Fbg3FQWreNpoKpy1ZXqfbIHZT1Pjx+dGjSkTebWsO4q+4W+MCZZI6hkUYDhwQ2fJyhOfnU3DSPLTpU0lSzo/wBvGo+g/wBSO360aNSSVslkhjmE+MlhnB/eNGjRoT//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Some Days Are Long</div>
-                                    <div class="artist">Holly Throsby</div>
+                                    <div class="name">Banana Pancakes</div>
+                                    <div class="artist">Jack Johnson</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1344,6 +1337,13 @@
                                     <div class="name">Leader of the Landslide
 Explicit content</div>
                                     <div class="artist">The Lumineers</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAUGAQMEB//EACwQAAIBAwMCBQMFAQAAAAAAAAECAwAEEQUSIQYxEyJBUWEUcaEVIzKBsfH/xAAZAQACAwEAAAAAAAAAAAAAAAABAgADBAX/xAAeEQABBAIDAQAAAAAAAAAAAAAAAQIDESExIkJRcf/aAAwDAQACEQMRAD8A4+jNOiuLENthGxvMHUc8DtT36Ii7eNrWAxJjLjA5/wBxSnoa4VLGdX8MA4OXXd+KY61qAtmEMQhlaRSzsI9ozntg9zSHUY6mpRi5tISybVRbcY3yng4/7+KiepNZma+eO0LwhPKXXgsKsGvoiRtbO6InaMYX2HwagNfjkGqT+IjowbG1++MDGaAk7uODfpGpzz3ghu3MolJwzd92Peil+l7YtQtppiFhSVdxz2zRUKY3YyVnTMix2bmSWWOPK7jEBnGTxk081YtdSNNvJgICjfjzfYiknSLbreeMhcEDkgccn3p3ZPGJp1kliOChUFgcH0wD2ommJqK1Dgk0tI7fEalV2+Zsds4JyfjnipPV5vq50aNFRJGbB+3bJ9as+rbqWKx8FQwmuCI40xgketT/AFVpP6Vp9jHzvTlvueT+aAs7N1pCTnHJGeKK2PHmMyvwnYe7GigYaHemSSY2wE59cLuP+Vo1SO907UEvW3qXYFXYeo9MGiimL+l+FlpEsWrXlvqV1E4EK/t4UkZ+P7o658O805pUWUFMfzXGefmiiobdw/TzdzwAx4FFFFA5h//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Little Lou, Ugly Jack, Prophet John</div>
+                                    <div class="artist">Belle and Sebastian</div>
                                 </div>
                             </div>
                         </div>
