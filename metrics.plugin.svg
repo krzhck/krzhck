@@ -151,7 +151,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~2.08
+                            Average per day at ~2.07
                         </div>
                     </section>
                 </div>
@@ -1139,6 +1139,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1306,38 +1311,38 @@
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAUHBgQCCP/EADAQAAEDAwMCAwUJAAAAAAAAAAECAxEABCEFEjFBYQYTUQcUIoGRFSNCUnGxwdHw/8QAGQEBAAMBAQAAAAAAAAAAAAAAAgADBAEF/8QAGxEBAQADAAMAAAAAAAAAAAAAAQACESESMVH/2gAMAwEAAhEDEQA/ANPaanbvPKZS2feNpVuEEY7dczmn7ItbhuS0hW7PIJB6def7qS6Wt339Din0oUEgqKTz6jH74qp6PdsPpCWCFmBuVtgfLtXnvrdrS8rs2LaSxbBxKc+XvHJniT6dKz1pbWthqWo3FzaBBuFoLKBG4JITKAJ/PJJBgz1jG3eYBGAPpU88S2DmovONB1CLu0UXbVcAFKh37xFAd8oEy1FdoLIpatti9pQQrMGRJmc4n60Uh0nV/tNp4PILT4w82sQWXByk9jiIwQZoouP2ZZjwmAbT3pceSVFJTv8AwjHTn+aonh7WrUXTrAZbPlkNAt8EnqfQ9qh1jrDLWm2dqpwp8v7xZjkTJA74p3aa4LW3Q8yo7lueYpOZ+v6VoXkdbb6TfhNsFgFKYEHpNTHx/e29nfJfMoWtoocWhe1WRgyOY+cVz2ftRcOkX1pcWu+6CCpn4+QSBB9YGcVI/EOr3jz5XcPKcSoyAT0nEUMNbp4s213WFWuqruUlQcSNq1IEFxAkRjhQ5HQ5HUQVkEakVXSnXypaVp2nOQekxRVty52VK3JOdiCDnrApyypD7KFs3jaNx2qDhSkgxOBPHeiiq2ZPtIOmWqkruby3XI+I7xJHpxiuXX9PsHrRTlpeMqAV8ILk/If7iiigc7dsI6oocV5iMdYx1ooorQFWt//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Far From Any Road (Main Title Theme from "True Detective")</div>
-                                    <div class="artist">The Handsome Family</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYEBQcDAQL/xAAsEAABAwQBAwIEBwAAAAAAAAABAgMEAAURIQYSMUFRYQcIE1IiMkKCkaHw/8QAGAEBAQEBAQAAAAAAAAAAAAAABAUGAgP/xAAfEQACAwABBQEAAAAAAAAAAAABAgADBBESEyExQQX/2gAMAwEAAhEDEQA/AMrtLTYCQtjrV93WRTXboxUvKElA9M5qBa4WSnVOVpt/bRFaUADzMwzFvE6W6KoKSTlQ8jNMsJlIQAG8fuNew4YSkaq2jxtdt0eywGe9aGcUspxhKSD65NFWbceijlokLMps0HY1TpbYYCQMCodohJTjR/imuDFGAcUi634Iamo+zPmPE0KgWu+xrhe37dAbckusrLasEJT1DHVs9wOobFWfJparPxe63FpILkWM46ke4SSP7rJvlnlrn3N9chJUta1JJA/NgdYUT69xrwajbtLVqOky7+dlSwnrHPE3FUVTTi21D8SD0nz70VH4qGJjEuVDfaWwFhr6aF9RbIzkK9DnwfFFdUXmxAxnOrOKbSgEXrcyB4pihtaFFFIsYwlaCUXI7hZbymbxy4OPoadAacdaP6vt/wBrOqlfD3g1v4OJZhFf0wkuBxeFdwckHxrAx7UUVB0EuxJPqaqulaqlCfRLX4YQ48fiDwhqLjLkp14LV3UFLJ37+KKKKXhY9kSbvUd8z//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">show me love (acoustic)</div>
-                                    <div class="artist">isaac gracie</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMDAQYFBQEAAAAAAAABAgMEAAURBhIhMQcTFEFRYSJScYGRIzIzQtFi/8QAGAEBAQEBAQAAAAAAAAAAAAAABAMBAgX/xAAgEQACAQQCAwEAAAAAAAAAAAABAgADERIxBCETIkEy/9oADAMBAAIRAxEAPwBMJbUEbylXd5xu2nGfTPSpkqQ0QpxAUkf1z1p3xvC2bseU3KQppD8f4kONhe51eRgfnPtSr0zDty9T21m/FXgC4N5BwDnpuPUDPXHIpSVLgyb8fC3e5zw5BeKlNsvIHy7un5/2oHkJ3kthQR/11qxa8tFvsmspca0994XahW1wngqGcDIBwOOtQ2OE3JuDK5JaRDZWlbynFhI25/byeScYwOaoGuuRmePvGaNw01dYVnj3SVDdbgyP43SODRXpRRZv2iG3I8JvwzyEo7l1QKG8HCsYz74oohr22Ik8QH8mY6gt8OfpuexHbZKwglO1QO0p548hxS6gaTiXS7Wp16Mty2NJdekobOwngBKfur36U+L3YnzEebjkqDiCjk8gGlvOMjTtwahIKkxA2haEq+fB3An681ZUZmsv2d1GplbmLi+6edkaniy0ePXClOlIM8frcZHPnjHTPOOtdHsl0varxJuyr/CTJQyhKW0OLKAnlQKh68jGaYzDyLy083JSnhKW0EDBC1kDII88ZNWC83C12x1MNaxDcLeELS2eEemQOOaoabYYDYkUK5BjqK6yajj6atl/066l5bkOSrwrrZBwCcYJPp9KK2r/AGS3WFyTf/AruNtd2p7hvhSisYBA6k7vvzRQ3pC/sO4pagH2WjRXblZbwpuPdc2+Wo7cOnKFH2V/uKZEqJa79G+JLTqTyKKKaygJ5B0Z5tNi3RlPuOnHrM9Gdt7YdYRJDzgJ+IjGBz6AEnFca/spvl7hqcdAEMqDjTauHM4IHv1xyOmaKK01GCBhu8RSAYkGJztC7QrhdGJenlRmGGY8pSC6ySO8QkkBJSenkcg+VFFFZbI3MKzG+5//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Bamboo</div>
-                                    <div class="artist">Hinds</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcFBggDBP/EACwQAAIBAwIFAwQCAwAAAAAAAAECAwQFEQAGEiExQVEHE2EiMnGhFFIkkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASqbxnoXIp5WlIP8AXAxq87M3teLujJTV1HSzKwRY5WwzfI86UdztdXQzS+/TuihiAWGM88Z/GvAHZGDISrKchgeYOitRqGnuu8I5o0ku8fAx4cxwhvz1OmLbIb9NTpI9wEmexply3+jpGejF8ud2Zo7o3vU0SqqzMvMc8cz4zjmfOtPbO/yLbFKc5I1pkr94T3azrHNcZY5FeVlEaJg4xyPU6NTXrHbpZa21pGrFcuxIGfA6de/b96NSVX1Yslpl2Huy72rgYfx4ELRIHBKsM8+w+3pyGM6zdtTblRe66OIRPwOyqigc3LMABnt1661BsV7fcfS2bb8khFZV0kiPGo4mHECBkfjGqt6d2ev2/TWmS5We4NPMhZeCnOYgrcKs4HMZ6jl0GdENWym2vSbd2vLb7UmTI8FEr4+9w5L8+45gZ7nTqs1ElFSrDEBwIOEfPzpbC/0NVRRxUTLPUwyL7CqMfWxI+odQVIY48jV/s1dHFRok8wLjkSe50hy3TbUrBTSFQWjJ7dM6NSVbNG8CyIwZQTxY8aNCV/b8KLHwtTRrnnxRgA/91Fbg3FQWreNpoKpy1ZXqfbIHZT1Pjx+dGjSkTebWsO4q+4W+MCZZI6hkUYDhwQ2fJyhOfnU3DSPLTpU0lSzo/wBvGo+g/wBSO360aNSSVslkhjmE+MlhnB/eNGjRoT//2Q==" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">Some Days Are Long</div>
-                                    <div class="artist">Holly Throsby</div>
-                                </div>
-                            </div>
-                            <div class="track">
                                 <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAUCBAYBAwf/xAAmEAACAQMDBAIDAQAAAAAAAAABAgMABBEFEiEGEzFBIlEUcaGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABwRAQEBAAIDAQAAAAAAAAAAAAEAAhEhAxIxQf/aAAwDAQACEQMRAD8A+HxOCy9wEj3g1CXDBiowCfqp2loZZdm9Vz7bOKvRaRM0/YR4ixdU3buMtjHrxzUujP20FlgZhwc5HA4rkqgENzmtX1p0ZqfR9zZQ6k9rLLdRtJH2XJwqkDnIHus1NDJjuSo4jY4Vipwx94Pg1md52e2YiPDUXUMOKK9AOD4xzRV2TK0YfkqARjn/ACn0UGdHuXwNuSM4/VZDT3ZnOT4Faq16m1KLp6bRkliGnyklkMK7iWPPyxn+8Vz8hp4clWeP24kSPduiSSF1j+MhYlVP3nOduPf8ohvbl4rC0vI4ns1cGMBskfEjkZ90v0y6ntnkaKWRC6NGSDztPBH6xS7Vbt7Z4nhZdyHK8ZrHCwaXUc8R1WTsRmJQFAQ+uKKSXFxJczNNMQXbzgYoqzo7pa7HujZmXxirSTjKAnkn6ooqpMbFgUHIpLq8wM2ztqfeaKKSrW0YwCwooopL/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
                                     <div class="name">North</div>
                                     <div class="artist">Sleeping At Last</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAUBAgMEBgcI/8QAKhAAAgEDAwQCAgEFAAAAAAAAAQIDAAQRBRIhBgcTMVFhIkFxMlKBkuH/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQMEAv/EABwRAAICAwEBAAAAAAAAAAAAAAABAgMRIXESE//aAAwDAQACEQMRAD8A9G3up3MU06W8SyMqnxhnChmz6PBIGPqsSCXqLUbNZoJbCwmG5WjkQzr9HIK4/jmn7WkDMWaJSx5Jq7HGkYwihQfioOn5xoQ3Nv1M0ym21DS0j8aAh7V2O/H5H+scZ5Aont+p/Ftt7/S9/P5vbPz6wMBv5rYCQBk+qmpOShRJn8mUj6X/ALRVdFAc07qdb3OiWE1ra6Zfr5GEQvmJhjDY3YRhyTgHkYH3VrVe4F4Ojk6gtbG5sngMbPb3UWYblHYL+Mg/fOQRj7BGKYd59CHUHTdhai4aCY6hAsZAB3FiUI5+mJ/xTLp+K1uO1unxylJbZtKj3lgCOIhnP64Na4yqUItx3nfDDOu92SxLCxrpz/pXrLVerND6i8l+NPGmae0iOpyWdg58jtjOFC+gB7zzgU/7V9wNW6x08zNo4ZY5yk1wLhVRAeQAuMkgEfrnHvNIO2NlbaR2V6iF7bo7iOd7hZlGXzArqrZ98OMA/NbP2c0GLpWHWtDjDjwS28x3tkkvbR7j/uslLZVNy8x4TTC5KPuXRb0b3TTVOr00XUgIQ5ltoZABtmlVztPyuVGMc8/zRWLp3TtnJ30vdQmt0MJaVYE2jak8cVq/kA/uPlfn55oqu755ThrRbQrMNWNM7EQDjIBxzUBVC7QoC/GOKKKoNBHjQqV2KVb2CODUhVDFgBuPs490UUBHjTfv2LuznOOc+qKKKA//2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Yesterday</div>
+                                    <div class="artist">The Beatles</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAUEBgECBwP/xAAvEAABAgQEBQIFBQAAAAAAAAABAgMABAURBhITIRQiMUFhB1EVMnGBkaGxweHx/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EACERAAICAgIBBQAAAAAAAAAAAAECAAMEETFBEhMUIVFh/9oADAMBAAIRAxEAPwDuEYv+YyIhqn5cTnDBQLw7WhJIHMzwpbiSiq0IFUeYXUFPKWClSysrzdj49xEN7EmrUlSrLQ2zZkqScyctutt+/aLTKrS5LtLTcBSQesGryKshiq8iJauzHAJ7m56wRsRBCobUr68WU1twtuKWhY35rD9b+IVu1+lLm333NJaE2ssAZkk7AE3/ALiyKo9PJ5pRo/W8eUxSaehN+CSQTvlF/vEWVzyYxHoHRlIBEy886yJZ8EnKq5VY9ha9rjbfv4tFpkKvw7bbTjK9JKALgc2b9rRIkqbJ6Z1JZpKgeYAk/wCQh9SnTRcMrmaZKp1luJbLvXRBvzb7eN/eIV0rSC6jX3LeXurFpHfEffHWw4Lsu6eU5jl3vtbv06wRy/0nrNRrGIFSdSRxkqWVLUtQtpkdDcedoIrXYbBsTjNxBi2em/yfydpzfX7xW8U4np9FCGZxwF5z5GwCSfNhBBFLmKrsSeBSt9oVuIrw/iL4kgBJbbmjfWbSixSoG1iD/MN6rPuo0pNaWS28hWZbqMyVAW5bHb8wQQdHZk2YqylK7yo6k+hSMnJygXIyDEmXhmc0Wwi5HvBBBC0A1M25iXOzuf/Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Lake and Ocean</div>
+                                    <div class="artist">The Coral Sea</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAABwAGCAQF/8QAMhAAAQMDAwIEBAQHAAAAAAAAAQIDBAAFEQYSITFBBxNRYRRCcZEiMoGxM2JyocHR4f/EABgBAAMBAQAAAAAAAAAAAAAAAAMEBQIB/8QAIREAAgICAgMAAwAAAAAAAAAAAQIAAwQREjETISJBYXH/2gAMAwEAAhEDEQA/AF27vy49plyIKmfOabKk/EE7OOTnB44+1AExvVXiC6Lm4+IcPGGW0uEDb7D396e9U2w3awXO3NqIMltSUHeRtPUdO3+KLdPQp6LTKsbyTHkW/DRc3fgdI7A+mMfWlw5Rdr3DVVrY2m6g/qKHdLM+WZqpSD8q9xKFfQ0o+COt5Ml1NjuTy3Fo5iOFRzjug/uPtWhulj+M018PNLUguJypSUgYPY4HFD0hTVh1RHVCUEPtqSsYyAk7uB70dbhkKUI9zluL4TzB9TrF54lglLiysjqB/uqvBZJQuNujSkp2lYCv6TxxVSepjWp9JKsuKGRwo8CsrrWC624zcGVqQ1vAfx0PYEn+3IIzRX4v+Ik5i+OWmwTXoqYqiJD7KylS1908dh+9HDE69amuMO3SblNlKkPJbQl2QpQBUQM8nFNrill2TqZS/g/z3OgLtKbt7TiGVKfnSRkN7sn6n0ArEM6Mbu+s4qXFpCwxvVn5ik84+9aixaaNsYUWUq878ri1ubipIGRyTnoKz+rWZcZl+4RZDsWZE3OsvNKwUkdvcEduhpOptPoHuU7hzT9xwtsdEaKhpCQEp7dM1UA6b8bbuy8yzd4UaagkAuN5acPvxwT+gqpo4zj8SV5Fhxq21zomo57MyLIbf85ayHEnJBUcK56g+vetN4QWmRL1IZi2jsiN55b6qUMDt6A1VU5kMRSTB443cI5tsvbAfIcwP5P+VjddszDYLkhuM9lbakhKWiSSf096qqkVD7EruTxP8g5ZtPXWTcorabbMJU4kfwVdM9c4qqqq4TIgE//Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Le bonheur</div>
+                                    <div class="artist">Berry</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAuEAABAwMCAwcDBQAAAAAAAAABAgMEAAURBiESMUEHExQiUWFxFUKBIzOhscH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAVESAv/aAAwDAQACEQMRAD8Ajs+nIUCDEituPRpKAWn0uM8akE5JUlY5jIA2rQuN6s9tKwnUZjORwlPmgOYSd/L7525VZ4yXHu09MKW3xpkQ1eGdzlOQM4T6HZVJ3tls02FqWVmMpMZKuNpXGFZH3AYPrvg70E1x1Vapig41qBUZx5YLobiLCkZBJ3HPfArJNxtRcx9blPOtICkLEUg5PTGPk7ncUuTZrhLjplRoTyk8QTsjc59uePeujfYNwsCbdIlI4H1bKTnOccs49qvqYnm6e6UxrhDYlRkPoUU/a2U8SuuxG1FVzQGuIkqK3CWod/ySgoIOfnlRWX1MObpiWpDK7gwpySolDnkURgo4gQcH4Na8/SDTL1ykCY7IaLKl9w+oK8w5KwRgUytI6MYbhi4XtseOfbKm46j5WRjbI6q/qk3P1NcJFzmW2FDV41LJEhSzgDB6A8wRvUrVy1wg5Jdd7xxTqTg4UQU/jOK43aqI6LXCTIPnLm56hIBzUM++XixzHH5jSHYZc3UQEqQnO3I1VhIlauvbqnlFURriVnoE42/JoNjsvTH+pSnStpTiUZaaO6s52I+KKY3YzYYNmmN3SSyl0OZSErSCnHEPX4ooPRGrrw5Hnt8CjwA4P+0oNWWiabuLhZWg7NSyphTOf3kAkjGetFFCk1ItF7vk12A5Det8YK/U71OAlWdwfU+1WmHZY1gs6mI4K9iVKI3Wo0UUYvtqgKt1miRinDiUBSh6E7n+TRRRQf/Z" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Casey's Last Ride</div>
+                                    <div class="artist">Kris Kristofferson</div>
                                 </div>
                             </div>
                         </div>
