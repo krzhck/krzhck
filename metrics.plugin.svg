@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="804" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1116" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.tracklist{display:flex;flex-direction:column;align-items:flex-start;margin-left:28px;margin-top:4px;width:100%}.track{display:flex;align-items:center;justify-content:center;margin-bottom:4px}.track img{margin:0 10px;border-radius:7px;flex-shrink:0}.track .artist,.track .name{width:387px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.track .name{font-size:14px;line-height:14px;height:14px;font-weight:600}.track .artist{font-size:12px;color:#666}.track .infos{flex-grow:1}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}svg.calendar{margin-left:13px;margin-top:4px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal{justify-content:space-around}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.tracklist{display:flex;flex-direction:column;align-items:flex-start;margin-left:28px;margin-top:4px;width:100%}.track{display:flex;align-items:center;justify-content:center;margin-bottom:4px}.track img{margin:0 10px;border-radius:7px;flex-shrink:0}.track .artist,.track .name{width:387px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.track .name{font-size:14px;line-height:14px;height:14px;font-weight:600}.track .artist{font-size:12px;color:#666}.track .infos{flex-grow:1}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .commit{display:flex;align-items:center}svg.calendar{margin-left:13px;margin-top:4px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -1171,14 +1171,189 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
+                    <small class="h-details">(computed from last 1 commit)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
+                        <li>Uses spaces for indentation</li>
+                        <li>Has approximately 4.0 characters per line of code written</li>
+                        <li>Mostly pushes code around 02:00</li>
+                        <li>Mostly active on Friday</li>
                     </ul>
                 </div>
             </section>
             <section class="habits">
+                <div class="column chart largeable">
+                    <h3>Commit activity per hour of day</h3>
+                    <div class="chart-bars">
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            00
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            01
+                        </div>
+                        <div class="entry">
+                            <span class="value">1</span>
+                            <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            02
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            03
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            04
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            05
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            06
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            07
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            08
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            09
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            10
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            11
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            12
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            13
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            14
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            15
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            16
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            17
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            18
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            19
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            20
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            21
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            22
+                        </div>
+                        <div class="entry">
+                            <span class="value"></span>
+                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            23
+                        </div>
+                    </div>
+                </div>
                 <div class="row largeable">
+                    <section class="column chart">
+                        <h3>Commit activity per day of week</h3>
+                        <div class="chart-bars">
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Sun
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Mon
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Tue
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Wed
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Thu
+                            </div>
+                            <div class="entry">
+                                <span class="value">1</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                Fri
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                Sat
+                            </div>
+                        </div>
+                    </section>
+                    <section class="column chart">
+                        <h3>Language activity</h3>
+                        <div class="chart-bars horizontal">
+                        </div>
+                    </section>
                 </div>
             </section>
             <section>
@@ -1335,24 +1510,11 @@
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwABAAICAwAAAAAAAAAAAAAAAAQGAgUBAwf/xAArEAABAwMDAwMDBQAAAAAAAAABAgMEAAUREiExE0FxBjJRFGGBB5GhwfD/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBQYE/8QAIxEAAgECBAcAAAAAAAAAAAAAAAECAxEFBiGhEhMWMUNT4f/aAAwDAQACEQMRAD8ArVK4JAxnG/3qdZ24L05KLo86xGIOXG05IPPH8eawkeIjxo70qQhiM0t55eyUIGSfArvdtc9lp1x2FJQ21jqKU2QE54ye3Nb2JG9OMlDoustMhGohQTtqBwk+3uN/9ip6ptlkxlRnL1cjFUpKOm4E+xPG+njbt+1WUUSUelZPBAeWGyS2FHSfkZ2pVCCZZZyLfcWn346JMf2vMrTkLQeR5/ur/K/TqDdIjU30vcQtlw50vHUAPIGQR8EZqIG0qOAlOfArNCFtLKW1KbKvcErwFbd98VmwxVdpQ0OneXWvJt9KXfbRIs10cgyChbicaVNnIV47/isk2C7qm/SJtssydIX0+mc6TwfFXENHWVYTqBznIznzW4V6nuhjhgLaAxgugYXj4+PzTKeI0pX41YTVy/UTXLlc8wvNskWicYkzp/UJSFLShWrQT2P3pV1WNaipYClHck7kmlIliivpEd04/ZsKUpWQdSKUpQApSlAH/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAcIBAUGAgP/xAAtEAABAwMDAwMDBAMAAAAAAAABAgMEAAURBhIhEzFBByJRcYGRFBUjMhZhsf/EABgBAQEBAQEAAAAAAAAAAAAAAAMCBAAB/8QAIBEAAgICAQUBAAAAAAAAAAAAAQIAEQMhEwQSMUFhUf/aAAwDAQACEQMRAD8AT2kbHMuqFRUWGCt2ONqnXCsEEgqBWd2MYB5rC1XEZjWmQhNvahutrAUNpSs8+QSfOftjNUdq+zvr0Ddm7KlTUwx1bFtkJJ8lIPjIyPrUoy5T8+OlL7yylOSt1xZUVc58+aijd+owyArU2HpXZmtQeomnrZJSFx35iOqg9lIB3KH3AIq2JMJd3vL8GO4huG0votNgfxtpQkAkJ7f2yPtxUieibjsfXcSXbUtoVEQtZffGdhIKdwHbI3EgfPerD0VOtgjpabktrluHptpC9y3NgySfue5814WDMEkhSo751dtgMw4/TZUVqP8AZZOST+KK8/qf26BIfmrwhs5OPHbj8miltV14gEM24vYkppVmQHdu1YHFRlqa0G0atuVpfGUsPKCcdik8pP4IqpbFITLsc5EtR6zAUjaTwnAz3pYaz0LO1lr9mRp5TC2nGEolvqV7GVJ45x3O3HA+KPkWz8i8bCvs+OjrFF0d6f8A+azLM9c3pBPRbSf4mkA4SXADnBIyTj4FPFuPJvES0OtxWAqTF6i1EYDLoCSEJIGQPcefGKRHqteGNPaRhaAtF9duDjLmZJawEBPJ6SiO/uOcA8djTW9MPUCJDssa1Xu4RYN0jtpbV1lbUupAwlxJPHIAyPmuXEMgJYSmyFCAszrnFuUVTjN1/emm84OXFPMnsR7gf+0V3kbVVodaWlq9QHZCR1NqX05wBj5/1RRnowfcsdWw1Um1dymSLMty2PFCJiUbtxGdwPbuMg9vtS9v+tr/ABJMq2tTVx2c7V9E7d+QOcjnsBRRWtsKgFhAGVjQmm0tDTP1JDQt1ptAUXFKdVhPt55P1xTMuUe1OyEtz3ILywlIaKXSFZJ5AOM4848eKKK0YNLUMi6M2EKxW2HFW4ItteIJUAt0rI+gUKKKK08a/kh7vzP/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Painting By Chagall</div>
-                                    <div class="artist">The Weepies</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYEBQcI/8QALRAAAgEDAwMCBQQDAAAAAAAAAQIDAAQRBRIhBjFBE1EHMmFxgRQiocEVNLH/xAAXAQEBAQEAAAAAAAAAAAAAAAADBAUC/8QAHREAAwACAgMAAAAAAAAAAAAAAAECAxESIhMjMf/aAAwDAQACEQMRAD8A570m0i1L9Np9vARfzXH+wX/aI8fLt+/OfxTnrugW+jRWNtGhDmNmkc92bPc1V/DOxebqVXhGWjjLfyB/dad13p2X04yRgN6LZ4+tRvJ7FIlR12Z5DbG4jK7B98ZNR7rTyIwylWzkbBywx7jwOab7LT0SzkbnPbil+eVbdpGUsDk4I8g8GmmkS0mKE4YSmIZjbOAcZz7d+1FXMnozDDgAkZznxRSJnLZZfChZZNauoLeNmuJLdjEVYja6kEdhz7YNdQaz0jBepYtcKvqrDlh9fP8ANc3fCbVTouuNNCiPI6qg3MAMbhnmt2606vGn3ul3Uxtlke3eNnjUvuQn5QcgA58HIrOrXkZo1vgUfXeijQtDmltIELAgfv4wPf3NYrqkwJeVkjaFl4AyOfPj8844p66v6+N5ZNAGmWBU27WYYcH6c5/BFZN/krgHfEEYA/K0YdSfsRT4tsCkRbqUxOrbQVZcYHIU+4oqFdSScB2JPgCiqUgtF10zqaafq1rPOD6IcCTA52nuf7rWOvNRtNZbRo7G7/ULHESXwCVGc8+4xRRUlyuaZWn0Yq9TWZaBNhU7wDx2Gf8AlLdpZLFHKJmx4A2bgKKKfH8JabKfUoYxyhGMdsYxRRRTIPZ//9k=" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">A Sad Me in Your Eyes</div>
-                                    <div class="artist">昨夜派对</div>
-                                </div>
-                            </div>
-                            <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYEBQcDAQL/xAAsEAABAwQBAwIEBwAAAAAAAAABAgMEAAURIQYSMUFRYQcIE1IiMkKCkaHw/8QAGAEBAQEBAQAAAAAAAAAAAAAABAUGAgP/xAAfEQACAwABBQEAAAAAAAAAAAABAgADBBESEyExQQX/2gAMAwEAAhEDEQA/AMrtLTYCQtjrV93WRTXboxUvKElA9M5qBa4WSnVOVpt/bRFaUADzMwzFvE6W6KoKSTlQ8jNMsJlIQAG8fuNew4YSkaq2jxtdt0eywGe9aGcUspxhKSD65NFWbceijlokLMps0HY1TpbYYCQMCodohJTjR/imuDFGAcUi634Iamo+zPmPE0KgWu+xrhe37dAbckusrLasEJT1DHVs9wOobFWfJparPxe63FpILkWM46ke4SSP7rJvlnlrn3N9chJUta1JJA/NgdYUT69xrwajbtLVqOky7+dlSwnrHPE3FUVTTi21D8SD0nz70VH4qGJjEuVDfaWwFhr6aF9RbIzkK9DnwfFFdUXmxAxnOrOKbSgEXrcyB4pihtaFFFIsYwlaCUXI7hZbymbxy4OPoadAacdaP6vt/wBrOqlfD3g1v4OJZhFf0wkuBxeFdwckHxrAx7UUVB0EuxJPqaqulaqlCfRLX4YQ48fiDwhqLjLkp14LV3UFLJ37+KKKKXhY9kSbvUd8z//Z" width="32" height="32" alt="" />
-                                <div class="infos">
-                                    <div class="name">show me love (acoustic)</div>
-                                    <div class="artist">isaac gracie</div>
+                                    <div class="name">Tommy's Party
+Explicit content</div>
+                                    <div class="artist">Peach Pit</div>
                                 </div>
                             </div>
                             <div class="track">
@@ -1360,6 +1522,20 @@
                                 <div class="infos">
                                     <div class="name">Casey's Last Ride</div>
                                     <div class="artist">Kris Kristofferson</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAcDBgIEBQj/xAAvEAABAwMDAQYFBQEAAAAAAAABAgMEAAURBhIhMQcTFEFRYSJScYGRIzIzQtFi/8QAGAEBAQEBAQAAAAAAAAAAAAAABAMBAgX/xAAgEQACAQQCAwEAAAAAAAAAAAABAgADERIxBCETIkEy/9oADAMBAAIRAxEAPwBMJbUEbylXd5xu2nGfTPSpkqQ0QpxAUkf1z1p3xvC2bseU3KQppD8f4kONhe51eRgfnPtSr0zDty9T21m/FXgC4N5BwDnpuPUDPXHIpSVLgyb8fC3e5zw5BeKlNsvIHy7un5/2oHkJ3kthQR/11qxa8tFvsmspca0994XahW1wngqGcDIBwOOtQ2OE3JuDK5JaRDZWlbynFhI25/byeScYwOaoGuuRmePvGaNw01dYVnj3SVDdbgyP43SODRXpRRZv2iG3I8JvwzyEo7l1QKG8HCsYz74oohr22Ik8QH8mY6gt8OfpuexHbZKwglO1QO0p548hxS6gaTiXS7Wp16Mty2NJdekobOwngBKfur36U+L3YnzEebjkqDiCjk8gGlvOMjTtwahIKkxA2haEq+fB3An681ZUZmsv2d1GplbmLi+6edkaniy0ePXClOlIM8frcZHPnjHTPOOtdHsl0varxJuyr/CTJQyhKW0OLKAnlQKh68jGaYzDyLy083JSnhKW0EDBC1kDII88ZNWC83C12x1MNaxDcLeELS2eEemQOOaoabYYDYkUK5BjqK6yajj6atl/066l5bkOSrwrrZBwCcYJPp9KK2r/AGS3WFyTf/AruNtd2p7hvhSisYBA6k7vvzRQ3pC/sO4pagH2WjRXblZbwpuPdc2+Wo7cOnKFH2V/uKZEqJa79G+JLTqTyKKKaygJ5B0Z5tNi3RlPuOnHrM9Gdt7YdYRJDzgJ+IjGBz6AEnFca/spvl7hqcdAEMqDjTauHM4IHv1xyOmaKK01GCBhu8RSAYkGJztC7QrhdGJenlRmGGY8pSC6ySO8QkkBJSenkcg+VFFFZbI3MKzG+5//2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">Bamboo</div>
+                                    <div class="artist">Hinds</div>
+                                </div>
+                            </div>
+                            <div class="track">
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAUGAQMHBAL/xAAtEAACAQMDAgYBAwUAAAAAAAABAgMABBEFEiEGMQcTFCJBUXEWYaEjMkKBkf/EABkBAQEAAwEAAAAAAAAAAAAAAAQDAAIFBv/EAB0RAAIDAAMBAQAAAAAAAAAAAAABAgMRBCExQRL/2gAMAwEAAhEDEQA/AOeTwk5pfJbnnIqkNuXICjJ/FeHUre4gjYQwt56tyDwRj7Brqz5if087Vws+C19LRIkmb3xP85KkH8EfyM0qltkaVgpAX/E5z/OBWNal1FHRbqRsbcLtPGP9UvsDfuXS1B2/3Nnt/wBNFsu1bo+viTh3pmaHGaKZellEK+dt8z5x2oojtQyMcRdhg1ysEDLNOzbVWF1ck/tg14dZmfTJXtb7d61AN2GDgnvywNIenZi2vWBjbDJMsntODhTk/jtX11teNL1VqsrRupluGk9ylcA8gYYZ7fferSqgniBwcnH9P0U69fveLEpRYwM5Oa12erSQ2fpxCjKq4GPk55Jq58KtJ07WZtXGoekmIhSP01wpBIdwqsrgEr79qnAyN4OQMmukx9JdK6ejy3Gh2W2CNpJIt2WT2ng7snuGGSCAcDnNTnGOZg6GuKOAw6mx3rcRttz7T9UVReK2gfp7qDzIlijtb3Mscca7VjOBuVf2BOM4H18UVF1oxLCLS4dGDIdrKcgj7rdq2oy6lfzXl3PLcXE53ySSnLFj3oop0/dC1rof+HnV8PSep3c11ZG+tbmDyXiDAEHcCGBIx8EfXPOe1W1x4yae5KDQLloZP6jr6zaVk3F+CASRuxnJAI4Cj5KKkxMHnRKeJvXNn1lY6MIdPls7yya480khkdZH3KAe+QABzx8jFFFFTNz/2Q==" width="32" height="32" alt="" />
+                                <div class="infos">
+                                    <div class="name">To Binge (feat. Little Dragon)</div>
+                                    <div class="artist">Gorillaz</div>
                                 </div>
                             </div>
                         </div>
