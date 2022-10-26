@@ -34,8 +34,4 @@ jobs:
           plugin_habits_charts: yes
           plugin_poopmap: yes
           plugin_poopmap_token: ${{ secrets.POOPMAP_TOKEN }}
-          plugin_music: yes
-          plugin_music_provider: apple
-          plugin_music_limit: 5
-          plugin_music_playlist: https://embed.music.apple.com/cn/playlist/b-b/pl.u-GgA5kamCZmdX5a2
-          config_order: base.repositories, lines, languages, gists, isocalendar, habits, poopmap, music
+          config_order: base.repositories, lines, languages, gists, isocalendar, habits, poopmap
