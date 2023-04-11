@@ -3,7 +3,7 @@
 
 ### 🔗 Links
 
-<a href="https://github.com/krzhck" target="_blank" style="text-decoration: none;">
+<a href="https://krzhck.github.io/" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Home-24292F?style=for-the-badge&logo=github&logoColor=white" alt="home">
 </a>
 <a href="https://twitter.com/krzhck" target="_blank" style="text-decoration: none;">
