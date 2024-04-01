@@ -30,3 +30,9 @@
 <a href="https://steamcommunity.com/id/krzhck" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Steam-3B6390?style=for-the-badge&logo=steam&logoColor=white" alt="steam">
 </a>
+<a href="https://bsky.app/profile/krzhck.bsky.social" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="bluesky">
+</a>
+<a href="https://www.threads.net/@krzhck" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="threads">
+</a>
