@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Home-24292F?style=for-the-badge&logo=github&logoColor=white" alt="home">
 </a>
 <a href="https://twitter.com/krzhck" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Twi-1D9BF0?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter">
+    <img src="https://img.shields.io/badge/Twi-1D9BF0?style=for-the-badge&logo=X&logoColor=white%22%20alt=%22twitter">
 </a>
 <a href="https://www.instagram.com/krzhck" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Ins-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram">
